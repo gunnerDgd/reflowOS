@@ -1,0 +1,14 @@
+#include <cstdint>
+#include <cstddef>
+
+#define STATIC static constexpr
+
+namespace reflowOS {
+namespace boot 	   {
+	class memory
+	{
+	public:
+
+	};
+}
+}

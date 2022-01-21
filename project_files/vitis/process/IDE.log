@@ -1,0 +1,1246 @@
+19:10:00 INFO  : Registering command handlers for Vitis TCF services
+19:10:00 INFO  : Launching XSCT server: xsct.bat -n  -interactive C:\Users\ifstu\Vitis\Projects\reflowOS\project_files\vitis\process\temp_xsdb_launch_script.tcl
+19:10:02 INFO  : XSCT server has started successfully.
+19:10:02 INFO  : Successfully done setting XSCT server connection channel  
+19:10:02 INFO  : plnx-install-location is set to ''
+19:10:02 INFO  : Successfully done setting workspace for the tool. 
+19:10:02 INFO  : Successfully done query RDI_DATADIR 
+19:10:03 INFO  : Platform repository initialization has completed.
+19:10:25 INFO  : Result from executing command 'getProjects': reflow_process_platform
+19:10:25 INFO  : Result from executing command 'getPlatforms': 
+19:10:35 INFO  : Result from executing command 'getProjects': reflow_process_platform
+19:10:35 INFO  : Result from executing command 'getPlatforms': reflow_process_platform|C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_platform/export/reflow_process_platform/reflow_process_platform.xpfm
+19:51:08 INFO  : Checking for BSP changes to sync application flags for project 'reflow_process_test'...
+19:51:16 INFO  : Checking for BSP changes to sync application flags for project 'reflow_process_test'...
+19:52:05 INFO  : Checking for BSP changes to sync application flags for project 'reflow_process_test'...
+19:52:56 INFO  : Checking for BSP changes to sync application flags for project 'reflow_process_test'...
+19:53:04 INFO  : Checking for BSP changes to sync application flags for project 'reflow_process_test'...
+19:53:19 INFO  : Checking for BSP changes to sync application flags for project 'reflow_process_test'...
+19:54:56 INFO  : Checking for BSP changes to sync application flags for project 'reflow_process_test'...
+19:58:56 INFO  : Checking for BSP changes to sync application flags for project 'reflow_process_test'...
+20:00:48 INFO  : Checking for BSP changes to sync application flags for project 'reflow_process_test'...
+20:01:15 INFO  : Checking for BSP changes to sync application flags for project 'reflow_process_test'...
+20:01:48 INFO  : Checking for BSP changes to sync application flags for project 'reflow_process_test'...
+20:02:15 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+20:02:15 INFO  : Jtag cable 'Digilent Arty A7-35T 210319B3E47DA' is selected.
+20:02:15 INFO  : 'jtag frequency' command is executed.
+20:02:15 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Arty A7-35T 210319B3E47DA" && level==0 && jtag_device_ctx=="jsn-Arty A7-35T-210319B3E47DA-0362d093-0"}' command is executed.
+20:02:17 INFO  : Device configured successfully with "C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_test/_ide/bitstream/arty_basic.bit"
+20:02:17 INFO  : Context for processor 'microblaze_0' is selected.
+20:02:17 INFO  : Hardware design and registers information is loaded from 'C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_platform/export/reflow_process_platform/hw/arty_basic.xsa'.
+20:02:17 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+20:02:17 INFO  : Context for processor 'microblaze_0' is selected.
+20:02:17 INFO  : System reset is completed.
+20:02:20 INFO  : 'after 3000' command is executed.
+20:02:20 INFO  : Context for processor 'microblaze_0' is selected.
+20:02:20 INFO  : The application 'C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_test/Debug/reflow_process_test.elf' is downloaded to processor 'microblaze_0'.
+20:02:20 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Arty A7-35T 210319B3E47DA" && level==0 && jtag_device_ctx=="jsn-Arty A7-35T-210319B3E47DA-0362d093-0"}
+fpga -file C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_test/_ide/bitstream/arty_basic.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_platform/export/reflow_process_platform/hw/arty_basic.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_test/Debug/reflow_process_test.elf
+----------------End of Script----------------
+
+20:02:20 INFO  : Context for processor 'microblaze_0' is selected.
+20:02:20 INFO  : 'con' command is executed.
+20:02:20 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+20:02:20 INFO  : Launch script is exported to file 'C:\Users\ifstu\Vitis\Projects\reflowOS\project_files\vitis\process\reflow_process_test_system\_ide\scripts\debugger_reflow_process_test-default.tcl'
+20:02:34 INFO  : Checking for BSP changes to sync application flags for project 'reflow_process_test'...
+20:02:37 INFO  : Disconnected from the channel tcfchan#2.
+20:02:38 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+20:02:38 INFO  : Jtag cable 'Digilent Arty A7-35T 210319B3E47DA' is selected.
+20:02:38 INFO  : 'jtag frequency' command is executed.
+20:02:39 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Arty A7-35T 210319B3E47DA" && level==0 && jtag_device_ctx=="jsn-Arty A7-35T-210319B3E47DA-0362d093-0"}' command is executed.
+20:02:40 INFO  : Device configured successfully with "C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_test/_ide/bitstream/arty_basic.bit"
+20:02:40 INFO  : Context for processor 'microblaze_0' is selected.
+20:02:40 INFO  : Hardware design and registers information is loaded from 'C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_platform/export/reflow_process_platform/hw/arty_basic.xsa'.
+20:02:40 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+20:02:40 INFO  : Context for processor 'microblaze_0' is selected.
+20:02:40 INFO  : System reset is completed.
+20:02:43 INFO  : 'after 3000' command is executed.
+20:02:43 INFO  : Context for processor 'microblaze_0' is selected.
+20:02:43 INFO  : The application 'C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_test/Debug/reflow_process_test.elf' is downloaded to processor 'microblaze_0'.
+20:02:43 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Arty A7-35T 210319B3E47DA" && level==0 && jtag_device_ctx=="jsn-Arty A7-35T-210319B3E47DA-0362d093-0"}
+fpga -file C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_test/_ide/bitstream/arty_basic.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_platform/export/reflow_process_platform/hw/arty_basic.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_test/Debug/reflow_process_test.elf
+----------------End of Script----------------
+
+20:02:43 INFO  : Context for processor 'microblaze_0' is selected.
+20:02:43 INFO  : 'con' command is executed.
+20:02:43 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+20:02:43 INFO  : Launch script is exported to file 'C:\Users\ifstu\Vitis\Projects\reflowOS\project_files\vitis\process\reflow_process_test_system\_ide\scripts\debugger_reflow_process_test-default.tcl'
+20:05:37 INFO  : Checking for BSP changes to sync application flags for project 'reflow_process_test'...
+20:06:23 INFO  : Checking for BSP changes to sync application flags for project 'reflow_process_test'...
+20:06:26 INFO  : Disconnected from the channel tcfchan#3.
+20:06:27 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+20:06:28 INFO  : Jtag cable 'Digilent Arty A7-35T 210319B3E47DA' is selected.
+20:06:28 INFO  : 'jtag frequency' command is executed.
+20:06:28 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Arty A7-35T 210319B3E47DA" && level==0 && jtag_device_ctx=="jsn-Arty A7-35T-210319B3E47DA-0362d093-0"}' command is executed.
+20:06:29 INFO  : Device configured successfully with "C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_test/_ide/bitstream/arty_basic.bit"
+20:06:29 INFO  : Context for processor 'microblaze_0' is selected.
+20:06:29 INFO  : Hardware design and registers information is loaded from 'C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_platform/export/reflow_process_platform/hw/arty_basic.xsa'.
+20:06:29 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+20:06:29 INFO  : Context for processor 'microblaze_0' is selected.
+20:06:29 INFO  : System reset is completed.
+20:06:32 INFO  : 'after 3000' command is executed.
+20:06:32 INFO  : Context for processor 'microblaze_0' is selected.
+20:06:32 INFO  : The application 'C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_test/Debug/reflow_process_test.elf' is downloaded to processor 'microblaze_0'.
+20:06:32 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Arty A7-35T 210319B3E47DA" && level==0 && jtag_device_ctx=="jsn-Arty A7-35T-210319B3E47DA-0362d093-0"}
+fpga -file C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_test/_ide/bitstream/arty_basic.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_platform/export/reflow_process_platform/hw/arty_basic.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_test/Debug/reflow_process_test.elf
+----------------End of Script----------------
+
+20:06:32 INFO  : Context for processor 'microblaze_0' is selected.
+20:06:32 INFO  : 'con' command is executed.
+20:06:32 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+20:06:32 INFO  : Launch script is exported to file 'C:\Users\ifstu\Vitis\Projects\reflowOS\project_files\vitis\process\reflow_process_test_system\_ide\scripts\debugger_reflow_process_test-default.tcl'
+20:07:22 INFO  : Checking for BSP changes to sync application flags for project 'reflow_process_test'...
+20:07:25 INFO  : Disconnected from the channel tcfchan#4.
+20:07:27 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+20:07:27 INFO  : Jtag cable 'Digilent Arty A7-35T 210319B3E47DA' is selected.
+20:07:27 INFO  : 'jtag frequency' command is executed.
+20:07:27 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Arty A7-35T 210319B3E47DA" && level==0 && jtag_device_ctx=="jsn-Arty A7-35T-210319B3E47DA-0362d093-0"}' command is executed.
+20:07:28 INFO  : Device configured successfully with "C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_test/_ide/bitstream/arty_basic.bit"
+20:07:28 INFO  : Context for processor 'microblaze_0' is selected.
+20:07:28 INFO  : Hardware design and registers information is loaded from 'C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_platform/export/reflow_process_platform/hw/arty_basic.xsa'.
+20:07:28 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+20:07:28 INFO  : Context for processor 'microblaze_0' is selected.
+20:07:28 INFO  : System reset is completed.
+20:07:31 INFO  : 'after 3000' command is executed.
+20:07:31 INFO  : Context for processor 'microblaze_0' is selected.
+20:07:31 INFO  : The application 'C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_test/Debug/reflow_process_test.elf' is downloaded to processor 'microblaze_0'.
+20:07:31 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Arty A7-35T 210319B3E47DA" && level==0 && jtag_device_ctx=="jsn-Arty A7-35T-210319B3E47DA-0362d093-0"}
+fpga -file C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_test/_ide/bitstream/arty_basic.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_platform/export/reflow_process_platform/hw/arty_basic.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_test/Debug/reflow_process_test.elf
+----------------End of Script----------------
+
+20:07:31 INFO  : Context for processor 'microblaze_0' is selected.
+20:07:32 INFO  : 'con' command is executed.
+20:07:32 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+20:07:32 INFO  : Launch script is exported to file 'C:\Users\ifstu\Vitis\Projects\reflowOS\project_files\vitis\process\reflow_process_test_system\_ide\scripts\debugger_reflow_process_test-default.tcl'
+20:07:42 INFO  : Checking for BSP changes to sync application flags for project 'reflow_process_test'...
+20:07:46 INFO  : Disconnected from the channel tcfchan#5.
+20:07:47 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+20:07:47 INFO  : Jtag cable 'Digilent Arty A7-35T 210319B3E47DA' is selected.
+20:07:47 INFO  : 'jtag frequency' command is executed.
+20:07:47 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Arty A7-35T 210319B3E47DA" && level==0 && jtag_device_ctx=="jsn-Arty A7-35T-210319B3E47DA-0362d093-0"}' command is executed.
+20:07:48 INFO  : Device configured successfully with "C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_test/_ide/bitstream/arty_basic.bit"
+20:07:48 INFO  : Context for processor 'microblaze_0' is selected.
+20:07:48 INFO  : Hardware design and registers information is loaded from 'C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_platform/export/reflow_process_platform/hw/arty_basic.xsa'.
+20:07:48 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+20:07:48 INFO  : Context for processor 'microblaze_0' is selected.
+20:07:48 INFO  : System reset is completed.
+20:07:51 INFO  : 'after 3000' command is executed.
+20:07:51 INFO  : Context for processor 'microblaze_0' is selected.
+20:07:51 INFO  : The application 'C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_test/Debug/reflow_process_test.elf' is downloaded to processor 'microblaze_0'.
+20:07:51 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Arty A7-35T 210319B3E47DA" && level==0 && jtag_device_ctx=="jsn-Arty A7-35T-210319B3E47DA-0362d093-0"}
+fpga -file C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_test/_ide/bitstream/arty_basic.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_platform/export/reflow_process_platform/hw/arty_basic.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_test/Debug/reflow_process_test.elf
+----------------End of Script----------------
+
+20:07:51 INFO  : Context for processor 'microblaze_0' is selected.
+20:07:52 INFO  : 'con' command is executed.
+20:07:52 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+20:07:52 INFO  : Launch script is exported to file 'C:\Users\ifstu\Vitis\Projects\reflowOS\project_files\vitis\process\reflow_process_test_system\_ide\scripts\debugger_reflow_process_test-default.tcl'
+20:08:02 INFO  : Checking for BSP changes to sync application flags for project 'reflow_process_test'...
+20:08:05 INFO  : Disconnected from the channel tcfchan#6.
+20:08:06 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+20:08:06 INFO  : Jtag cable 'Digilent Arty A7-35T 210319B3E47DA' is selected.
+20:08:06 INFO  : 'jtag frequency' command is executed.
+20:08:07 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Arty A7-35T 210319B3E47DA" && level==0 && jtag_device_ctx=="jsn-Arty A7-35T-210319B3E47DA-0362d093-0"}' command is executed.
+20:08:08 INFO  : Device configured successfully with "C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_test/_ide/bitstream/arty_basic.bit"
+20:08:08 INFO  : Context for processor 'microblaze_0' is selected.
+20:08:08 INFO  : Hardware design and registers information is loaded from 'C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_platform/export/reflow_process_platform/hw/arty_basic.xsa'.
+20:08:08 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+20:08:08 INFO  : Context for processor 'microblaze_0' is selected.
+20:08:08 INFO  : System reset is completed.
+20:08:11 INFO  : 'after 3000' command is executed.
+20:08:11 INFO  : Context for processor 'microblaze_0' is selected.
+20:08:11 INFO  : The application 'C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_test/Debug/reflow_process_test.elf' is downloaded to processor 'microblaze_0'.
+20:08:11 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Arty A7-35T 210319B3E47DA" && level==0 && jtag_device_ctx=="jsn-Arty A7-35T-210319B3E47DA-0362d093-0"}
+fpga -file C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_test/_ide/bitstream/arty_basic.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_platform/export/reflow_process_platform/hw/arty_basic.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_test/Debug/reflow_process_test.elf
+----------------End of Script----------------
+
+20:08:11 INFO  : Context for processor 'microblaze_0' is selected.
+20:08:11 INFO  : 'con' command is executed.
+20:08:11 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+20:08:11 INFO  : Launch script is exported to file 'C:\Users\ifstu\Vitis\Projects\reflowOS\project_files\vitis\process\reflow_process_test_system\_ide\scripts\debugger_reflow_process_test-default.tcl'
+20:08:52 INFO  : Checking for BSP changes to sync application flags for project 'reflow_process_test'...
+20:09:27 INFO  : Checking for BSP changes to sync application flags for project 'reflow_process_test'...
+20:09:34 INFO  : Disconnected from the channel tcfchan#7.
+20:09:35 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+20:09:35 INFO  : Jtag cable 'Digilent Arty A7-35T 210319B3E47DA' is selected.
+20:09:35 INFO  : 'jtag frequency' command is executed.
+20:09:36 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Arty A7-35T 210319B3E47DA" && level==0 && jtag_device_ctx=="jsn-Arty A7-35T-210319B3E47DA-0362d093-0"}' command is executed.
+20:09:37 INFO  : Device configured successfully with "C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_test/_ide/bitstream/arty_basic.bit"
+20:09:37 INFO  : Context for processor 'microblaze_0' is selected.
+20:09:37 INFO  : Hardware design and registers information is loaded from 'C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_platform/export/reflow_process_platform/hw/arty_basic.xsa'.
+20:09:37 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+20:09:37 INFO  : Context for processor 'microblaze_0' is selected.
+20:09:37 INFO  : System reset is completed.
+20:09:40 INFO  : 'after 3000' command is executed.
+20:09:40 INFO  : Context for processor 'microblaze_0' is selected.
+20:09:40 INFO  : The application 'C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_test/Debug/reflow_process_test.elf' is downloaded to processor 'microblaze_0'.
+20:09:40 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Arty A7-35T 210319B3E47DA" && level==0 && jtag_device_ctx=="jsn-Arty A7-35T-210319B3E47DA-0362d093-0"}
+fpga -file C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_test/_ide/bitstream/arty_basic.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_platform/export/reflow_process_platform/hw/arty_basic.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_test/Debug/reflow_process_test.elf
+----------------End of Script----------------
+
+20:09:40 INFO  : Context for processor 'microblaze_0' is selected.
+20:09:40 INFO  : 'con' command is executed.
+20:09:40 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+20:09:40 INFO  : Launch script is exported to file 'C:\Users\ifstu\Vitis\Projects\reflowOS\project_files\vitis\process\reflow_process_test_system\_ide\scripts\debugger_reflow_process_test-default.tcl'
+20:10:47 INFO  : Checking for BSP changes to sync application flags for project 'reflow_process_test'...
+20:10:50 INFO  : Disconnected from the channel tcfchan#8.
+20:10:51 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+20:10:51 INFO  : Jtag cable 'Digilent Arty A7-35T 210319B3E47DA' is selected.
+20:10:51 INFO  : 'jtag frequency' command is executed.
+20:10:51 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Arty A7-35T 210319B3E47DA" && level==0 && jtag_device_ctx=="jsn-Arty A7-35T-210319B3E47DA-0362d093-0"}' command is executed.
+20:10:52 INFO  : Device configured successfully with "C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_test/_ide/bitstream/arty_basic.bit"
+20:10:52 INFO  : Context for processor 'microblaze_0' is selected.
+20:10:53 INFO  : Hardware design and registers information is loaded from 'C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_platform/export/reflow_process_platform/hw/arty_basic.xsa'.
+20:10:53 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+20:10:53 INFO  : Context for processor 'microblaze_0' is selected.
+20:10:53 INFO  : System reset is completed.
+20:10:56 INFO  : 'after 3000' command is executed.
+20:10:56 INFO  : Context for processor 'microblaze_0' is selected.
+20:10:56 INFO  : The application 'C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_test/Debug/reflow_process_test.elf' is downloaded to processor 'microblaze_0'.
+20:10:56 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Arty A7-35T 210319B3E47DA" && level==0 && jtag_device_ctx=="jsn-Arty A7-35T-210319B3E47DA-0362d093-0"}
+fpga -file C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_test/_ide/bitstream/arty_basic.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_platform/export/reflow_process_platform/hw/arty_basic.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_test/Debug/reflow_process_test.elf
+----------------End of Script----------------
+
+20:10:56 INFO  : Context for processor 'microblaze_0' is selected.
+20:10:56 INFO  : 'con' command is executed.
+20:10:56 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+20:10:56 INFO  : Launch script is exported to file 'C:\Users\ifstu\Vitis\Projects\reflowOS\project_files\vitis\process\reflow_process_test_system\_ide\scripts\debugger_reflow_process_test-default.tcl'
+20:11:34 INFO  : Checking for BSP changes to sync application flags for project 'reflow_process_test'...
+20:11:38 INFO  : Disconnected from the channel tcfchan#9.
+20:11:39 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+20:11:39 INFO  : Jtag cable 'Digilent Arty A7-35T 210319B3E47DA' is selected.
+20:11:39 INFO  : 'jtag frequency' command is executed.
+20:11:39 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Arty A7-35T 210319B3E47DA" && level==0 && jtag_device_ctx=="jsn-Arty A7-35T-210319B3E47DA-0362d093-0"}' command is executed.
+20:11:40 INFO  : Device configured successfully with "C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_test/_ide/bitstream/arty_basic.bit"
+20:11:40 INFO  : Context for processor 'microblaze_0' is selected.
+20:11:40 INFO  : Hardware design and registers information is loaded from 'C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_platform/export/reflow_process_platform/hw/arty_basic.xsa'.
+20:11:40 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+20:11:40 INFO  : Context for processor 'microblaze_0' is selected.
+20:11:40 INFO  : System reset is completed.
+20:11:43 INFO  : 'after 3000' command is executed.
+20:11:43 INFO  : Context for processor 'microblaze_0' is selected.
+20:11:43 INFO  : The application 'C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_test/Debug/reflow_process_test.elf' is downloaded to processor 'microblaze_0'.
+20:11:43 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Arty A7-35T 210319B3E47DA" && level==0 && jtag_device_ctx=="jsn-Arty A7-35T-210319B3E47DA-0362d093-0"}
+fpga -file C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_test/_ide/bitstream/arty_basic.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_platform/export/reflow_process_platform/hw/arty_basic.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_test/Debug/reflow_process_test.elf
+----------------End of Script----------------
+
+20:11:43 INFO  : Context for processor 'microblaze_0' is selected.
+20:11:44 INFO  : 'con' command is executed.
+20:11:44 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+20:11:44 INFO  : Launch script is exported to file 'C:\Users\ifstu\Vitis\Projects\reflowOS\project_files\vitis\process\reflow_process_test_system\_ide\scripts\debugger_reflow_process_test-default.tcl'
+20:12:23 INFO  : Checking for BSP changes to sync application flags for project 'reflow_process_test'...
+20:12:27 INFO  : Disconnected from the channel tcfchan#10.
+20:12:28 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+20:12:28 INFO  : Jtag cable 'Digilent Arty A7-35T 210319B3E47DA' is selected.
+20:12:28 INFO  : 'jtag frequency' command is executed.
+20:12:28 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Arty A7-35T 210319B3E47DA" && level==0 && jtag_device_ctx=="jsn-Arty A7-35T-210319B3E47DA-0362d093-0"}' command is executed.
+20:12:29 INFO  : Device configured successfully with "C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_test/_ide/bitstream/arty_basic.bit"
+20:12:29 INFO  : Context for processor 'microblaze_0' is selected.
+20:12:29 INFO  : Hardware design and registers information is loaded from 'C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_platform/export/reflow_process_platform/hw/arty_basic.xsa'.
+20:12:29 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+20:12:29 INFO  : Context for processor 'microblaze_0' is selected.
+20:12:29 INFO  : System reset is completed.
+20:12:32 INFO  : 'after 3000' command is executed.
+20:12:32 INFO  : Context for processor 'microblaze_0' is selected.
+20:12:32 INFO  : The application 'C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_test/Debug/reflow_process_test.elf' is downloaded to processor 'microblaze_0'.
+20:12:32 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Arty A7-35T 210319B3E47DA" && level==0 && jtag_device_ctx=="jsn-Arty A7-35T-210319B3E47DA-0362d093-0"}
+fpga -file C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_test/_ide/bitstream/arty_basic.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_platform/export/reflow_process_platform/hw/arty_basic.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_test/Debug/reflow_process_test.elf
+----------------End of Script----------------
+
+20:12:33 INFO  : Context for processor 'microblaze_0' is selected.
+20:12:33 INFO  : 'con' command is executed.
+20:12:33 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+20:12:33 INFO  : Launch script is exported to file 'C:\Users\ifstu\Vitis\Projects\reflowOS\project_files\vitis\process\reflow_process_test_system\_ide\scripts\debugger_reflow_process_test-default.tcl'
+20:13:54 INFO  : Checking for BSP changes to sync application flags for project 'reflow_process_test'...
+20:13:57 INFO  : Disconnected from the channel tcfchan#11.
+20:13:58 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+20:13:58 INFO  : Jtag cable 'Digilent Arty A7-35T 210319B3E47DA' is selected.
+20:13:58 INFO  : 'jtag frequency' command is executed.
+20:13:58 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Arty A7-35T 210319B3E47DA" && level==0 && jtag_device_ctx=="jsn-Arty A7-35T-210319B3E47DA-0362d093-0"}' command is executed.
+20:13:59 INFO  : Device configured successfully with "C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_test/_ide/bitstream/arty_basic.bit"
+20:13:59 INFO  : Context for processor 'microblaze_0' is selected.
+20:13:59 INFO  : Hardware design and registers information is loaded from 'C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_platform/export/reflow_process_platform/hw/arty_basic.xsa'.
+20:13:59 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+20:13:59 INFO  : Context for processor 'microblaze_0' is selected.
+20:13:59 INFO  : System reset is completed.
+20:14:02 INFO  : 'after 3000' command is executed.
+20:14:02 INFO  : Context for processor 'microblaze_0' is selected.
+20:14:03 INFO  : The application 'C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_test/Debug/reflow_process_test.elf' is downloaded to processor 'microblaze_0'.
+20:14:03 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Arty A7-35T 210319B3E47DA" && level==0 && jtag_device_ctx=="jsn-Arty A7-35T-210319B3E47DA-0362d093-0"}
+fpga -file C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_test/_ide/bitstream/arty_basic.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_platform/export/reflow_process_platform/hw/arty_basic.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_test/Debug/reflow_process_test.elf
+----------------End of Script----------------
+
+20:14:03 INFO  : Context for processor 'microblaze_0' is selected.
+20:14:03 INFO  : 'con' command is executed.
+20:14:03 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+20:14:03 INFO  : Launch script is exported to file 'C:\Users\ifstu\Vitis\Projects\reflowOS\project_files\vitis\process\reflow_process_test_system\_ide\scripts\debugger_reflow_process_test-default.tcl'
+20:16:37 INFO  : Checking for BSP changes to sync application flags for project 'reflow_process_test'...
+20:20:52 INFO  : Checking for BSP changes to sync application flags for project 'reflow_process_test'...
+20:20:59 INFO  : Checking for BSP changes to sync application flags for project 'reflow_process_test'...
+20:21:11 INFO  : Checking for BSP changes to sync application flags for project 'reflow_process_test'...
+20:21:19 INFO  : Checking for BSP changes to sync application flags for project 'reflow_process_test'...
+20:21:22 INFO  : Disconnected from the channel tcfchan#12.
+20:21:23 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+20:21:24 INFO  : Jtag cable 'Digilent Arty A7-35T 210319B3E47DA' is selected.
+20:21:24 INFO  : 'jtag frequency' command is executed.
+20:21:24 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Arty A7-35T 210319B3E47DA" && level==0 && jtag_device_ctx=="jsn-Arty A7-35T-210319B3E47DA-0362d093-0"}' command is executed.
+20:21:25 INFO  : Device configured successfully with "C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_test/_ide/bitstream/arty_basic.bit"
+20:21:25 INFO  : Context for processor 'microblaze_0' is selected.
+20:21:25 INFO  : Hardware design and registers information is loaded from 'C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_platform/export/reflow_process_platform/hw/arty_basic.xsa'.
+20:21:25 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+20:21:25 INFO  : Context for processor 'microblaze_0' is selected.
+20:21:25 INFO  : System reset is completed.
+20:21:28 INFO  : 'after 3000' command is executed.
+20:21:28 INFO  : Context for processor 'microblaze_0' is selected.
+20:21:28 INFO  : The application 'C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_test/Debug/reflow_process_test.elf' is downloaded to processor 'microblaze_0'.
+20:21:28 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Arty A7-35T 210319B3E47DA" && level==0 && jtag_device_ctx=="jsn-Arty A7-35T-210319B3E47DA-0362d093-0"}
+fpga -file C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_test/_ide/bitstream/arty_basic.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_platform/export/reflow_process_platform/hw/arty_basic.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_test/Debug/reflow_process_test.elf
+----------------End of Script----------------
+
+20:21:28 INFO  : Context for processor 'microblaze_0' is selected.
+20:21:28 INFO  : 'con' command is executed.
+20:21:28 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+20:21:28 INFO  : Launch script is exported to file 'C:\Users\ifstu\Vitis\Projects\reflowOS\project_files\vitis\process\reflow_process_test_system\_ide\scripts\debugger_reflow_process_test-default.tcl'
+20:21:47 INFO  : Checking for BSP changes to sync application flags for project 'reflow_process_test'...
+20:21:50 INFO  : Disconnected from the channel tcfchan#13.
+20:21:51 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+20:21:51 INFO  : Jtag cable 'Digilent Arty A7-35T 210319B3E47DA' is selected.
+20:21:51 INFO  : 'jtag frequency' command is executed.
+20:21:51 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Arty A7-35T 210319B3E47DA" && level==0 && jtag_device_ctx=="jsn-Arty A7-35T-210319B3E47DA-0362d093-0"}' command is executed.
+20:21:52 INFO  : Device configured successfully with "C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_test/_ide/bitstream/arty_basic.bit"
+20:21:52 INFO  : Context for processor 'microblaze_0' is selected.
+20:21:52 INFO  : Hardware design and registers information is loaded from 'C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_platform/export/reflow_process_platform/hw/arty_basic.xsa'.
+20:21:52 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+20:21:52 INFO  : Context for processor 'microblaze_0' is selected.
+20:21:52 INFO  : System reset is completed.
+20:21:55 INFO  : 'after 3000' command is executed.
+20:21:55 INFO  : Context for processor 'microblaze_0' is selected.
+20:21:55 INFO  : The application 'C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_test/Debug/reflow_process_test.elf' is downloaded to processor 'microblaze_0'.
+20:21:55 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Arty A7-35T 210319B3E47DA" && level==0 && jtag_device_ctx=="jsn-Arty A7-35T-210319B3E47DA-0362d093-0"}
+fpga -file C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_test/_ide/bitstream/arty_basic.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_platform/export/reflow_process_platform/hw/arty_basic.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_test/Debug/reflow_process_test.elf
+----------------End of Script----------------
+
+20:21:55 INFO  : Context for processor 'microblaze_0' is selected.
+20:21:56 INFO  : 'con' command is executed.
+20:21:56 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+20:21:56 INFO  : Launch script is exported to file 'C:\Users\ifstu\Vitis\Projects\reflowOS\project_files\vitis\process\reflow_process_test_system\_ide\scripts\debugger_reflow_process_test-default.tcl'
+20:28:48 INFO  : Checking for BSP changes to sync application flags for project 'reflow_process_test'...
+20:28:56 INFO  : Checking for BSP changes to sync application flags for project 'reflow_process_test'...
+20:29:00 INFO  : Disconnected from the channel tcfchan#14.
+20:29:01 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+20:29:01 INFO  : Jtag cable 'Digilent Arty A7-35T 210319B3E47DA' is selected.
+20:29:01 INFO  : 'jtag frequency' command is executed.
+20:29:01 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Arty A7-35T 210319B3E47DA" && level==0 && jtag_device_ctx=="jsn-Arty A7-35T-210319B3E47DA-0362d093-0"}' command is executed.
+20:29:02 INFO  : Device configured successfully with "C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_test/_ide/bitstream/arty_basic.bit"
+20:29:02 INFO  : Context for processor 'microblaze_0' is selected.
+20:29:02 INFO  : Hardware design and registers information is loaded from 'C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_platform/export/reflow_process_platform/hw/arty_basic.xsa'.
+20:29:02 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+20:29:02 INFO  : Context for processor 'microblaze_0' is selected.
+20:29:02 INFO  : System reset is completed.
+20:29:05 INFO  : 'after 3000' command is executed.
+20:29:05 INFO  : Context for processor 'microblaze_0' is selected.
+20:29:05 INFO  : The application 'C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_test/Debug/reflow_process_test.elf' is downloaded to processor 'microblaze_0'.
+20:29:05 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Arty A7-35T 210319B3E47DA" && level==0 && jtag_device_ctx=="jsn-Arty A7-35T-210319B3E47DA-0362d093-0"}
+fpga -file C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_test/_ide/bitstream/arty_basic.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_platform/export/reflow_process_platform/hw/arty_basic.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_test/Debug/reflow_process_test.elf
+----------------End of Script----------------
+
+20:29:06 INFO  : Context for processor 'microblaze_0' is selected.
+20:29:06 INFO  : 'con' command is executed.
+20:29:06 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+20:29:06 INFO  : Launch script is exported to file 'C:\Users\ifstu\Vitis\Projects\reflowOS\project_files\vitis\process\reflow_process_test_system\_ide\scripts\debugger_reflow_process_test-default.tcl'
+20:39:13 INFO  : Checking for BSP changes to sync application flags for project 'reflow_process_test'...
+20:39:17 INFO  : Disconnected from the channel tcfchan#15.
+20:39:18 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+20:39:18 INFO  : Jtag cable 'Digilent Arty A7-35T 210319B3E47DA' is selected.
+20:39:18 INFO  : 'jtag frequency' command is executed.
+20:39:18 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Arty A7-35T 210319B3E47DA" && level==0 && jtag_device_ctx=="jsn-Arty A7-35T-210319B3E47DA-0362d093-0"}' command is executed.
+20:39:20 INFO  : Device configured successfully with "C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_test/_ide/bitstream/arty_basic.bit"
+20:39:20 INFO  : Context for processor 'microblaze_0' is selected.
+20:39:20 INFO  : Hardware design and registers information is loaded from 'C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_platform/export/reflow_process_platform/hw/arty_basic.xsa'.
+20:39:20 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+20:39:20 INFO  : Context for processor 'microblaze_0' is selected.
+20:39:20 INFO  : System reset is completed.
+20:39:23 INFO  : 'after 3000' command is executed.
+20:39:23 INFO  : Context for processor 'microblaze_0' is selected.
+20:39:23 INFO  : The application 'C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_test/Debug/reflow_process_test.elf' is downloaded to processor 'microblaze_0'.
+20:39:23 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Arty A7-35T 210319B3E47DA" && level==0 && jtag_device_ctx=="jsn-Arty A7-35T-210319B3E47DA-0362d093-0"}
+fpga -file C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_test/_ide/bitstream/arty_basic.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_platform/export/reflow_process_platform/hw/arty_basic.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_test/Debug/reflow_process_test.elf
+----------------End of Script----------------
+
+20:39:23 INFO  : Context for processor 'microblaze_0' is selected.
+20:39:23 INFO  : 'con' command is executed.
+20:39:23 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+20:39:23 INFO  : Launch script is exported to file 'C:\Users\ifstu\Vitis\Projects\reflowOS\project_files\vitis\process\reflow_process_test_system\_ide\scripts\debugger_reflow_process_test-default.tcl'
+20:41:36 INFO  : Checking for BSP changes to sync application flags for project 'reflow_process_test'...
+20:41:40 INFO  : Disconnected from the channel tcfchan#16.
+20:41:41 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+20:41:42 INFO  : Jtag cable 'Digilent Arty A7-35T 210319B3E47DA' is selected.
+20:41:42 INFO  : 'jtag frequency' command is executed.
+20:41:42 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Arty A7-35T 210319B3E47DA" && level==0 && jtag_device_ctx=="jsn-Arty A7-35T-210319B3E47DA-0362d093-0"}' command is executed.
+20:41:43 INFO  : Device configured successfully with "C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_test/_ide/bitstream/arty_basic.bit"
+20:41:43 INFO  : Context for processor 'microblaze_0' is selected.
+20:41:43 INFO  : Hardware design and registers information is loaded from 'C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_platform/export/reflow_process_platform/hw/arty_basic.xsa'.
+20:41:43 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+20:41:43 INFO  : Context for processor 'microblaze_0' is selected.
+20:41:43 INFO  : System reset is completed.
+20:41:46 INFO  : 'after 3000' command is executed.
+20:41:46 INFO  : Context for processor 'microblaze_0' is selected.
+20:41:46 INFO  : The application 'C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_test/Debug/reflow_process_test.elf' is downloaded to processor 'microblaze_0'.
+20:41:46 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Arty A7-35T 210319B3E47DA" && level==0 && jtag_device_ctx=="jsn-Arty A7-35T-210319B3E47DA-0362d093-0"}
+fpga -file C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_test/_ide/bitstream/arty_basic.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_platform/export/reflow_process_platform/hw/arty_basic.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_test/Debug/reflow_process_test.elf
+----------------End of Script----------------
+
+20:41:46 INFO  : Context for processor 'microblaze_0' is selected.
+20:41:46 INFO  : 'con' command is executed.
+20:41:46 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+20:41:46 INFO  : Launch script is exported to file 'C:\Users\ifstu\Vitis\Projects\reflowOS\project_files\vitis\process\reflow_process_test_system\_ide\scripts\debugger_reflow_process_test-default.tcl'
+20:45:02 INFO  : Checking for BSP changes to sync application flags for project 'reflow_process_test'...
+20:45:05 INFO  : Disconnected from the channel tcfchan#17.
+20:45:06 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+20:45:07 INFO  : Jtag cable 'Digilent Arty A7-35T 210319B3E47DA' is selected.
+20:45:07 INFO  : 'jtag frequency' command is executed.
+20:45:07 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Arty A7-35T 210319B3E47DA" && level==0 && jtag_device_ctx=="jsn-Arty A7-35T-210319B3E47DA-0362d093-0"}' command is executed.
+20:45:08 INFO  : Device configured successfully with "C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_test/_ide/bitstream/arty_basic.bit"
+20:45:08 INFO  : Context for processor 'microblaze_0' is selected.
+20:45:08 INFO  : Hardware design and registers information is loaded from 'C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_platform/export/reflow_process_platform/hw/arty_basic.xsa'.
+20:45:08 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+20:45:08 INFO  : Context for processor 'microblaze_0' is selected.
+20:45:08 INFO  : System reset is completed.
+20:45:11 INFO  : 'after 3000' command is executed.
+20:45:11 INFO  : Context for processor 'microblaze_0' is selected.
+20:45:11 INFO  : The application 'C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_test/Debug/reflow_process_test.elf' is downloaded to processor 'microblaze_0'.
+20:45:11 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Arty A7-35T 210319B3E47DA" && level==0 && jtag_device_ctx=="jsn-Arty A7-35T-210319B3E47DA-0362d093-0"}
+fpga -file C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_test/_ide/bitstream/arty_basic.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_platform/export/reflow_process_platform/hw/arty_basic.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_test/Debug/reflow_process_test.elf
+----------------End of Script----------------
+
+20:45:11 INFO  : Context for processor 'microblaze_0' is selected.
+20:45:12 INFO  : 'con' command is executed.
+20:45:12 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+20:45:12 INFO  : Launch script is exported to file 'C:\Users\ifstu\Vitis\Projects\reflowOS\project_files\vitis\process\reflow_process_test_system\_ide\scripts\debugger_reflow_process_test-default.tcl'
+20:49:19 INFO  : Checking for BSP changes to sync application flags for project 'reflow_process_test'...
+20:49:26 INFO  : Disconnected from the channel tcfchan#18.
+20:49:27 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+20:49:27 INFO  : Jtag cable 'Digilent Arty A7-35T 210319B3E47DA' is selected.
+20:49:27 INFO  : 'jtag frequency' command is executed.
+20:49:27 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Arty A7-35T 210319B3E47DA" && level==0 && jtag_device_ctx=="jsn-Arty A7-35T-210319B3E47DA-0362d093-0"}' command is executed.
+20:49:28 INFO  : Device configured successfully with "C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_test/_ide/bitstream/arty_basic.bit"
+20:49:28 INFO  : Context for processor 'microblaze_0' is selected.
+20:49:28 INFO  : Hardware design and registers information is loaded from 'C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_platform/export/reflow_process_platform/hw/arty_basic.xsa'.
+20:49:28 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+20:49:28 INFO  : Context for processor 'microblaze_0' is selected.
+20:49:28 INFO  : System reset is completed.
+20:49:31 INFO  : 'after 3000' command is executed.
+20:49:31 INFO  : Context for processor 'microblaze_0' is selected.
+20:49:32 INFO  : The application 'C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_test/Debug/reflow_process_test.elf' is downloaded to processor 'microblaze_0'.
+20:49:32 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Arty A7-35T 210319B3E47DA" && level==0 && jtag_device_ctx=="jsn-Arty A7-35T-210319B3E47DA-0362d093-0"}
+fpga -file C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_test/_ide/bitstream/arty_basic.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_platform/export/reflow_process_platform/hw/arty_basic.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_test/Debug/reflow_process_test.elf
+----------------End of Script----------------
+
+20:49:32 INFO  : Context for processor 'microblaze_0' is selected.
+20:49:32 INFO  : 'con' command is executed.
+20:49:32 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+20:49:32 INFO  : Launch script is exported to file 'C:\Users\ifstu\Vitis\Projects\reflowOS\project_files\vitis\process\reflow_process_test_system\_ide\scripts\debugger_reflow_process_test-default.tcl'
+20:50:22 INFO  : Checking for BSP changes to sync application flags for project 'reflow_process_test'...
+20:50:25 INFO  : Disconnected from the channel tcfchan#19.
+20:50:26 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+20:50:26 INFO  : Jtag cable 'Digilent Arty A7-35T 210319B3E47DA' is selected.
+20:50:26 INFO  : 'jtag frequency' command is executed.
+20:50:27 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Arty A7-35T 210319B3E47DA" && level==0 && jtag_device_ctx=="jsn-Arty A7-35T-210319B3E47DA-0362d093-0"}' command is executed.
+20:50:28 INFO  : Device configured successfully with "C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_test/_ide/bitstream/arty_basic.bit"
+20:50:28 INFO  : Context for processor 'microblaze_0' is selected.
+20:50:28 INFO  : Hardware design and registers information is loaded from 'C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_platform/export/reflow_process_platform/hw/arty_basic.xsa'.
+20:50:28 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+20:50:28 INFO  : Context for processor 'microblaze_0' is selected.
+20:50:28 INFO  : System reset is completed.
+20:50:31 INFO  : 'after 3000' command is executed.
+20:50:31 INFO  : Context for processor 'microblaze_0' is selected.
+20:50:31 INFO  : The application 'C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_test/Debug/reflow_process_test.elf' is downloaded to processor 'microblaze_0'.
+20:50:31 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Arty A7-35T 210319B3E47DA" && level==0 && jtag_device_ctx=="jsn-Arty A7-35T-210319B3E47DA-0362d093-0"}
+fpga -file C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_test/_ide/bitstream/arty_basic.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_platform/export/reflow_process_platform/hw/arty_basic.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_test/Debug/reflow_process_test.elf
+----------------End of Script----------------
+
+20:50:31 INFO  : Context for processor 'microblaze_0' is selected.
+20:50:31 INFO  : 'con' command is executed.
+20:50:31 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+20:50:31 INFO  : Launch script is exported to file 'C:\Users\ifstu\Vitis\Projects\reflowOS\project_files\vitis\process\reflow_process_test_system\_ide\scripts\debugger_reflow_process_test-default.tcl'
+20:51:29 INFO  : Checking for BSP changes to sync application flags for project 'reflow_process_test'...
+20:51:33 INFO  : Disconnected from the channel tcfchan#20.
+20:51:34 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+20:51:34 INFO  : Jtag cable 'Digilent Arty A7-35T 210319B3E47DA' is selected.
+20:51:34 INFO  : 'jtag frequency' command is executed.
+20:51:34 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Arty A7-35T 210319B3E47DA" && level==0 && jtag_device_ctx=="jsn-Arty A7-35T-210319B3E47DA-0362d093-0"}' command is executed.
+20:51:36 INFO  : Device configured successfully with "C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_test/_ide/bitstream/arty_basic.bit"
+20:51:36 INFO  : Context for processor 'microblaze_0' is selected.
+20:51:36 INFO  : Hardware design and registers information is loaded from 'C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_platform/export/reflow_process_platform/hw/arty_basic.xsa'.
+20:51:36 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+20:51:36 INFO  : Context for processor 'microblaze_0' is selected.
+20:51:36 INFO  : System reset is completed.
+20:51:39 INFO  : 'after 3000' command is executed.
+20:51:39 INFO  : Context for processor 'microblaze_0' is selected.
+20:51:39 INFO  : The application 'C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_test/Debug/reflow_process_test.elf' is downloaded to processor 'microblaze_0'.
+20:51:39 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Arty A7-35T 210319B3E47DA" && level==0 && jtag_device_ctx=="jsn-Arty A7-35T-210319B3E47DA-0362d093-0"}
+fpga -file C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_test/_ide/bitstream/arty_basic.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_platform/export/reflow_process_platform/hw/arty_basic.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_test/Debug/reflow_process_test.elf
+----------------End of Script----------------
+
+20:51:39 INFO  : Context for processor 'microblaze_0' is selected.
+20:51:39 INFO  : 'con' command is executed.
+20:51:39 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+20:51:39 INFO  : Launch script is exported to file 'C:\Users\ifstu\Vitis\Projects\reflowOS\project_files\vitis\process\reflow_process_test_system\_ide\scripts\debugger_reflow_process_test-default.tcl'
+20:51:59 INFO  : Disconnected from the channel tcfchan#21.
+20:52:00 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+20:52:00 INFO  : Jtag cable 'Digilent Arty A7-35T 210319B3E47DA' is selected.
+20:52:00 INFO  : 'jtag frequency' command is executed.
+20:52:00 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Arty A7-35T 210319B3E47DA" && level==0 && jtag_device_ctx=="jsn-Arty A7-35T-210319B3E47DA-0362d093-0"}' command is executed.
+20:52:02 INFO  : Device configured successfully with "C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_test/_ide/bitstream/arty_basic.bit"
+20:52:02 INFO  : Context for processor 'microblaze_0' is selected.
+20:52:02 INFO  : Hardware design and registers information is loaded from 'C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_platform/export/reflow_process_platform/hw/arty_basic.xsa'.
+20:52:02 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+20:52:02 INFO  : Context for processor 'microblaze_0' is selected.
+20:52:02 INFO  : System reset is completed.
+20:52:05 INFO  : 'after 3000' command is executed.
+20:52:05 INFO  : Context for processor 'microblaze_0' is selected.
+20:52:05 INFO  : The application 'C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_test/Debug/reflow_process_test.elf' is downloaded to processor 'microblaze_0'.
+20:52:05 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Arty A7-35T 210319B3E47DA" && level==0 && jtag_device_ctx=="jsn-Arty A7-35T-210319B3E47DA-0362d093-0"}
+fpga -file C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_test/_ide/bitstream/arty_basic.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_platform/export/reflow_process_platform/hw/arty_basic.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_test/Debug/reflow_process_test.elf
+----------------End of Script----------------
+
+20:52:05 INFO  : Context for processor 'microblaze_0' is selected.
+20:52:05 INFO  : 'con' command is executed.
+20:52:05 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+20:52:05 INFO  : Launch script is exported to file 'C:\Users\ifstu\Vitis\Projects\reflowOS\project_files\vitis\process\reflow_process_test_system\_ide\scripts\debugger_reflow_process_test-default.tcl'
+20:53:53 INFO  : Disconnected from the channel tcfchan#22.
+20:54:17 INFO  : Checking for BSP changes to sync application flags for project 'reflow_process_test'...
+20:54:22 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+20:54:23 INFO  : Jtag cable 'Digilent Arty A7-35T 210319B3E47DA' is selected.
+20:54:23 INFO  : 'jtag frequency' command is executed.
+20:54:23 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Arty A7-35T 210319B3E47DA" && level==0 && jtag_device_ctx=="jsn-Arty A7-35T-210319B3E47DA-0362d093-0"}' command is executed.
+20:54:24 INFO  : Device configured successfully with "C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_test/_ide/bitstream/arty_basic.bit"
+20:54:24 INFO  : Context for processor 'microblaze_0' is selected.
+20:54:24 INFO  : Hardware design and registers information is loaded from 'C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_platform/export/reflow_process_platform/hw/arty_basic.xsa'.
+20:54:24 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+20:54:24 INFO  : Context for processor 'microblaze_0' is selected.
+20:54:24 INFO  : System reset is completed.
+20:54:27 INFO  : 'after 3000' command is executed.
+20:54:27 INFO  : Context for processor 'microblaze_0' is selected.
+20:54:27 INFO  : The application 'C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_test/Debug/reflow_process_test.elf' is downloaded to processor 'microblaze_0'.
+20:54:27 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Arty A7-35T 210319B3E47DA" && level==0 && jtag_device_ctx=="jsn-Arty A7-35T-210319B3E47DA-0362d093-0"}
+fpga -file C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_test/_ide/bitstream/arty_basic.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_platform/export/reflow_process_platform/hw/arty_basic.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_test/Debug/reflow_process_test.elf
+----------------End of Script----------------
+
+20:54:27 INFO  : Context for processor 'microblaze_0' is selected.
+20:54:28 INFO  : 'con' command is executed.
+20:54:28 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+20:54:28 INFO  : Launch script is exported to file 'C:\Users\ifstu\Vitis\Projects\reflowOS\project_files\vitis\process\reflow_process_test_system\_ide\scripts\debugger_reflow_process_test-default.tcl'
+20:55:22 INFO  : Checking for BSP changes to sync application flags for project 'reflow_process_test'...
+20:55:26 INFO  : Disconnected from the channel tcfchan#23.
+20:55:27 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+20:55:27 INFO  : Jtag cable 'Digilent Arty A7-35T 210319B3E47DA' is selected.
+20:55:27 INFO  : 'jtag frequency' command is executed.
+20:55:27 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Arty A7-35T 210319B3E47DA" && level==0 && jtag_device_ctx=="jsn-Arty A7-35T-210319B3E47DA-0362d093-0"}' command is executed.
+20:55:29 INFO  : Device configured successfully with "C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_test/_ide/bitstream/arty_basic.bit"
+20:55:29 INFO  : Context for processor 'microblaze_0' is selected.
+20:55:29 INFO  : Hardware design and registers information is loaded from 'C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_platform/export/reflow_process_platform/hw/arty_basic.xsa'.
+20:55:29 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+20:55:29 INFO  : Context for processor 'microblaze_0' is selected.
+20:55:29 INFO  : System reset is completed.
+20:55:32 INFO  : 'after 3000' command is executed.
+20:55:32 INFO  : Context for processor 'microblaze_0' is selected.
+20:55:32 INFO  : The application 'C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_test/Debug/reflow_process_test.elf' is downloaded to processor 'microblaze_0'.
+20:55:32 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Arty A7-35T 210319B3E47DA" && level==0 && jtag_device_ctx=="jsn-Arty A7-35T-210319B3E47DA-0362d093-0"}
+fpga -file C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_test/_ide/bitstream/arty_basic.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_platform/export/reflow_process_platform/hw/arty_basic.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_test/Debug/reflow_process_test.elf
+----------------End of Script----------------
+
+20:55:32 INFO  : Context for processor 'microblaze_0' is selected.
+20:55:32 INFO  : 'con' command is executed.
+20:55:32 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+20:55:32 INFO  : Launch script is exported to file 'C:\Users\ifstu\Vitis\Projects\reflowOS\project_files\vitis\process\reflow_process_test_system\_ide\scripts\debugger_reflow_process_test-default.tcl'
+20:56:45 INFO  : Checking for BSP changes to sync application flags for project 'reflow_process_test'...
+20:56:48 INFO  : Disconnected from the channel tcfchan#24.
+20:56:49 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+20:56:49 INFO  : Jtag cable 'Digilent Arty A7-35T 210319B3E47DA' is selected.
+20:56:49 INFO  : 'jtag frequency' command is executed.
+20:56:50 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Arty A7-35T 210319B3E47DA" && level==0 && jtag_device_ctx=="jsn-Arty A7-35T-210319B3E47DA-0362d093-0"}' command is executed.
+20:56:51 INFO  : Device configured successfully with "C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_test/_ide/bitstream/arty_basic.bit"
+20:56:51 INFO  : Context for processor 'microblaze_0' is selected.
+20:56:51 INFO  : Hardware design and registers information is loaded from 'C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_platform/export/reflow_process_platform/hw/arty_basic.xsa'.
+20:56:51 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+20:56:51 INFO  : Context for processor 'microblaze_0' is selected.
+20:56:51 INFO  : System reset is completed.
+20:56:54 INFO  : 'after 3000' command is executed.
+20:56:54 INFO  : Context for processor 'microblaze_0' is selected.
+20:56:54 INFO  : The application 'C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_test/Debug/reflow_process_test.elf' is downloaded to processor 'microblaze_0'.
+20:56:54 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Arty A7-35T 210319B3E47DA" && level==0 && jtag_device_ctx=="jsn-Arty A7-35T-210319B3E47DA-0362d093-0"}
+fpga -file C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_test/_ide/bitstream/arty_basic.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_platform/export/reflow_process_platform/hw/arty_basic.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_test/Debug/reflow_process_test.elf
+----------------End of Script----------------
+
+20:56:54 INFO  : Context for processor 'microblaze_0' is selected.
+20:56:54 INFO  : 'con' command is executed.
+20:56:54 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+20:56:54 INFO  : Launch script is exported to file 'C:\Users\ifstu\Vitis\Projects\reflowOS\project_files\vitis\process\reflow_process_test_system\_ide\scripts\debugger_reflow_process_test-default.tcl'
+20:58:39 INFO  : Checking for BSP changes to sync application flags for project 'reflow_process_test'...
+20:58:43 INFO  : Disconnected from the channel tcfchan#25.
+20:58:44 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+20:58:44 INFO  : Jtag cable 'Digilent Arty A7-35T 210319B3E47DA' is selected.
+20:58:44 INFO  : 'jtag frequency' command is executed.
+20:58:44 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Arty A7-35T 210319B3E47DA" && level==0 && jtag_device_ctx=="jsn-Arty A7-35T-210319B3E47DA-0362d093-0"}' command is executed.
+20:58:45 INFO  : Device configured successfully with "C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_test/_ide/bitstream/arty_basic.bit"
+20:58:45 INFO  : Context for processor 'microblaze_0' is selected.
+20:58:45 INFO  : Hardware design and registers information is loaded from 'C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_platform/export/reflow_process_platform/hw/arty_basic.xsa'.
+20:58:45 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+20:58:45 INFO  : Context for processor 'microblaze_0' is selected.
+20:58:45 INFO  : System reset is completed.
+20:58:48 INFO  : 'after 3000' command is executed.
+20:58:48 INFO  : Context for processor 'microblaze_0' is selected.
+20:58:49 INFO  : The application 'C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_test/Debug/reflow_process_test.elf' is downloaded to processor 'microblaze_0'.
+20:58:49 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Arty A7-35T 210319B3E47DA" && level==0 && jtag_device_ctx=="jsn-Arty A7-35T-210319B3E47DA-0362d093-0"}
+fpga -file C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_test/_ide/bitstream/arty_basic.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_platform/export/reflow_process_platform/hw/arty_basic.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_test/Debug/reflow_process_test.elf
+----------------End of Script----------------
+
+20:58:49 INFO  : Context for processor 'microblaze_0' is selected.
+20:58:49 INFO  : 'con' command is executed.
+20:58:49 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+20:58:49 INFO  : Launch script is exported to file 'C:\Users\ifstu\Vitis\Projects\reflowOS\project_files\vitis\process\reflow_process_test_system\_ide\scripts\debugger_reflow_process_test-default.tcl'
+20:59:02 INFO  : Checking for BSP changes to sync application flags for project 'reflow_process_test'...
+20:59:23 INFO  : Checking for BSP changes to sync application flags for project 'reflow_process_test'...
+20:59:27 INFO  : Disconnected from the channel tcfchan#26.
+20:59:28 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+20:59:28 INFO  : Jtag cable 'Digilent Arty A7-35T 210319B3E47DA' is selected.
+20:59:28 INFO  : 'jtag frequency' command is executed.
+20:59:28 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Arty A7-35T 210319B3E47DA" && level==0 && jtag_device_ctx=="jsn-Arty A7-35T-210319B3E47DA-0362d093-0"}' command is executed.
+20:59:30 INFO  : Device configured successfully with "C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_test/_ide/bitstream/arty_basic.bit"
+20:59:30 INFO  : Context for processor 'microblaze_0' is selected.
+20:59:30 INFO  : Hardware design and registers information is loaded from 'C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_platform/export/reflow_process_platform/hw/arty_basic.xsa'.
+20:59:30 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+20:59:30 INFO  : Context for processor 'microblaze_0' is selected.
+20:59:30 INFO  : System reset is completed.
+20:59:33 INFO  : 'after 3000' command is executed.
+20:59:33 INFO  : Context for processor 'microblaze_0' is selected.
+20:59:33 INFO  : The application 'C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_test/Debug/reflow_process_test.elf' is downloaded to processor 'microblaze_0'.
+20:59:33 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Arty A7-35T 210319B3E47DA" && level==0 && jtag_device_ctx=="jsn-Arty A7-35T-210319B3E47DA-0362d093-0"}
+fpga -file C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_test/_ide/bitstream/arty_basic.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_platform/export/reflow_process_platform/hw/arty_basic.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_test/Debug/reflow_process_test.elf
+----------------End of Script----------------
+
+20:59:33 INFO  : Context for processor 'microblaze_0' is selected.
+20:59:33 INFO  : 'con' command is executed.
+20:59:33 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+20:59:33 INFO  : Launch script is exported to file 'C:\Users\ifstu\Vitis\Projects\reflowOS\project_files\vitis\process\reflow_process_test_system\_ide\scripts\debugger_reflow_process_test-default.tcl'
+20:59:52 INFO  : Checking for BSP changes to sync application flags for project 'reflow_process_test'...
+20:59:54 INFO  : Disconnected from the channel tcfchan#27.
+20:59:55 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+20:59:55 INFO  : Jtag cable 'Digilent Arty A7-35T 210319B3E47DA' is selected.
+20:59:55 INFO  : 'jtag frequency' command is executed.
+20:59:56 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Arty A7-35T 210319B3E47DA" && level==0 && jtag_device_ctx=="jsn-Arty A7-35T-210319B3E47DA-0362d093-0"}' command is executed.
+20:59:57 INFO  : Device configured successfully with "C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_test/_ide/bitstream/arty_basic.bit"
+20:59:57 INFO  : Context for processor 'microblaze_0' is selected.
+20:59:57 INFO  : Hardware design and registers information is loaded from 'C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_platform/export/reflow_process_platform/hw/arty_basic.xsa'.
+20:59:57 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+20:59:57 INFO  : Context for processor 'microblaze_0' is selected.
+20:59:57 INFO  : System reset is completed.
+21:00:00 INFO  : 'after 3000' command is executed.
+21:00:00 INFO  : Context for processor 'microblaze_0' is selected.
+21:00:00 INFO  : The application 'C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_test/Debug/reflow_process_test.elf' is downloaded to processor 'microblaze_0'.
+21:00:00 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Arty A7-35T 210319B3E47DA" && level==0 && jtag_device_ctx=="jsn-Arty A7-35T-210319B3E47DA-0362d093-0"}
+fpga -file C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_test/_ide/bitstream/arty_basic.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_platform/export/reflow_process_platform/hw/arty_basic.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_test/Debug/reflow_process_test.elf
+----------------End of Script----------------
+
+21:00:00 INFO  : Context for processor 'microblaze_0' is selected.
+21:00:00 INFO  : 'con' command is executed.
+21:00:00 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+21:00:00 INFO  : Launch script is exported to file 'C:\Users\ifstu\Vitis\Projects\reflowOS\project_files\vitis\process\reflow_process_test_system\_ide\scripts\debugger_reflow_process_test-default.tcl'
+21:07:57 INFO  : Checking for BSP changes to sync application flags for project 'reflow_process_test'...
+21:08:01 INFO  : Disconnected from the channel tcfchan#28.
+21:08:02 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+21:08:02 INFO  : Jtag cable 'Digilent Arty A7-35T 210319B3E47DA' is selected.
+21:08:02 INFO  : 'jtag frequency' command is executed.
+21:08:02 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Arty A7-35T 210319B3E47DA" && level==0 && jtag_device_ctx=="jsn-Arty A7-35T-210319B3E47DA-0362d093-0"}' command is executed.
+21:08:03 INFO  : Device configured successfully with "C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_test/_ide/bitstream/arty_basic.bit"
+21:08:03 INFO  : Context for processor 'microblaze_0' is selected.
+21:08:03 INFO  : Hardware design and registers information is loaded from 'C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_platform/export/reflow_process_platform/hw/arty_basic.xsa'.
+21:08:03 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+21:08:03 INFO  : Context for processor 'microblaze_0' is selected.
+21:08:03 INFO  : System reset is completed.
+21:08:06 INFO  : 'after 3000' command is executed.
+21:08:06 INFO  : Context for processor 'microblaze_0' is selected.
+21:08:06 INFO  : The application 'C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_test/Debug/reflow_process_test.elf' is downloaded to processor 'microblaze_0'.
+21:08:06 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Arty A7-35T 210319B3E47DA" && level==0 && jtag_device_ctx=="jsn-Arty A7-35T-210319B3E47DA-0362d093-0"}
+fpga -file C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_test/_ide/bitstream/arty_basic.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_platform/export/reflow_process_platform/hw/arty_basic.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_test/Debug/reflow_process_test.elf
+----------------End of Script----------------
+
+21:08:06 INFO  : Context for processor 'microblaze_0' is selected.
+21:08:07 INFO  : 'con' command is executed.
+21:08:07 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+21:08:07 INFO  : Launch script is exported to file 'C:\Users\ifstu\Vitis\Projects\reflowOS\project_files\vitis\process\reflow_process_test_system\_ide\scripts\debugger_reflow_process_test-default.tcl'
+21:09:06 INFO  : Disconnected from the channel tcfchan#29.
+21:09:07 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+21:09:07 INFO  : Jtag cable 'Digilent Arty A7-35T 210319B3E47DA' is selected.
+21:09:07 INFO  : 'jtag frequency' command is executed.
+21:09:07 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Arty A7-35T 210319B3E47DA" && level==0 && jtag_device_ctx=="jsn-Arty A7-35T-210319B3E47DA-0362d093-0"}' command is executed.
+21:09:09 INFO  : Device configured successfully with "C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_test/_ide/bitstream/arty_basic.bit"
+21:09:09 INFO  : Context for processor 'microblaze_0' is selected.
+21:09:09 INFO  : Hardware design and registers information is loaded from 'C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_platform/export/reflow_process_platform/hw/arty_basic.xsa'.
+21:09:09 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+21:09:09 INFO  : Context for processor 'microblaze_0' is selected.
+21:09:09 INFO  : System reset is completed.
+21:09:12 INFO  : 'after 3000' command is executed.
+21:09:12 INFO  : Context for processor 'microblaze_0' is selected.
+21:09:12 INFO  : The application 'C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_test/Debug/reflow_process_test.elf' is downloaded to processor 'microblaze_0'.
+21:09:12 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Arty A7-35T 210319B3E47DA" && level==0 && jtag_device_ctx=="jsn-Arty A7-35T-210319B3E47DA-0362d093-0"}
+fpga -file C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_test/_ide/bitstream/arty_basic.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_platform/export/reflow_process_platform/hw/arty_basic.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_test/Debug/reflow_process_test.elf
+----------------End of Script----------------
+
+21:09:12 INFO  : Context for processor 'microblaze_0' is selected.
+21:09:12 INFO  : 'con' command is executed.
+21:09:12 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+21:09:12 INFO  : Launch script is exported to file 'C:\Users\ifstu\Vitis\Projects\reflowOS\project_files\vitis\process\reflow_process_test_system\_ide\scripts\debugger_reflow_process_test-default.tcl'
+21:09:32 INFO  : Disconnected from the channel tcfchan#30.
+21:09:33 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+21:09:34 INFO  : Jtag cable 'Digilent Arty A7-35T 210319B3E47DA' is selected.
+21:09:34 INFO  : 'jtag frequency' command is executed.
+21:09:34 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Arty A7-35T 210319B3E47DA" && level==0 && jtag_device_ctx=="jsn-Arty A7-35T-210319B3E47DA-0362d093-0"}' command is executed.
+21:09:35 INFO  : Device configured successfully with "C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_test/_ide/bitstream/arty_basic.bit"
+21:09:35 INFO  : Context for processor 'microblaze_0' is selected.
+21:09:35 INFO  : Hardware design and registers information is loaded from 'C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_platform/export/reflow_process_platform/hw/arty_basic.xsa'.
+21:09:35 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+21:09:35 INFO  : Context for processor 'microblaze_0' is selected.
+21:09:35 INFO  : System reset is completed.
+21:09:38 INFO  : 'after 3000' command is executed.
+21:09:38 INFO  : Context for processor 'microblaze_0' is selected.
+21:09:38 INFO  : The application 'C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_test/Debug/reflow_process_test.elf' is downloaded to processor 'microblaze_0'.
+21:09:38 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Arty A7-35T 210319B3E47DA" && level==0 && jtag_device_ctx=="jsn-Arty A7-35T-210319B3E47DA-0362d093-0"}
+fpga -file C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_test/_ide/bitstream/arty_basic.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_platform/export/reflow_process_platform/hw/arty_basic.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_test/Debug/reflow_process_test.elf
+----------------End of Script----------------
+
+21:09:38 INFO  : Context for processor 'microblaze_0' is selected.
+21:09:39 INFO  : 'con' command is executed.
+21:09:39 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+21:09:39 INFO  : Launch script is exported to file 'C:\Users\ifstu\Vitis\Projects\reflowOS\project_files\vitis\process\reflow_process_test_system\_ide\scripts\debugger_reflow_process_test-default.tcl'
+21:12:34 INFO  : Checking for BSP changes to sync application flags for project 'reflow_process_test'...
+21:12:39 INFO  : Disconnected from the channel tcfchan#31.
+21:12:40 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+21:12:40 INFO  : Jtag cable 'Digilent Arty A7-35T 210319B3E47DA' is selected.
+21:12:40 INFO  : 'jtag frequency' command is executed.
+21:12:40 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Arty A7-35T 210319B3E47DA" && level==0 && jtag_device_ctx=="jsn-Arty A7-35T-210319B3E47DA-0362d093-0"}' command is executed.
+21:12:41 INFO  : Device configured successfully with "C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_test/_ide/bitstream/arty_basic.bit"
+21:12:41 INFO  : Context for processor 'microblaze_0' is selected.
+21:12:42 INFO  : Hardware design and registers information is loaded from 'C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_platform/export/reflow_process_platform/hw/arty_basic.xsa'.
+21:12:42 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+21:12:42 INFO  : Context for processor 'microblaze_0' is selected.
+21:12:42 INFO  : System reset is completed.
+21:12:45 INFO  : 'after 3000' command is executed.
+21:12:45 INFO  : Context for processor 'microblaze_0' is selected.
+21:12:45 INFO  : The application 'C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_test/Debug/reflow_process_test.elf' is downloaded to processor 'microblaze_0'.
+21:12:45 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Arty A7-35T 210319B3E47DA" && level==0 && jtag_device_ctx=="jsn-Arty A7-35T-210319B3E47DA-0362d093-0"}
+fpga -file C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_test/_ide/bitstream/arty_basic.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_platform/export/reflow_process_platform/hw/arty_basic.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_test/Debug/reflow_process_test.elf
+----------------End of Script----------------
+
+21:12:45 INFO  : Context for processor 'microblaze_0' is selected.
+21:12:45 INFO  : 'con' command is executed.
+21:12:45 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+21:12:45 INFO  : Launch script is exported to file 'C:\Users\ifstu\Vitis\Projects\reflowOS\project_files\vitis\process\reflow_process_test_system\_ide\scripts\debugger_reflow_process_test-default.tcl'
+21:12:57 INFO  : Disconnected from the channel tcfchan#32.
+21:12:58 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+21:12:58 INFO  : Jtag cable 'Digilent Arty A7-35T 210319B3E47DA' is selected.
+21:12:58 INFO  : 'jtag frequency' command is executed.
+21:12:58 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Arty A7-35T 210319B3E47DA" && level==0 && jtag_device_ctx=="jsn-Arty A7-35T-210319B3E47DA-0362d093-0"}' command is executed.
+21:13:00 INFO  : Device configured successfully with "C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_test/_ide/bitstream/arty_basic.bit"
+21:13:00 INFO  : Context for processor 'microblaze_0' is selected.
+21:13:00 INFO  : Hardware design and registers information is loaded from 'C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_platform/export/reflow_process_platform/hw/arty_basic.xsa'.
+21:13:00 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+21:13:00 INFO  : Context for processor 'microblaze_0' is selected.
+21:13:00 INFO  : System reset is completed.
+21:13:03 INFO  : 'after 3000' command is executed.
+21:13:03 INFO  : Context for processor 'microblaze_0' is selected.
+21:13:03 INFO  : The application 'C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_test/Debug/reflow_process_test.elf' is downloaded to processor 'microblaze_0'.
+21:13:03 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Arty A7-35T 210319B3E47DA" && level==0 && jtag_device_ctx=="jsn-Arty A7-35T-210319B3E47DA-0362d093-0"}
+fpga -file C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_test/_ide/bitstream/arty_basic.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_platform/export/reflow_process_platform/hw/arty_basic.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_test/Debug/reflow_process_test.elf
+----------------End of Script----------------
+
+21:13:03 INFO  : Context for processor 'microblaze_0' is selected.
+21:13:03 INFO  : 'con' command is executed.
+21:13:03 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+21:13:03 INFO  : Launch script is exported to file 'C:\Users\ifstu\Vitis\Projects\reflowOS\project_files\vitis\process\reflow_process_test_system\_ide\scripts\debugger_reflow_process_test-default.tcl'
+21:13:44 INFO  : Checking for BSP changes to sync application flags for project 'reflow_process_test'...
+21:13:49 INFO  : Disconnected from the channel tcfchan#33.
+21:13:50 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+21:13:50 INFO  : Jtag cable 'Digilent Arty A7-35T 210319B3E47DA' is selected.
+21:13:50 INFO  : 'jtag frequency' command is executed.
+21:13:50 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Arty A7-35T 210319B3E47DA" && level==0 && jtag_device_ctx=="jsn-Arty A7-35T-210319B3E47DA-0362d093-0"}' command is executed.
+21:13:51 INFO  : Device configured successfully with "C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_test/_ide/bitstream/arty_basic.bit"
+21:13:51 INFO  : Context for processor 'microblaze_0' is selected.
+21:13:51 INFO  : Hardware design and registers information is loaded from 'C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_platform/export/reflow_process_platform/hw/arty_basic.xsa'.
+21:13:51 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+21:13:52 INFO  : Context for processor 'microblaze_0' is selected.
+21:13:52 INFO  : System reset is completed.
+21:13:55 INFO  : 'after 3000' command is executed.
+21:13:55 INFO  : Context for processor 'microblaze_0' is selected.
+21:13:55 INFO  : The application 'C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_test/Debug/reflow_process_test.elf' is downloaded to processor 'microblaze_0'.
+21:13:55 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Arty A7-35T 210319B3E47DA" && level==0 && jtag_device_ctx=="jsn-Arty A7-35T-210319B3E47DA-0362d093-0"}
+fpga -file C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_test/_ide/bitstream/arty_basic.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_platform/export/reflow_process_platform/hw/arty_basic.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_test/Debug/reflow_process_test.elf
+----------------End of Script----------------
+
+21:13:55 INFO  : Context for processor 'microblaze_0' is selected.
+21:13:55 INFO  : 'con' command is executed.
+21:13:55 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+21:13:55 INFO  : Launch script is exported to file 'C:\Users\ifstu\Vitis\Projects\reflowOS\project_files\vitis\process\reflow_process_test_system\_ide\scripts\debugger_reflow_process_test-default.tcl'

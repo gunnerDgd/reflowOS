@@ -1,0 +1,6 @@
+/*reflow_process_platform*/
+the_ROM_image:
+{
+   <bitstream> 
+   <elf> 
+}

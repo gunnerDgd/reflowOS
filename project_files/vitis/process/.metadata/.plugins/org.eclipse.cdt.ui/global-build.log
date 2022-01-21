@@ -1,0 +1,20 @@
+Nothing to build in platform 'reflow_process_platform'
+
+21:13:44 **** Incremental Build of configuration Debug for project reflow_process_test ****
+make all 
+'Building file: ../src/proc_test.cpp'
+'Invoking: MicroBlaze g++ compiler'
+mb-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/proc_test.o" -IC:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_platform/export/reflow_process_platform/sw/reflow_process_platform/standalone_domain/bspinclude/include -mlittle-endian -mcpu=v11.0 -mno-xl-soft-mul -mhard-float -mxl-float-convert -mxl-float-sqrt -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/proc_test.d" -MT"src/proc_test.o" -o "src/proc_test.o" "../src/proc_test.cpp"
+'Finished building: ../src/proc_test.cpp'
+' '
+'Building target: reflow_process_test.elf'
+'Invoking: MicroBlaze g++ linker'
+mb-g++ -Wl,-T -Wl,../src/lscript.ld -LC:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_platform/export/reflow_process_platform/sw/reflow_process_platform/standalone_domain/bsplib/lib -mlittle-endian -mcpu=v11.0 -mno-xl-soft-mul -mhard-float -mxl-float-convert -mxl-float-sqrt -Wl,--no-relax -Wl,--gc-sections -o "reflow_process_test.elf"  ./src/proc_test.o   -Wl,--start-group,-lxil,-lgcc,-lc,-lstdc++,--end-group
+'Finished building target: reflow_process_test.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size reflow_process_test.elf  |tee "reflow_process_test.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   5832	    396	   3108	   9336	   2478	reflow_process_test.elf
+'Finished building: reflow_process_test.elf.size'
+' '

@@ -1,0 +1,35 @@
+#include <cstdint>
+#include <cstddef>
+
+#include <xparameters.h>
+
+#define STATIC(type) static constexpr type
+
+namespace reflowOS {
+namespace boot 	   {
+	class memory
+	{
+	public:
+		typedef std::size_t size_type;
+		typedef const char* name_type;
+		typedef void*	    pointer_type;
+
+		STATIC(size_type) section_point     = XPAR_MIG_7SERIES_0_BASEADDR;
+		STATIC(size_type) section_page_size = 4096;
+		STATIC(size_type) section_size      = section_page_size * 3;
+
+		STATIC(size_type) section_module    = section_page_size;
+		STATIC(size_type) section_stack     = section_page_size * 2;
+
+		STATIC(size_type) section_module_section \
+
+	public:
+
+	private:
+		pointer_type __M_memory_pointer;
+
+		pointer_type __M_memory_module_section;
+		size_type    __M_memory_module_size   ;
+	};
+}
+}

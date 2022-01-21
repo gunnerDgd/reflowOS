@@ -1,0 +1,11 @@
+#include <cstdint>
+#include <cstddef>
+
+namespace reflowOS {
+namespace boot 	   {
+	class memory
+	{
+
+	};
+}
+}

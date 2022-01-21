@@ -1,0 +1,15 @@
+Nothing to build in platform 'reflow_boot_platform'
+
+17:48:19 **** Incremental Build of configuration Debug for project reflow_boot ****
+make all 
+'Building file: C:/Users/ifstu/Vitis/Projects/reflowOS/source/boot/module/boot_module.cpp'
+'Invoking: MicroBlaze g++ compiler'
+mb-g++ -Wall -O0 -g3 -I"C:\Users\ifstu\Vitis\Projects\reflowOS\include" -I"C:\Users\ifstu\Vitis\Projects\reflowOS\project_files\vitis\boot\reflow_boot_platform\microblaze_0\standalone_domain\bsp\microblaze_0\include" -c -fmessage-length=0 -MT"src_boot/module/boot_module.o" -mxl-soft-mul -MMD -MP -MF"src_boot/module/boot_module.d" -MT"src_boot/module/boot_module.o" -o "src_boot/module/boot_module.o" "C:/Users/ifstu/Vitis/Projects/reflowOS/source/boot/module/boot_module.cpp"
+'Finished building: C:/Users/ifstu/Vitis/Projects/reflowOS/source/boot/module/boot_module.cpp'
+' '
+'Building target: libreflow_boot.a'
+'Invoking: MicroBlaze archiver'
+mb-ar -r  "libreflow_boot.a"  ./src_boot/module/boot_module.o   
+mb-ar: creating libreflow_boot.a
+'Finished building target: libreflow_boot.a'
+' '

@@ -1,0 +1,13 @@
+#include <reflowOS/base/memory/init/init.hpp>
+
+#define MMAN_ITERATE_START(it_name) for (std::uint32_t it_name = 0 ; it_name < )
+
+void reflowOS::memory::mman_init	()
+{
+	page_entity* init_entry = reinterpret_cast<page_entity*>(mman_base);
+}
+
+void reflowOS::memory::mman_shutdown()
+{
+
+}

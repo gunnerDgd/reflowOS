@@ -1,0 +1,12 @@
+18:32:46 INFO  : Registering command handlers for Vitis TCF services
+18:32:46 INFO  : Launching XSCT server: xsct.bat -n  -interactive C:\Users\ifstu\Vitis\Projects\reflowOS\project_files\vitis\memory\init\temp_xsdb_launch_script.tcl
+18:32:48 INFO  : XSCT server has started successfully.
+18:32:48 INFO  : plnx-install-location is set to ''
+18:32:48 INFO  : Successfully done setting XSCT server connection channel  
+18:32:48 INFO  : Successfully done query RDI_DATADIR 
+18:32:48 INFO  : Successfully done setting workspace for the tool. 
+18:32:49 INFO  : Platform repository initialization has completed.
+18:37:26 INFO  : Result from executing command 'getProjects': reflow_memory_platform
+18:37:26 INFO  : Result from executing command 'getPlatforms': 
+18:37:34 INFO  : Result from executing command 'getProjects': reflow_memory_platform
+18:37:34 INFO  : Result from executing command 'getPlatforms': reflow_memory_platform|C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/memory/init/reflow_memory_platform/export/reflow_memory_platform/reflow_memory_platform.xpfm

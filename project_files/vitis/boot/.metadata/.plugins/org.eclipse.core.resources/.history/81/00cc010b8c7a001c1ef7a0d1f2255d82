@@ -1,0 +1,32 @@
+#include <reflowOS/boot/boot_memory.hpp>
+
+namespace reflowOS {
+namespace boot 	   {
+
+	struct module
+	{
+		typedef char  name_type[255];
+		typedef void* pointer_type;
+
+		name_type    module_name;
+		pointer_type module_pointer;
+	};
+
+	module* init_module();
+
+	template <typename ModuleType>
+	ModuleType* load_module  (const char*, ModuleType&&);
+	void		unload_module(const char*);
+
+}
+}
+
+template <typename ModuleType>
+ModuleType* reflowOS::boot::load_module  (const char*, ModuleType&& module)
+{
+}
+
+template <typename ModuleType>
+ModuleType* reflowOS::boot::unload_module(const char* module_name)
+{
+}

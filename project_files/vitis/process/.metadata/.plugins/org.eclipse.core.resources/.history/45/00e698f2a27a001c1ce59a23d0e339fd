@@ -1,0 +1,17 @@
+#include <xparameters.h>
+#include <xil_printf.h>
+
+struct pcb
+{
+	uint32_t registers[13];
+};
+
+void test()
+{
+	xil_printf("Hello Test #1");
+}
+
+int main()
+{
+
+}

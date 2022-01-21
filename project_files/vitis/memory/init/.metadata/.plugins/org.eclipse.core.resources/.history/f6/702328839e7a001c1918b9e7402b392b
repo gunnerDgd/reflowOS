@@ -1,0 +1,19 @@
+#include <cstdint>
+#include <cstddef>
+
+#include <xparameters.h>
+
+#define MEMORY_STATIC(type) constexpr static type
+
+namespace reflowOS {
+namespace memory   {
+
+	typedef std::uint32_t size_type;
+
+	MEMORY_STATIC(size_type) memory_size = XPAR_MIG_7SERIES_0_HIGHADDR - XPAR_MIG_7SERIES_0_BASEADDR;
+	MEMORY_STATIC(size_type) page_size   = 4096;
+	typedef uint8_t page[4096]
+
+
+}
+}

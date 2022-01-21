@@ -1,0 +1,13 @@
+#include <reflowOS/base/memory/init/init.hpp>
+
+void reflowOS::memory::mman_init	()
+{
+	page_entity* init_entry = reinterpret_cast<page_entity*>(mman_base);
+
+
+}
+
+void reflowOS::memory::mman_shutdown()
+{
+
+}

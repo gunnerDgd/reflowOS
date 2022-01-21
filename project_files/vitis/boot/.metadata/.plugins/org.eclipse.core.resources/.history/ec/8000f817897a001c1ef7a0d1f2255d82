@@ -1,0 +1,15 @@
+#include <cstdint>
+#include <cstddef>
+
+namespace reflowOS {
+namespace boot 	   {
+
+	template <std::size_t SectionSize = 4096>
+	class init_section
+	{
+	public:
+		init_section();
+	};
+
+}
+}

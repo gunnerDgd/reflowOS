@@ -1,0 +1,11 @@
+#include <reflowOS/boot/boot_module.hpp>
+
+reflowOS::boot::module* reflowOS::boot::module_initialize()
+{
+	return XPAR_MIG_7SERIES_0_BASEADDR;
+}
+
+void				    reflowOS::boot::module_shutdown  ()
+{
+
+}

@@ -1,0 +1,1056 @@
+TRACE::2022-01-21.19:10:19::SCWPlatform::Trying to open the hw design at C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_platform/hw/arty_basic.xsa
+TRACE::2022-01-21.19:10:19::SCWPlatform::DSA given C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_platform/hw/arty_basic.xsa
+TRACE::2022-01-21.19:10:19::SCWPlatform::DSA absoulate path C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_platform/hw/arty_basic.xsa
+TRACE::2022-01-21.19:10:22::SCWPlatform::DSA directory C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_platform/hw
+TRACE::2022-01-21.19:10:22::SCWPlatform:: Platform Path C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_platform/hw/arty_basic.xsa
+TRACE::2022-01-21.19:10:22::SCWPlatform:: Unique name xilinx:arty-a7-35::0.0
+TRACE::2022-01-21.19:10:22::SCWPlatform::Do not have an existing db opened. 
+TRACE::2022-01-21.19:10:22::SCWPlatform::Opened new HwDB with name basic_design_wrapper_0
+TRACE::2022-01-21.19:10:22::SCWWriter::formatted JSON is {
+	"platformName":	"reflow_process_platform",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"reflow_process_platform",
+	"platHandOff":	"C:/Users/ifstu/Vitis/Projects/reflow/hardware_export/digilent/artya7/arty_basic.xsa",
+	"platIntHandOff":	"<platformDir>/hw/arty_basic.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	""
+}
+TRACE::2022-01-21.19:10:22::SCWWriter::formatted JSON is {
+	"platformName":	"reflow_process_platform",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"reflow_process_platform",
+	"platHandOff":	"C:/Users/ifstu/Vitis/Projects/reflow/hardware_export/digilent/artya7/arty_basic.xsa",
+	"platIntHandOff":	"<platformDir>/hw/arty_basic.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"reflow_process_platform",
+	"systems":	[{
+			"systemName":	"reflow_process_platform",
+			"systemDesc":	"reflow_process_platform",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"reflow_process_platform"
+		}]
+}
+TRACE::2022-01-21.19:10:22::SCWPlatform::Boot application domains not present, creating them
+TRACE::2022-01-21.19:10:22::SCWPlatform::Pure FPGA device, no boot application will be created.
+TRACE::2022-01-21.19:10:22::SCWWriter::formatted JSON is {
+	"platformName":	"reflow_process_platform",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"reflow_process_platform",
+	"platHandOff":	"C:/Users/ifstu/Vitis/Projects/reflow/hardware_export/digilent/artya7/arty_basic.xsa",
+	"platIntHandOff":	"<platformDir>/hw/arty_basic.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"reflow_process_platform",
+	"systems":	[{
+			"systemName":	"reflow_process_platform",
+			"systemDesc":	"reflow_process_platform",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"reflow_process_platform"
+		}]
+}
+TRACE::2022-01-21.19:10:22::SCWPlatform::Trying to open the hw design at C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_platform/hw/arty_basic.xsa
+TRACE::2022-01-21.19:10:22::SCWPlatform::DSA given C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_platform/hw/arty_basic.xsa
+TRACE::2022-01-21.19:10:22::SCWPlatform::DSA absoulate path C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_platform/hw/arty_basic.xsa
+TRACE::2022-01-21.19:10:22::SCWPlatform::DSA directory C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_platform/hw
+TRACE::2022-01-21.19:10:22::SCWPlatform:: Platform Path C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_platform/hw/arty_basic.xsa
+TRACE::2022-01-21.19:10:22::SCWPlatform:: Unique name xilinx:arty-a7-35::0.0
+TRACE::2022-01-21.19:10:22::SCWPlatform::Trying to set the existing hwdb with name basic_design_wrapper_0
+TRACE::2022-01-21.19:10:22::SCWPlatform::Opened existing hwdb basic_design_wrapper_0
+TRACE::2022-01-21.19:10:22::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-01-21.19:10:22::SCWDomain::checking for install qemu data   : 
+TRACE::2022-01-21.19:10:22::SCWPlatform::Trying to open the hw design at C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_platform/hw/arty_basic.xsa
+TRACE::2022-01-21.19:10:22::SCWPlatform::DSA given C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_platform/hw/arty_basic.xsa
+TRACE::2022-01-21.19:10:22::SCWPlatform::DSA absoulate path C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_platform/hw/arty_basic.xsa
+TRACE::2022-01-21.19:10:22::SCWPlatform::DSA directory C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_platform/hw
+TRACE::2022-01-21.19:10:22::SCWPlatform:: Platform Path C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_platform/hw/arty_basic.xsa
+TRACE::2022-01-21.19:10:22::SCWPlatform:: Unique name xilinx:arty-a7-35::0.0
+TRACE::2022-01-21.19:10:22::SCWPlatform::Trying to set the existing hwdb with name basic_design_wrapper_0
+TRACE::2022-01-21.19:10:22::SCWPlatform::Opened existing hwdb basic_design_wrapper_0
+TRACE::2022-01-21.19:10:22::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-01-21.19:10:22::SCWPlatform::Trying to open the hw design at C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_platform/hw/arty_basic.xsa
+TRACE::2022-01-21.19:10:22::SCWPlatform::DSA given C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_platform/hw/arty_basic.xsa
+TRACE::2022-01-21.19:10:22::SCWPlatform::DSA absoulate path C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_platform/hw/arty_basic.xsa
+TRACE::2022-01-21.19:10:22::SCWPlatform::DSA directory C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_platform/hw
+TRACE::2022-01-21.19:10:22::SCWPlatform:: Platform Path C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_platform/hw/arty_basic.xsa
+TRACE::2022-01-21.19:10:22::SCWPlatform:: Unique name xilinx:arty-a7-35::0.0
+TRACE::2022-01-21.19:10:22::SCWPlatform::Trying to set the existing hwdb with name basic_design_wrapper_0
+TRACE::2022-01-21.19:10:22::SCWPlatform::Opened existing hwdb basic_design_wrapper_0
+TRACE::2022-01-21.19:10:22::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-01-21.19:10:22::SCWPlatform::Trying to open the hw design at C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_platform/hw/arty_basic.xsa
+TRACE::2022-01-21.19:10:22::SCWPlatform::DSA given C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_platform/hw/arty_basic.xsa
+TRACE::2022-01-21.19:10:22::SCWPlatform::DSA absoulate path C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_platform/hw/arty_basic.xsa
+TRACE::2022-01-21.19:10:22::SCWPlatform::DSA directory C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_platform/hw
+TRACE::2022-01-21.19:10:22::SCWPlatform:: Platform Path C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_platform/hw/arty_basic.xsa
+TRACE::2022-01-21.19:10:22::SCWPlatform:: Unique name xilinx:arty-a7-35::0.0
+TRACE::2022-01-21.19:10:22::SCWPlatform::Trying to set the existing hwdb with name basic_design_wrapper_0
+TRACE::2022-01-21.19:10:22::SCWPlatform::Opened existing hwdb basic_design_wrapper_0
+TRACE::2022-01-21.19:10:22::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-01-21.19:10:22::SCWMssOS::Checking the sw design at  C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_platform/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-01-21.19:10:22::SCWMssOS::DEBUG:  swdes dump  
+TRACE::2022-01-21.19:10:22::SCWMssOS::No sw design opened at  C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_platform/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-01-21.19:10:22::SCWMssOS::mss does not exists at C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_platform/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-01-21.19:10:22::SCWMssOS::Creating sw design at  C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_platform/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-01-21.19:10:22::SCWMssOS::Adding the swdes entry, created swdb C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_platform/microblaze_0/standalone_domain/bsp/system.mss with des name C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_platform/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-01-21.19:10:22::SCWMssOS::updating the scw layer changes to swdes at   C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_platform/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-01-21.19:10:22::SCWMssOS::Writing mss at C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_platform/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-01-21.19:10:22::SCWMssOS::Completed writing the mss file at C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_platform/microblaze_0/standalone_domain/bsp
+TRACE::2022-01-21.19:10:22::SCWMssOS::Picking up changes from newly written mss file into SCW Layer. 
+TRACE::2022-01-21.19:10:22::SCWMssOS::Updated the changes from newly written mss file into SCW Layer. 
+TRACE::2022-01-21.19:10:22::SCWMssOS::Completed writing the mss file at C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_platform/microblaze_0/standalone_domain/bsp
+TRACE::2022-01-21.19:10:22::SCWMssOS::Forcing BSP Sources regeneration.
+TRACE::2022-01-21.19:10:25::SCWMssOS::Saving the mss changes C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_platform/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-01-21.19:10:25::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2022-01-21.19:10:25::SCWMssOS::Running validate of swdbs.
+KEYINFO::2022-01-21.19:10:25::SCWMssOS::Could not open the swdb for C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_platform/microblaze_0/standalone_domain/bsp/system.mss
+KEYINFO::2022-01-21.19:10:25::SCWMssOS::Could not open the sw design at  C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_platform/microblaze_0/standalone_domain/bsp/system.mss
+ERROR: [Hsi 55-1558] Software Design C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_platform/microblaze_0/standalone_domain/bsp/system.mss is not found
+
+TRACE::2022-01-21.19:10:25::SCWMssOS::Cleared the swdb table entry
+TRACE::2022-01-21.19:10:25::SCWMssOS::Adding the swdes entry, mss present, able to open swdb C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_platform/microblaze_0/standalone_domain/bsp/system.mss with des name system
+TRACE::2022-01-21.19:10:25::SCWMssOS::Writing the mss file completed C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_platform/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-01-21.19:10:25::SCWMssOS::Commit changes completed.
+TRACE::2022-01-21.19:10:25::SCWPlatform::Trying to open the hw design at C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_platform/hw/arty_basic.xsa
+TRACE::2022-01-21.19:10:25::SCWPlatform::DSA given C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_platform/hw/arty_basic.xsa
+TRACE::2022-01-21.19:10:25::SCWPlatform::DSA absoulate path C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_platform/hw/arty_basic.xsa
+TRACE::2022-01-21.19:10:25::SCWPlatform::DSA directory C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_platform/hw
+TRACE::2022-01-21.19:10:25::SCWPlatform:: Platform Path C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_platform/hw/arty_basic.xsa
+TRACE::2022-01-21.19:10:25::SCWPlatform:: Unique name xilinx:arty-a7-35::0.0
+TRACE::2022-01-21.19:10:25::SCWPlatform::Trying to set the existing hwdb with name basic_design_wrapper_0
+TRACE::2022-01-21.19:10:25::SCWPlatform::Opened existing hwdb basic_design_wrapper_0
+TRACE::2022-01-21.19:10:25::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-01-21.19:10:25::SCWMssOS::Checking the sw design at  C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_platform/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-01-21.19:10:25::SCWMssOS::DEBUG:  swdes dump  C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_platform/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2022-01-21.19:10:25::SCWMssOS::Sw design exists and opened at  C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_platform/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-01-21.19:10:25::SCWPlatform::Trying to open the hw design at C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_platform/hw/arty_basic.xsa
+TRACE::2022-01-21.19:10:25::SCWPlatform::DSA given C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_platform/hw/arty_basic.xsa
+TRACE::2022-01-21.19:10:25::SCWPlatform::DSA absoulate path C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_platform/hw/arty_basic.xsa
+TRACE::2022-01-21.19:10:25::SCWPlatform::DSA directory C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_platform/hw
+TRACE::2022-01-21.19:10:25::SCWPlatform:: Platform Path C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_platform/hw/arty_basic.xsa
+TRACE::2022-01-21.19:10:25::SCWPlatform:: Unique name xilinx:arty-a7-35::0.0
+TRACE::2022-01-21.19:10:25::SCWPlatform::Trying to set the existing hwdb with name basic_design_wrapper_0
+TRACE::2022-01-21.19:10:25::SCWPlatform::Opened existing hwdb basic_design_wrapper_0
+TRACE::2022-01-21.19:10:25::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-01-21.19:10:25::SCWMssOS::Checking the sw design at  C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_platform/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-01-21.19:10:25::SCWMssOS::DEBUG:  swdes dump  C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_platform/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2022-01-21.19:10:25::SCWMssOS::Sw design exists and opened at  C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_platform/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-01-21.19:10:25::SCWPlatform::Trying to open the hw design at C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_platform/hw/arty_basic.xsa
+TRACE::2022-01-21.19:10:25::SCWPlatform::DSA given C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_platform/hw/arty_basic.xsa
+TRACE::2022-01-21.19:10:25::SCWPlatform::DSA absoulate path C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_platform/hw/arty_basic.xsa
+TRACE::2022-01-21.19:10:25::SCWPlatform::DSA directory C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_platform/hw
+TRACE::2022-01-21.19:10:25::SCWPlatform:: Platform Path C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_platform/hw/arty_basic.xsa
+TRACE::2022-01-21.19:10:25::SCWPlatform:: Unique name xilinx:arty-a7-35::0.0
+TRACE::2022-01-21.19:10:25::SCWPlatform::Trying to set the existing hwdb with name basic_design_wrapper_0
+TRACE::2022-01-21.19:10:25::SCWPlatform::Opened existing hwdb basic_design_wrapper_0
+TRACE::2022-01-21.19:10:25::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-01-21.19:10:25::SCWMssOS::Checking the sw design at  C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_platform/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-01-21.19:10:25::SCWMssOS::DEBUG:  swdes dump  C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_platform/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2022-01-21.19:10:25::SCWMssOS::Sw design exists and opened at  C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_platform/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-01-21.19:10:25::SCWWriter::formatted JSON is {
+	"platformName":	"reflow_process_platform",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"reflow_process_platform",
+	"platHandOff":	"C:/Users/ifstu/Vitis/Projects/reflow/hardware_export/digilent/artya7/arty_basic.xsa",
+	"platIntHandOff":	"<platformDir>/hw/arty_basic.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"reflow_process_platform",
+	"systems":	[{
+			"systemName":	"reflow_process_platform",
+			"systemDesc":	"reflow_process_platform",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"reflow_process_platform",
+			"sysActiveDom":	"standalone_domain",
+			"sysDefaultDom":	"standalone_domain",
+			"domains":	[{
+					"domainName":	"standalone_domain",
+					"domainDispName":	"standalone_domain",
+					"domainDesc":	"standalone_domain",
+					"processors":	"microblaze_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.3",
+					"mssFile":	"",
+					"md5Digest":	"0540edc0380e511909353a22354a5913",
+					"compatibleApp":	"",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+LOG::2022-01-21.19:10:25::SCWPlatform::Started generating the artifacts platform reflow_process_platform
+TRACE::2022-01-21.19:10:25::SCWPlatform::Sanity checking of platform is completed
+LOG::2022-01-21.19:10:25::SCWPlatform::Started generating the artifacts for system configuration reflow_process_platform
+LOG::2022-01-21.19:10:25::SCWSystem::Checking the domain standalone_domain
+LOG::2022-01-21.19:10:25::SCWSystem::Not a boot domain 
+LOG::2022-01-21.19:10:25::SCWSystem::Started Processing the domain standalone_domain
+TRACE::2022-01-21.19:10:25::SCWDomain::Generating domain artifcats
+TRACE::2022-01-21.19:10:25::SCWMssOS::Generating standalone artifcats
+TRACE::2022-01-21.19:10:25::SCWMssOS:: Copying the user libraries. 
+TRACE::2022-01-21.19:10:25::SCWPlatform::Trying to open the hw design at C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_platform/hw/arty_basic.xsa
+TRACE::2022-01-21.19:10:25::SCWPlatform::DSA given C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_platform/hw/arty_basic.xsa
+TRACE::2022-01-21.19:10:25::SCWPlatform::DSA absoulate path C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_platform/hw/arty_basic.xsa
+TRACE::2022-01-21.19:10:25::SCWPlatform::DSA directory C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_platform/hw
+TRACE::2022-01-21.19:10:25::SCWPlatform:: Platform Path C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_platform/hw/arty_basic.xsa
+TRACE::2022-01-21.19:10:25::SCWPlatform:: Unique name xilinx:arty-a7-35::0.0
+TRACE::2022-01-21.19:10:25::SCWPlatform::Trying to set the existing hwdb with name basic_design_wrapper_0
+TRACE::2022-01-21.19:10:25::SCWPlatform::Opened existing hwdb basic_design_wrapper_0
+TRACE::2022-01-21.19:10:25::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-01-21.19:10:25::SCWMssOS::Checking the sw design at  C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_platform/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-01-21.19:10:25::SCWMssOS::DEBUG:  swdes dump  C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_platform/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2022-01-21.19:10:25::SCWMssOS::Sw design exists and opened at  C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_platform/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-01-21.19:10:25::SCWMssOS::Completed writing the mss file at C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_platform/microblaze_0/standalone_domain/bsp
+TRACE::2022-01-21.19:10:25::SCWMssOS::Mss edits present, copying mssfile into export location C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_platform/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-01-21.19:10:25::SCWMssOS::bsp generated is upto date with the mss file. Skipping bsp generation.
+TRACE::2022-01-21.19:10:25::SCWMssOS::BSP is already built. skipping the bsp build ... 
+TRACE::2022-01-21.19:10:25::SCWDomain::Skipping the build for domain :  standalone_domain
+TRACE::2022-01-21.19:10:25::SCWMssOS::skipping the bsp build ... 
+TRACE::2022-01-21.19:10:25::SCWMssOS::Copying to export directory.
+TRACE::2022-01-21.19:10:25::SCWMssOS:: Checking if to create the Supporting Applications
+TRACE::2022-01-21.19:10:25::SCWMssOS:: No Linux domain exists, trying to generate FSBL 
+LOG::2022-01-21.19:10:25::SCWSystem::Completed Processing the domain standalone_domain
+LOG::2022-01-21.19:10:25::SCWSystem::Completed Processing the sysconfig reflow_process_platform
+LOG::2022-01-21.19:10:25::SCWPlatform::Completed generating the artifacts for system configuration reflow_process_platform
+TRACE::2022-01-21.19:10:25::SCWPlatform::Started preparing the platform 
+TRACE::2022-01-21.19:10:25::SCWSystem::Writing the bif file for system config reflow_process_platform
+TRACE::2022-01-21.19:10:25::SCWSystem::dir created 
+TRACE::2022-01-21.19:10:25::SCWSystem::Writing the bif 
+TRACE::2022-01-21.19:10:25::SCWPlatform::Started writing the spfm file 
+TRACE::2022-01-21.19:10:25::SCWPlatform::Started writing the xpfm file 
+TRACE::2022-01-21.19:10:25::SCWPlatform::Completed generating the platform
+TRACE::2022-01-21.19:10:25::SCWMssOS::Saving the mss changes C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_platform/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-01-21.19:10:25::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2022-01-21.19:10:25::SCWMssOS::Completed writemss as part of save.
+TRACE::2022-01-21.19:10:25::SCWMssOS::Commit changes completed.
+TRACE::2022-01-21.19:10:25::SCWPlatform::Trying to open the hw design at C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_platform/hw/arty_basic.xsa
+TRACE::2022-01-21.19:10:25::SCWPlatform::DSA given C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_platform/hw/arty_basic.xsa
+TRACE::2022-01-21.19:10:25::SCWPlatform::DSA absoulate path C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_platform/hw/arty_basic.xsa
+TRACE::2022-01-21.19:10:25::SCWPlatform::DSA directory C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_platform/hw
+TRACE::2022-01-21.19:10:25::SCWPlatform:: Platform Path C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_platform/hw/arty_basic.xsa
+TRACE::2022-01-21.19:10:25::SCWPlatform:: Unique name xilinx:arty-a7-35::0.0
+TRACE::2022-01-21.19:10:25::SCWPlatform::Trying to set the existing hwdb with name basic_design_wrapper_0
+TRACE::2022-01-21.19:10:25::SCWPlatform::Opened existing hwdb basic_design_wrapper_0
+TRACE::2022-01-21.19:10:25::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-01-21.19:10:25::SCWMssOS::Checking the sw design at  C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_platform/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-01-21.19:10:25::SCWMssOS::DEBUG:  swdes dump  C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_platform/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2022-01-21.19:10:25::SCWMssOS::Sw design exists and opened at  C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_platform/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-01-21.19:10:25::SCWPlatform::Trying to open the hw design at C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_platform/hw/arty_basic.xsa
+TRACE::2022-01-21.19:10:25::SCWPlatform::DSA given C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_platform/hw/arty_basic.xsa
+TRACE::2022-01-21.19:10:25::SCWPlatform::DSA absoulate path C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_platform/hw/arty_basic.xsa
+TRACE::2022-01-21.19:10:25::SCWPlatform::DSA directory C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_platform/hw
+TRACE::2022-01-21.19:10:25::SCWPlatform:: Platform Path C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_platform/hw/arty_basic.xsa
+TRACE::2022-01-21.19:10:25::SCWPlatform:: Unique name xilinx:arty-a7-35::0.0
+TRACE::2022-01-21.19:10:25::SCWPlatform::Trying to set the existing hwdb with name basic_design_wrapper_0
+TRACE::2022-01-21.19:10:25::SCWPlatform::Opened existing hwdb basic_design_wrapper_0
+TRACE::2022-01-21.19:10:25::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-01-21.19:10:25::SCWMssOS::Checking the sw design at  C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_platform/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-01-21.19:10:25::SCWMssOS::DEBUG:  swdes dump  C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_platform/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2022-01-21.19:10:25::SCWMssOS::Sw design exists and opened at  C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_platform/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-01-21.19:10:25::SCWPlatform::Trying to open the hw design at C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_platform/hw/arty_basic.xsa
+TRACE::2022-01-21.19:10:25::SCWPlatform::DSA given C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_platform/hw/arty_basic.xsa
+TRACE::2022-01-21.19:10:25::SCWPlatform::DSA absoulate path C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_platform/hw/arty_basic.xsa
+TRACE::2022-01-21.19:10:25::SCWPlatform::DSA directory C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_platform/hw
+TRACE::2022-01-21.19:10:25::SCWPlatform:: Platform Path C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_platform/hw/arty_basic.xsa
+TRACE::2022-01-21.19:10:25::SCWPlatform:: Unique name xilinx:arty-a7-35::0.0
+TRACE::2022-01-21.19:10:25::SCWPlatform::Trying to set the existing hwdb with name basic_design_wrapper_0
+TRACE::2022-01-21.19:10:25::SCWPlatform::Opened existing hwdb basic_design_wrapper_0
+TRACE::2022-01-21.19:10:25::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-01-21.19:10:25::SCWMssOS::Checking the sw design at  C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_platform/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-01-21.19:10:25::SCWMssOS::DEBUG:  swdes dump  C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_platform/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2022-01-21.19:10:25::SCWMssOS::Sw design exists and opened at  C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_platform/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-01-21.19:10:25::SCWWriter::formatted JSON is {
+	"platformName":	"reflow_process_platform",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"reflow_process_platform",
+	"platHandOff":	"C:/Users/ifstu/Vitis/Projects/reflow/hardware_export/digilent/artya7/arty_basic.xsa",
+	"platIntHandOff":	"<platformDir>/hw/arty_basic.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"reflow_process_platform",
+	"systems":	[{
+			"systemName":	"reflow_process_platform",
+			"systemDesc":	"reflow_process_platform",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"reflow_process_platform",
+			"sysActiveDom":	"standalone_domain",
+			"sysDefaultDom":	"standalone_domain",
+			"domains":	[{
+					"domainName":	"standalone_domain",
+					"domainDispName":	"standalone_domain",
+					"domainDesc":	"standalone_domain",
+					"processors":	"microblaze_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.3",
+					"mssFile":	"",
+					"md5Digest":	"0540edc0380e511909353a22354a5913",
+					"compatibleApp":	"",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+KEYINFO::2022-01-21.19:10:25::SCWPlatform::updated the xpfm file.
+TRACE::2022-01-21.19:10:25::SCWPlatform::Trying to open the hw design at C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_platform/hw/arty_basic.xsa
+TRACE::2022-01-21.19:10:25::SCWPlatform::DSA given C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_platform/hw/arty_basic.xsa
+TRACE::2022-01-21.19:10:25::SCWPlatform::DSA absoulate path C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_platform/hw/arty_basic.xsa
+TRACE::2022-01-21.19:10:25::SCWPlatform::DSA directory C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_platform/hw
+TRACE::2022-01-21.19:10:25::SCWPlatform:: Platform Path C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_platform/hw/arty_basic.xsa
+TRACE::2022-01-21.19:10:25::SCWPlatform:: Unique name xilinx:arty-a7-35::0.0
+TRACE::2022-01-21.19:10:25::SCWPlatform::Trying to set the existing hwdb with name basic_design_wrapper_0
+TRACE::2022-01-21.19:10:25::SCWPlatform::Opened existing hwdb basic_design_wrapper_0
+TRACE::2022-01-21.19:10:25::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-01-21.19:10:25::SCWMssOS::Checking the sw design at  C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_platform/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-01-21.19:10:25::SCWMssOS::DEBUG:  swdes dump  C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_platform/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2022-01-21.19:10:25::SCWMssOS::Sw design exists and opened at  C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_platform/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-01-21.19:10:25::SCWMssOS::Saving the mss changes C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_platform/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-01-21.19:10:25::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2022-01-21.19:10:25::SCWMssOS::Completed writemss as part of save.
+TRACE::2022-01-21.19:10:25::SCWMssOS::Commit changes completed.
+TRACE::2022-01-21.19:10:25::SCWPlatform::Trying to open the hw design at C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_platform/hw/arty_basic.xsa
+TRACE::2022-01-21.19:10:25::SCWPlatform::DSA given C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_platform/hw/arty_basic.xsa
+TRACE::2022-01-21.19:10:25::SCWPlatform::DSA absoulate path C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_platform/hw/arty_basic.xsa
+TRACE::2022-01-21.19:10:25::SCWPlatform::DSA directory C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_platform/hw
+TRACE::2022-01-21.19:10:25::SCWPlatform:: Platform Path C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_platform/hw/arty_basic.xsa
+TRACE::2022-01-21.19:10:25::SCWPlatform:: Unique name xilinx:arty-a7-35::0.0
+TRACE::2022-01-21.19:10:25::SCWPlatform::Trying to set the existing hwdb with name basic_design_wrapper_0
+TRACE::2022-01-21.19:10:25::SCWPlatform::Opened existing hwdb basic_design_wrapper_0
+TRACE::2022-01-21.19:10:25::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-01-21.19:10:25::SCWMssOS::Checking the sw design at  C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_platform/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-01-21.19:10:25::SCWMssOS::DEBUG:  swdes dump  C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_platform/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2022-01-21.19:10:25::SCWMssOS::Sw design exists and opened at  C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_platform/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-01-21.19:10:25::SCWPlatform::Trying to open the hw design at C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_platform/hw/arty_basic.xsa
+TRACE::2022-01-21.19:10:25::SCWPlatform::DSA given C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_platform/hw/arty_basic.xsa
+TRACE::2022-01-21.19:10:25::SCWPlatform::DSA absoulate path C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_platform/hw/arty_basic.xsa
+TRACE::2022-01-21.19:10:25::SCWPlatform::DSA directory C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_platform/hw
+TRACE::2022-01-21.19:10:25::SCWPlatform:: Platform Path C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_platform/hw/arty_basic.xsa
+TRACE::2022-01-21.19:10:25::SCWPlatform:: Unique name xilinx:arty-a7-35::0.0
+TRACE::2022-01-21.19:10:25::SCWPlatform::Trying to set the existing hwdb with name basic_design_wrapper_0
+TRACE::2022-01-21.19:10:25::SCWPlatform::Opened existing hwdb basic_design_wrapper_0
+TRACE::2022-01-21.19:10:25::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-01-21.19:10:25::SCWMssOS::Checking the sw design at  C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_platform/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-01-21.19:10:25::SCWMssOS::DEBUG:  swdes dump  C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_platform/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2022-01-21.19:10:25::SCWMssOS::Sw design exists and opened at  C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_platform/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-01-21.19:10:25::SCWPlatform::Trying to open the hw design at C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_platform/hw/arty_basic.xsa
+TRACE::2022-01-21.19:10:25::SCWPlatform::DSA given C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_platform/hw/arty_basic.xsa
+TRACE::2022-01-21.19:10:25::SCWPlatform::DSA absoulate path C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_platform/hw/arty_basic.xsa
+TRACE::2022-01-21.19:10:25::SCWPlatform::DSA directory C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_platform/hw
+TRACE::2022-01-21.19:10:25::SCWPlatform:: Platform Path C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_platform/hw/arty_basic.xsa
+TRACE::2022-01-21.19:10:25::SCWPlatform:: Unique name xilinx:arty-a7-35::0.0
+TRACE::2022-01-21.19:10:25::SCWPlatform::Trying to set the existing hwdb with name basic_design_wrapper_0
+TRACE::2022-01-21.19:10:25::SCWPlatform::Opened existing hwdb basic_design_wrapper_0
+TRACE::2022-01-21.19:10:25::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-01-21.19:10:25::SCWMssOS::Checking the sw design at  C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_platform/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-01-21.19:10:25::SCWMssOS::DEBUG:  swdes dump  C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_platform/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2022-01-21.19:10:25::SCWMssOS::Sw design exists and opened at  C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_platform/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-01-21.19:10:25::SCWWriter::formatted JSON is {
+	"platformName":	"reflow_process_platform",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"reflow_process_platform",
+	"platHandOff":	"C:/Users/ifstu/Vitis/Projects/reflow/hardware_export/digilent/artya7/arty_basic.xsa",
+	"platIntHandOff":	"<platformDir>/hw/arty_basic.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"reflow_process_platform",
+	"systems":	[{
+			"systemName":	"reflow_process_platform",
+			"systemDesc":	"reflow_process_platform",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"reflow_process_platform",
+			"sysActiveDom":	"standalone_domain",
+			"sysDefaultDom":	"standalone_domain",
+			"domains":	[{
+					"domainName":	"standalone_domain",
+					"domainDispName":	"standalone_domain",
+					"domainDesc":	"standalone_domain",
+					"processors":	"microblaze_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.3",
+					"mssFile":	"",
+					"md5Digest":	"0540edc0380e511909353a22354a5913",
+					"compatibleApp":	"",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+TRACE::2022-01-21.19:10:25::SCWPlatform::Trying to open the hw design at C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_platform/hw/arty_basic.xsa
+TRACE::2022-01-21.19:10:25::SCWPlatform::DSA given C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_platform/hw/arty_basic.xsa
+TRACE::2022-01-21.19:10:25::SCWPlatform::DSA absoulate path C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_platform/hw/arty_basic.xsa
+TRACE::2022-01-21.19:10:25::SCWPlatform::DSA directory C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_platform/hw
+TRACE::2022-01-21.19:10:25::SCWPlatform:: Platform Path C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_platform/hw/arty_basic.xsa
+TRACE::2022-01-21.19:10:25::SCWPlatform:: Unique name xilinx:arty-a7-35::0.0
+TRACE::2022-01-21.19:10:25::SCWPlatform::Trying to set the existing hwdb with name basic_design_wrapper_0
+TRACE::2022-01-21.19:10:25::SCWPlatform::Opened existing hwdb basic_design_wrapper_0
+TRACE::2022-01-21.19:10:25::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-01-21.19:10:25::SCWMssOS::Checking the sw design at  C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_platform/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-01-21.19:10:25::SCWMssOS::DEBUG:  swdes dump  C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_platform/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2022-01-21.19:10:25::SCWMssOS::Sw design exists and opened at  C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_platform/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-01-21.19:10:25::SCWPlatform::Trying to open the hw design at C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_platform/hw/arty_basic.xsa
+TRACE::2022-01-21.19:10:25::SCWPlatform::DSA given C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_platform/hw/arty_basic.xsa
+TRACE::2022-01-21.19:10:25::SCWPlatform::DSA absoulate path C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_platform/hw/arty_basic.xsa
+TRACE::2022-01-21.19:10:25::SCWPlatform::DSA directory C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_platform/hw
+TRACE::2022-01-21.19:10:25::SCWPlatform:: Platform Path C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_platform/hw/arty_basic.xsa
+TRACE::2022-01-21.19:10:25::SCWPlatform:: Unique name xilinx:arty-a7-35::0.0
+TRACE::2022-01-21.19:10:25::SCWPlatform::Trying to set the existing hwdb with name basic_design_wrapper_0
+TRACE::2022-01-21.19:10:25::SCWPlatform::Opened existing hwdb basic_design_wrapper_0
+TRACE::2022-01-21.19:10:25::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-01-21.19:10:25::SCWMssOS::Checking the sw design at  C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_platform/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-01-21.19:10:25::SCWMssOS::DEBUG:  swdes dump  C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_platform/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2022-01-21.19:10:25::SCWMssOS::Sw design exists and opened at  C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_platform/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-01-21.19:10:25::SCWPlatform::Trying to open the hw design at C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_platform/hw/arty_basic.xsa
+TRACE::2022-01-21.19:10:25::SCWPlatform::DSA given C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_platform/hw/arty_basic.xsa
+TRACE::2022-01-21.19:10:25::SCWPlatform::DSA absoulate path C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_platform/hw/arty_basic.xsa
+TRACE::2022-01-21.19:10:25::SCWPlatform::DSA directory C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_platform/hw
+TRACE::2022-01-21.19:10:25::SCWPlatform:: Platform Path C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_platform/hw/arty_basic.xsa
+TRACE::2022-01-21.19:10:25::SCWPlatform:: Unique name xilinx:arty-a7-35::0.0
+TRACE::2022-01-21.19:10:25::SCWPlatform::Trying to set the existing hwdb with name basic_design_wrapper_0
+TRACE::2022-01-21.19:10:25::SCWPlatform::Opened existing hwdb basic_design_wrapper_0
+TRACE::2022-01-21.19:10:25::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-01-21.19:10:25::SCWMssOS::Checking the sw design at  C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_platform/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-01-21.19:10:25::SCWMssOS::DEBUG:  swdes dump  C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_platform/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2022-01-21.19:10:25::SCWMssOS::Sw design exists and opened at  C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_platform/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-01-21.19:10:25::SCWMssOS::Saving the mss changes C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_platform/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-01-21.19:10:25::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2022-01-21.19:10:25::SCWMssOS::Completed writemss as part of save.
+TRACE::2022-01-21.19:10:25::SCWMssOS::Commit changes completed.
+TRACE::2022-01-21.19:10:25::SCWPlatform::Trying to open the hw design at C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_platform/hw/arty_basic.xsa
+TRACE::2022-01-21.19:10:25::SCWPlatform::DSA given C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_platform/hw/arty_basic.xsa
+TRACE::2022-01-21.19:10:25::SCWPlatform::DSA absoulate path C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_platform/hw/arty_basic.xsa
+TRACE::2022-01-21.19:10:25::SCWPlatform::DSA directory C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_platform/hw
+TRACE::2022-01-21.19:10:25::SCWPlatform:: Platform Path C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_platform/hw/arty_basic.xsa
+TRACE::2022-01-21.19:10:25::SCWPlatform:: Unique name xilinx:arty-a7-35::0.0
+TRACE::2022-01-21.19:10:25::SCWPlatform::Trying to set the existing hwdb with name basic_design_wrapper_0
+TRACE::2022-01-21.19:10:25::SCWPlatform::Opened existing hwdb basic_design_wrapper_0
+TRACE::2022-01-21.19:10:25::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-01-21.19:10:25::SCWMssOS::Checking the sw design at  C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_platform/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-01-21.19:10:25::SCWMssOS::DEBUG:  swdes dump  C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_platform/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2022-01-21.19:10:25::SCWMssOS::Sw design exists and opened at  C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_platform/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-01-21.19:10:25::SCWPlatform::Trying to open the hw design at C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_platform/hw/arty_basic.xsa
+TRACE::2022-01-21.19:10:25::SCWPlatform::DSA given C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_platform/hw/arty_basic.xsa
+TRACE::2022-01-21.19:10:25::SCWPlatform::DSA absoulate path C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_platform/hw/arty_basic.xsa
+TRACE::2022-01-21.19:10:25::SCWPlatform::DSA directory C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_platform/hw
+TRACE::2022-01-21.19:10:25::SCWPlatform:: Platform Path C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_platform/hw/arty_basic.xsa
+TRACE::2022-01-21.19:10:25::SCWPlatform:: Unique name xilinx:arty-a7-35::0.0
+TRACE::2022-01-21.19:10:25::SCWPlatform::Trying to set the existing hwdb with name basic_design_wrapper_0
+TRACE::2022-01-21.19:10:25::SCWPlatform::Opened existing hwdb basic_design_wrapper_0
+TRACE::2022-01-21.19:10:25::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-01-21.19:10:25::SCWMssOS::Checking the sw design at  C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_platform/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-01-21.19:10:25::SCWMssOS::DEBUG:  swdes dump  C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_platform/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2022-01-21.19:10:25::SCWMssOS::Sw design exists and opened at  C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_platform/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-01-21.19:10:25::SCWPlatform::Trying to open the hw design at C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_platform/hw/arty_basic.xsa
+TRACE::2022-01-21.19:10:25::SCWPlatform::DSA given C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_platform/hw/arty_basic.xsa
+TRACE::2022-01-21.19:10:25::SCWPlatform::DSA absoulate path C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_platform/hw/arty_basic.xsa
+TRACE::2022-01-21.19:10:25::SCWPlatform::DSA directory C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_platform/hw
+TRACE::2022-01-21.19:10:25::SCWPlatform:: Platform Path C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_platform/hw/arty_basic.xsa
+TRACE::2022-01-21.19:10:25::SCWPlatform:: Unique name xilinx:arty-a7-35::0.0
+TRACE::2022-01-21.19:10:25::SCWPlatform::Trying to set the existing hwdb with name basic_design_wrapper_0
+TRACE::2022-01-21.19:10:25::SCWPlatform::Opened existing hwdb basic_design_wrapper_0
+TRACE::2022-01-21.19:10:25::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-01-21.19:10:25::SCWMssOS::Checking the sw design at  C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_platform/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-01-21.19:10:25::SCWMssOS::DEBUG:  swdes dump  C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_platform/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2022-01-21.19:10:25::SCWMssOS::Sw design exists and opened at  C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_platform/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-01-21.19:10:25::SCWWriter::formatted JSON is {
+	"platformName":	"reflow_process_platform",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"reflow_process_platform",
+	"platHandOff":	"C:/Users/ifstu/Vitis/Projects/reflow/hardware_export/digilent/artya7/arty_basic.xsa",
+	"platIntHandOff":	"<platformDir>/hw/arty_basic.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"reflow_process_platform",
+	"systems":	[{
+			"systemName":	"reflow_process_platform",
+			"systemDesc":	"reflow_process_platform",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"reflow_process_platform",
+			"sysActiveDom":	"standalone_domain",
+			"sysDefaultDom":	"standalone_domain",
+			"domains":	[{
+					"domainName":	"standalone_domain",
+					"domainDispName":	"standalone on microblaze_0",
+					"domainDesc":	"standalone_domain",
+					"processors":	"microblaze_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.3",
+					"mssFile":	"",
+					"md5Digest":	"0540edc0380e511909353a22354a5913",
+					"compatibleApp":	"",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+TRACE::2022-01-21.19:10:25::SCWMssOS::Saving the mss changes C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_platform/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-01-21.19:10:25::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2022-01-21.19:10:25::SCWMssOS::Completed writemss as part of save.
+TRACE::2022-01-21.19:10:25::SCWMssOS::Commit changes completed.
+TRACE::2022-01-21.19:10:25::SCWPlatform::Trying to open the hw design at C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_platform/hw/arty_basic.xsa
+TRACE::2022-01-21.19:10:25::SCWPlatform::DSA given C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_platform/hw/arty_basic.xsa
+TRACE::2022-01-21.19:10:25::SCWPlatform::DSA absoulate path C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_platform/hw/arty_basic.xsa
+TRACE::2022-01-21.19:10:25::SCWPlatform::DSA directory C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_platform/hw
+TRACE::2022-01-21.19:10:26::SCWPlatform:: Platform Path C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_platform/hw/arty_basic.xsa
+TRACE::2022-01-21.19:10:26::SCWPlatform:: Unique name xilinx:arty-a7-35::0.0
+TRACE::2022-01-21.19:10:26::SCWPlatform::Trying to set the existing hwdb with name basic_design_wrapper_0
+TRACE::2022-01-21.19:10:26::SCWPlatform::Opened existing hwdb basic_design_wrapper_0
+TRACE::2022-01-21.19:10:26::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-01-21.19:10:26::SCWMssOS::Checking the sw design at  C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_platform/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-01-21.19:10:26::SCWMssOS::DEBUG:  swdes dump  C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_platform/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2022-01-21.19:10:26::SCWMssOS::Sw design exists and opened at  C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_platform/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-01-21.19:10:26::SCWPlatform::Trying to open the hw design at C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_platform/hw/arty_basic.xsa
+TRACE::2022-01-21.19:10:26::SCWPlatform::DSA given C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_platform/hw/arty_basic.xsa
+TRACE::2022-01-21.19:10:26::SCWPlatform::DSA absoulate path C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_platform/hw/arty_basic.xsa
+TRACE::2022-01-21.19:10:26::SCWPlatform::DSA directory C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_platform/hw
+TRACE::2022-01-21.19:10:26::SCWPlatform:: Platform Path C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_platform/hw/arty_basic.xsa
+TRACE::2022-01-21.19:10:26::SCWPlatform:: Unique name xilinx:arty-a7-35::0.0
+TRACE::2022-01-21.19:10:26::SCWPlatform::Trying to set the existing hwdb with name basic_design_wrapper_0
+TRACE::2022-01-21.19:10:26::SCWPlatform::Opened existing hwdb basic_design_wrapper_0
+TRACE::2022-01-21.19:10:26::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-01-21.19:10:26::SCWMssOS::Checking the sw design at  C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_platform/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-01-21.19:10:26::SCWMssOS::DEBUG:  swdes dump  C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_platform/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2022-01-21.19:10:26::SCWMssOS::Sw design exists and opened at  C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_platform/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-01-21.19:10:26::SCWPlatform::Trying to open the hw design at C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_platform/hw/arty_basic.xsa
+TRACE::2022-01-21.19:10:26::SCWPlatform::DSA given C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_platform/hw/arty_basic.xsa
+TRACE::2022-01-21.19:10:26::SCWPlatform::DSA absoulate path C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_platform/hw/arty_basic.xsa
+TRACE::2022-01-21.19:10:26::SCWPlatform::DSA directory C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_platform/hw
+TRACE::2022-01-21.19:10:26::SCWPlatform:: Platform Path C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_platform/hw/arty_basic.xsa
+TRACE::2022-01-21.19:10:26::SCWPlatform:: Unique name xilinx:arty-a7-35::0.0
+TRACE::2022-01-21.19:10:26::SCWPlatform::Trying to set the existing hwdb with name basic_design_wrapper_0
+TRACE::2022-01-21.19:10:26::SCWPlatform::Opened existing hwdb basic_design_wrapper_0
+TRACE::2022-01-21.19:10:26::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-01-21.19:10:26::SCWMssOS::Checking the sw design at  C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_platform/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-01-21.19:10:26::SCWMssOS::DEBUG:  swdes dump  C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_platform/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2022-01-21.19:10:26::SCWMssOS::Sw design exists and opened at  C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_platform/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-01-21.19:10:26::SCWWriter::formatted JSON is {
+	"platformName":	"reflow_process_platform",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"reflow_process_platform",
+	"platHandOff":	"C:/Users/ifstu/Vitis/Projects/reflow/hardware_export/digilent/artya7/arty_basic.xsa",
+	"platIntHandOff":	"<platformDir>/hw/arty_basic.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"reflow_process_platform",
+	"systems":	[{
+			"systemName":	"reflow_process_platform",
+			"systemDesc":	"reflow_process_platform",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"reflow_process_platform",
+			"sysActiveDom":	"standalone_domain",
+			"sysDefaultDom":	"standalone_domain",
+			"domains":	[{
+					"domainName":	"standalone_domain",
+					"domainDispName":	"standalone on microblaze_0",
+					"domainDesc":	"standalone_domain",
+					"processors":	"microblaze_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.3",
+					"mssFile":	"",
+					"md5Digest":	"0540edc0380e511909353a22354a5913",
+					"compatibleApp":	"",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+TRACE::2022-01-21.19:10:26::SCWPlatform::Clearing the existing platform
+TRACE::2022-01-21.19:10:26::SCWSystem::Clearing the existing sysconfig
+TRACE::2022-01-21.19:10:26::SCWMssOS::Removing the swdes entry for  C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_platform/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-01-21.19:10:26::SCWSystem::Clearing the domains completed.
+TRACE::2022-01-21.19:10:26::SCWPlatform::Clearing the opened hw db.
+TRACE::2022-01-21.19:10:26::SCWPlatform::DSA given C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_platform/hw/arty_basic.xsa
+TRACE::2022-01-21.19:10:26::SCWPlatform::DSA absoulate path C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_platform/hw/arty_basic.xsa
+TRACE::2022-01-21.19:10:26::SCWPlatform:: Platform location is C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_platform/hw
+TRACE::2022-01-21.19:10:26::SCWPlatform:: Platform Path C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_platform/hw/arty_basic.xsa
+TRACE::2022-01-21.19:10:26::SCWPlatform:: Unique name xilinx:arty-a7-35::0.0
+TRACE::2022-01-21.19:10:26::SCWPlatform::Removing the HwDB with name C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_platform/hw/arty_basic.xsa
+TRACE::2022-01-21.19:10:26::SCWPlatform::Trying to open the hw design at C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_platform/hw/arty_basic.xsa
+TRACE::2022-01-21.19:10:26::SCWPlatform::DSA given C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_platform/hw/arty_basic.xsa
+TRACE::2022-01-21.19:10:26::SCWPlatform::DSA absoulate path C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_platform/hw/arty_basic.xsa
+TRACE::2022-01-21.19:10:26::SCWPlatform::DSA directory C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_platform/hw
+TRACE::2022-01-21.19:10:26::SCWPlatform:: Platform Path C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_platform/hw/arty_basic.xsa
+TRACE::2022-01-21.19:10:26::SCWPlatform:: Unique name xilinx:arty-a7-35::0.0
+TRACE::2022-01-21.19:10:26::SCWPlatform::Do not have an existing db opened. 
+TRACE::2022-01-21.19:10:26::SCWPlatform::Opened new HwDB with name basic_design_wrapper_1
+TRACE::2022-01-21.19:10:26::SCWReader::Active system found as  reflow_process_platform
+TRACE::2022-01-21.19:10:26::SCWReader::Handling sysconfig reflow_process_platform
+TRACE::2022-01-21.19:10:26::SCWDomain::checking for install qemu data   : 
+TRACE::2022-01-21.19:10:26::SCWPlatform::Trying to open the hw design at C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_platform/hw/arty_basic.xsa
+TRACE::2022-01-21.19:10:26::SCWPlatform::DSA given C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_platform/hw/arty_basic.xsa
+TRACE::2022-01-21.19:10:26::SCWPlatform::DSA absoulate path C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_platform/hw/arty_basic.xsa
+TRACE::2022-01-21.19:10:26::SCWPlatform::DSA directory C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_platform/hw
+TRACE::2022-01-21.19:10:26::SCWPlatform:: Platform Path C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_platform/hw/arty_basic.xsa
+TRACE::2022-01-21.19:10:26::SCWPlatform:: Unique name xilinx:arty-a7-35::0.0
+TRACE::2022-01-21.19:10:26::SCWPlatform::Trying to set the existing hwdb with name basic_design_wrapper_1
+TRACE::2022-01-21.19:10:26::SCWPlatform::Opened existing hwdb basic_design_wrapper_1
+TRACE::2022-01-21.19:10:26::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-01-21.19:10:26::SCWPlatform::Trying to open the hw design at C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_platform/hw/arty_basic.xsa
+TRACE::2022-01-21.19:10:26::SCWPlatform::DSA given C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_platform/hw/arty_basic.xsa
+TRACE::2022-01-21.19:10:26::SCWPlatform::DSA absoulate path C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_platform/hw/arty_basic.xsa
+TRACE::2022-01-21.19:10:26::SCWPlatform::DSA directory C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_platform/hw
+TRACE::2022-01-21.19:10:26::SCWPlatform:: Platform Path C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_platform/hw/arty_basic.xsa
+TRACE::2022-01-21.19:10:26::SCWPlatform:: Unique name xilinx:arty-a7-35::0.0
+TRACE::2022-01-21.19:10:26::SCWPlatform::Trying to set the existing hwdb with name basic_design_wrapper_1
+TRACE::2022-01-21.19:10:26::SCWPlatform::Opened existing hwdb basic_design_wrapper_1
+TRACE::2022-01-21.19:10:26::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-01-21.19:10:26::SCWPlatform::Trying to open the hw design at C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_platform/hw/arty_basic.xsa
+TRACE::2022-01-21.19:10:26::SCWPlatform::DSA given C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_platform/hw/arty_basic.xsa
+TRACE::2022-01-21.19:10:26::SCWPlatform::DSA absoulate path C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_platform/hw/arty_basic.xsa
+TRACE::2022-01-21.19:10:26::SCWPlatform::DSA directory C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_platform/hw
+TRACE::2022-01-21.19:10:26::SCWPlatform:: Platform Path C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_platform/hw/arty_basic.xsa
+TRACE::2022-01-21.19:10:26::SCWPlatform:: Unique name xilinx:arty-a7-35::0.0
+TRACE::2022-01-21.19:10:26::SCWPlatform::Trying to set the existing hwdb with name basic_design_wrapper_1
+TRACE::2022-01-21.19:10:26::SCWPlatform::Opened existing hwdb basic_design_wrapper_1
+TRACE::2022-01-21.19:10:26::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-01-21.19:10:26::SCWPlatform::Trying to open the hw design at C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_platform/hw/arty_basic.xsa
+TRACE::2022-01-21.19:10:26::SCWPlatform::DSA given C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_platform/hw/arty_basic.xsa
+TRACE::2022-01-21.19:10:26::SCWPlatform::DSA absoulate path C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_platform/hw/arty_basic.xsa
+TRACE::2022-01-21.19:10:26::SCWPlatform::DSA directory C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_platform/hw
+TRACE::2022-01-21.19:10:26::SCWPlatform:: Platform Path C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_platform/hw/arty_basic.xsa
+TRACE::2022-01-21.19:10:26::SCWPlatform:: Unique name xilinx:arty-a7-35::0.0
+TRACE::2022-01-21.19:10:26::SCWPlatform::Trying to set the existing hwdb with name basic_design_wrapper_1
+TRACE::2022-01-21.19:10:26::SCWPlatform::Opened existing hwdb basic_design_wrapper_1
+TRACE::2022-01-21.19:10:26::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-01-21.19:10:26::SCWMssOS::Checking the sw design at  C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_platform/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-01-21.19:10:26::SCWMssOS::DEBUG:  swdes dump  
+TRACE::2022-01-21.19:10:26::SCWMssOS::No sw design opened at  C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_platform/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-01-21.19:10:26::SCWMssOS::mss exists loading the mss file  C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_platform/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-01-21.19:10:26::SCWMssOS::Opened the sw design from mss  C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_platform/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-01-21.19:10:26::SCWMssOS::Adding the swdes entry C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_platform/microblaze_0/standalone_domain/bsp/system.mss with des name system
+TRACE::2022-01-21.19:10:26::SCWMssOS::updating the scw layer about changes
+TRACE::2022-01-21.19:10:26::SCWMssOS::Opened the sw design.  C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_platform/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-01-21.19:10:26::SCWMssOS::Saving the mss changes C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_platform/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-01-21.19:10:26::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2022-01-21.19:10:26::SCWMssOS::Completed writemss as part of save.
+TRACE::2022-01-21.19:10:26::SCWMssOS::Commit changes completed.
+TRACE::2022-01-21.19:10:26::SCWReader::Adding prebuilt librarypaths as   
+TRACE::2022-01-21.19:10:26::SCWReader::Adding prebuilt incpaths  as   
+TRACE::2022-01-21.19:10:26::SCWPlatform::Trying to open the hw design at C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_platform/hw/arty_basic.xsa
+TRACE::2022-01-21.19:10:26::SCWPlatform::DSA given C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_platform/hw/arty_basic.xsa
+TRACE::2022-01-21.19:10:26::SCWPlatform::DSA absoulate path C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_platform/hw/arty_basic.xsa
+TRACE::2022-01-21.19:10:26::SCWPlatform::DSA directory C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_platform/hw
+TRACE::2022-01-21.19:10:26::SCWPlatform:: Platform Path C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_platform/hw/arty_basic.xsa
+TRACE::2022-01-21.19:10:26::SCWPlatform:: Unique name xilinx:arty-a7-35::0.0
+TRACE::2022-01-21.19:10:26::SCWPlatform::Trying to set the existing hwdb with name basic_design_wrapper_1
+TRACE::2022-01-21.19:10:26::SCWPlatform::Opened existing hwdb basic_design_wrapper_1
+TRACE::2022-01-21.19:10:26::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-01-21.19:10:26::SCWMssOS::Checking the sw design at  C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_platform/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-01-21.19:10:26::SCWMssOS::DEBUG:  swdes dump  C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_platform/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2022-01-21.19:10:26::SCWMssOS::Sw design exists and opened at  C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_platform/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-01-21.19:10:26::SCWReader::No isolation master present  
+LOG::2022-01-21.19:10:32::SCWPlatform::Started generating the artifacts platform reflow_process_platform
+TRACE::2022-01-21.19:10:32::SCWPlatform::Sanity checking of platform is completed
+LOG::2022-01-21.19:10:32::SCWPlatform::Started generating the artifacts for system configuration reflow_process_platform
+LOG::2022-01-21.19:10:32::SCWSystem::Checking the domain standalone_domain
+LOG::2022-01-21.19:10:32::SCWSystem::Not a boot domain 
+LOG::2022-01-21.19:10:32::SCWSystem::Started Processing the domain standalone_domain
+TRACE::2022-01-21.19:10:32::SCWDomain::Generating domain artifcats
+TRACE::2022-01-21.19:10:32::SCWMssOS::Generating standalone artifcats
+TRACE::2022-01-21.19:10:32::SCWMssOS:: Copying the user libraries. 
+TRACE::2022-01-21.19:10:32::SCWPlatform::Trying to open the hw design at C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_platform/hw/arty_basic.xsa
+TRACE::2022-01-21.19:10:32::SCWPlatform::DSA given C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_platform/hw/arty_basic.xsa
+TRACE::2022-01-21.19:10:32::SCWPlatform::DSA absoulate path C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_platform/hw/arty_basic.xsa
+TRACE::2022-01-21.19:10:32::SCWPlatform::DSA directory C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_platform/hw
+TRACE::2022-01-21.19:10:32::SCWPlatform:: Platform Path C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_platform/hw/arty_basic.xsa
+TRACE::2022-01-21.19:10:32::SCWPlatform:: Unique name xilinx:arty-a7-35::0.0
+TRACE::2022-01-21.19:10:32::SCWPlatform::Trying to set the existing hwdb with name basic_design_wrapper_1
+TRACE::2022-01-21.19:10:32::SCWPlatform::Opened existing hwdb basic_design_wrapper_1
+TRACE::2022-01-21.19:10:32::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-01-21.19:10:32::SCWMssOS::Checking the sw design at  C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_platform/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-01-21.19:10:32::SCWMssOS::DEBUG:  swdes dump  C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_platform/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2022-01-21.19:10:32::SCWMssOS::Sw design exists and opened at  C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_platform/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-01-21.19:10:32::SCWMssOS::Completed writing the mss file at C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_platform/microblaze_0/standalone_domain/bsp
+TRACE::2022-01-21.19:10:32::SCWMssOS::Mss edits present, copying mssfile into export location C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_platform/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-01-21.19:10:32::SCWMssOS::bsp generated is upto date with the mss file. Skipping bsp generation.
+TRACE::2022-01-21.19:10:32::SCWMssOS::BSP is already built. skipping the bsp build ... 
+TRACE::2022-01-21.19:10:32::SCWDomain::Building the domain as part of full build :  standalone_domain
+TRACE::2022-01-21.19:10:32::SCWMssOS::doing bsp build ... 
+TRACE::2022-01-21.19:10:32::SCWMssOS::System Command Ran  C: & cd  C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_platform/microblaze_0/standalone_domain/bsp & make 
+TRACE::2022-01-21.19:10:32::SCWMssOS::make --no-print-directory seq_libs
+
+TRACE::2022-01-21.19:10:32::SCWMssOS::'Finished building libraries sequentially.'
+
+TRACE::2022-01-21.19:10:32::SCWMssOS::make -j --no-print-directory par_libs
+
+TRACE::2022-01-21.19:10:32::SCWMssOS::"Running Make include in microblaze_0/libsrc/bram_v4_5/src"
+
+TRACE::2022-01-21.19:10:32::SCWMssOS::make -C microblaze_0/libsrc/bram_v4_5/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILE
+TRACE::2022-01-21.19:10:32::SCWMssOS::R_FLAGS=  -O2 -c -mcpu=v11.0 -mhard-float -mlittle-endian -mno-xl-soft-mul -mxl-float-convert -mxl-float-sqrt" "EXTRA_COMPILER_
+TRACE::2022-01-21.19:10:32::SCWMssOS::FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra"
+
+TRACE::2022-01-21.19:10:32::SCWMssOS::"Running Make include in microblaze_0/libsrc/cpu_v2_12/src"
+
+TRACE::2022-01-21.19:10:32::SCWMssOS::make -C microblaze_0/libsrc/cpu_v2_12/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILE
+TRACE::2022-01-21.19:10:32::SCWMssOS::R_FLAGS=  -O2 -c -mcpu=v11.0 -mhard-float -mlittle-endian -mno-xl-soft-mul -mxl-float-convert -mxl-float-sqrt" "EXTRA_COMPILER_
+TRACE::2022-01-21.19:10:32::SCWMssOS::FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra"
+
+TRACE::2022-01-21.19:10:32::SCWMssOS::"Running Make include in microblaze_0/libsrc/emaclite_v4_6/src"
+
+TRACE::2022-01-21.19:10:32::SCWMssOS::make -C microblaze_0/libsrc/emaclite_v4_6/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COM
+TRACE::2022-01-21.19:10:32::SCWMssOS::PILER_FLAGS=  -O2 -c -mcpu=v11.0 -mhard-float -mlittle-endian -mno-xl-soft-mul -mxl-float-convert -mxl-float-sqrt" "EXTRA_COMPI
+TRACE::2022-01-21.19:10:32::SCWMssOS::LER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra"
+
+TRACE::2022-01-21.19:10:32::SCWMssOS::"Running Make include in microblaze_0/libsrc/intc_v3_12/src"
+
+TRACE::2022-01-21.19:10:32::SCWMssOS::make -C microblaze_0/libsrc/intc_v3_12/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPIL
+TRACE::2022-01-21.19:10:32::SCWMssOS::ER_FLAGS=  -O2 -c -mcpu=v11.0 -mhard-float -mlittle-endian -mno-xl-soft-mul -mxl-float-convert -mxl-float-sqrt" "EXTRA_COMPILER
+TRACE::2022-01-21.19:10:32::SCWMssOS::_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra"
+
+TRACE::2022-01-21.19:10:32::SCWMssOS::"Running Make include in microblaze_0/libsrc/standalone_v7_3/src"
+
+TRACE::2022-01-21.19:10:32::SCWMssOS::make -C microblaze_0/libsrc/standalone_v7_3/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "C
+TRACE::2022-01-21.19:10:32::SCWMssOS::OMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mhard-float -mlittle-endian -mno-xl-soft-mul -mxl-float-convert -mxl-float-sqrt" "EXTRA_COM
+TRACE::2022-01-21.19:10:32::SCWMssOS::PILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra"
+
+TRACE::2022-01-21.19:10:32::SCWMssOS::"Running Make include in microblaze_0/libsrc/tmrctr_v4_7/src"
+
+TRACE::2022-01-21.19:10:32::SCWMssOS::make -C microblaze_0/libsrc/tmrctr_v4_7/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPI
+TRACE::2022-01-21.19:10:32::SCWMssOS::LER_FLAGS=  -O2 -c -mcpu=v11.0 -mhard-float -mlittle-endian -mno-xl-soft-mul -mxl-float-convert -mxl-float-sqrt" "EXTRA_COMPILE
+TRACE::2022-01-21.19:10:32::SCWMssOS::R_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra"
+
+TRACE::2022-01-21.19:10:32::SCWMssOS::"Running Make include in microblaze_0/libsrc/uartlite_v3_5/src"
+
+TRACE::2022-01-21.19:10:32::SCWMssOS::make -C microblaze_0/libsrc/uartlite_v3_5/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COM
+TRACE::2022-01-21.19:10:32::SCWMssOS::PILER_FLAGS=  -O2 -c -mcpu=v11.0 -mhard-float -mlittle-endian -mno-xl-soft-mul -mxl-float-convert -mxl-float-sqrt" "EXTRA_COMPI
+TRACE::2022-01-21.19:10:32::SCWMssOS::LER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra"
+
+TRACE::2022-01-21.19:10:32::SCWMssOS::"Running Make libs in microblaze_0/libsrc/bram_v4_5/src"
+
+TRACE::2022-01-21.19:10:32::SCWMssOS::make -C microblaze_0/libsrc/bram_v4_5/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILER_F
+TRACE::2022-01-21.19:10:32::SCWMssOS::LAGS=  -O2 -c -mcpu=v11.0 -mhard-float -mlittle-endian -mno-xl-soft-mul -mxl-float-convert -mxl-float-sqrt" "EXTRA_COMPILER_FLA
+TRACE::2022-01-21.19:10:32::SCWMssOS::GS=-g -ffunction-sections -fdata-sections -Wall -Wextra"
+
+TRACE::2022-01-21.19:10:32::SCWMssOS::"Running Make libs in microblaze_0/libsrc/cpu_v2_12/src"
+
+TRACE::2022-01-21.19:10:32::SCWMssOS::make -C microblaze_0/libsrc/cpu_v2_12/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILER_F
+TRACE::2022-01-21.19:10:32::SCWMssOS::LAGS=  -O2 -c -mcpu=v11.0 -mhard-float -mlittle-endian -mno-xl-soft-mul -mxl-float-convert -mxl-float-sqrt" "EXTRA_COMPILER_FLA
+TRACE::2022-01-21.19:10:32::SCWMssOS::GS=-g -ffunction-sections -fdata-sections -Wall -Wextra"
+
+TRACE::2022-01-21.19:10:32::SCWMssOS::"Running Make libs in microblaze_0/libsrc/emaclite_v4_6/src"
+
+TRACE::2022-01-21.19:10:32::SCWMssOS::make -C microblaze_0/libsrc/emaclite_v4_6/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPIL
+TRACE::2022-01-21.19:10:32::SCWMssOS::ER_FLAGS=  -O2 -c -mcpu=v11.0 -mhard-float -mlittle-endian -mno-xl-soft-mul -mxl-float-convert -mxl-float-sqrt" "EXTRA_COMPILER
+TRACE::2022-01-21.19:10:32::SCWMssOS::_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra"
+
+TRACE::2022-01-21.19:10:32::SCWMssOS::"Running Make libs in microblaze_0/libsrc/intc_v3_12/src"
+
+TRACE::2022-01-21.19:10:32::SCWMssOS::make -C microblaze_0/libsrc/intc_v3_12/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILER_
+TRACE::2022-01-21.19:10:32::SCWMssOS::FLAGS=  -O2 -c -mcpu=v11.0 -mhard-float -mlittle-endian -mno-xl-soft-mul -mxl-float-convert -mxl-float-sqrt" "EXTRA_COMPILER_FL
+TRACE::2022-01-21.19:10:32::SCWMssOS::AGS=-g -ffunction-sections -fdata-sections -Wall -Wextra"
+
+TRACE::2022-01-21.19:10:32::SCWMssOS::"Running Make libs in microblaze_0/libsrc/standalone_v7_3/src"
+
+TRACE::2022-01-21.19:10:32::SCWMssOS::make -C microblaze_0/libsrc/standalone_v7_3/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMP
+TRACE::2022-01-21.19:10:32::SCWMssOS::ILER_FLAGS=  -O2 -c -mcpu=v11.0 -mhard-float -mlittle-endian -mno-xl-soft-mul -mxl-float-convert -mxl-float-sqrt" "EXTRA_COMPIL
+TRACE::2022-01-21.19:10:32::SCWMssOS::ER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra"
+
+TRACE::2022-01-21.19:10:32::SCWMssOS::"Running Make libs in microblaze_0/libsrc/tmrctr_v4_7/src"
+
+TRACE::2022-01-21.19:10:32::SCWMssOS::make -C microblaze_0/libsrc/tmrctr_v4_7/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILER
+TRACE::2022-01-21.19:10:32::SCWMssOS::_FLAGS=  -O2 -c -mcpu=v11.0 -mhard-float -mlittle-endian -mno-xl-soft-mul -mxl-float-convert -mxl-float-sqrt" "EXTRA_COMPILER_F
+TRACE::2022-01-21.19:10:32::SCWMssOS::LAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra"
+
+TRACE::2022-01-21.19:10:32::SCWMssOS::"Running Make libs in microblaze_0/libsrc/uartlite_v3_5/src"
+
+TRACE::2022-01-21.19:10:32::SCWMssOS::make -C microblaze_0/libsrc/uartlite_v3_5/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPIL
+TRACE::2022-01-21.19:10:32::SCWMssOS::ER_FLAGS=  -O2 -c -mcpu=v11.0 -mhard-float -mlittle-endian -mno-xl-soft-mul -mxl-float-convert -mxl-float-sqrt" "EXTRA_COMPILER
+TRACE::2022-01-21.19:10:32::SCWMssOS::_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra"
+
+TRACE::2022-01-21.19:10:33::SCWMssOS::"DEBUG NON_LTO_OBJECTS is ../../../lib/microblaze_interrupt_handler.o"
+
+TRACE::2022-01-21.19:10:34::SCWMssOS::'Finished building libraries parallelly.'
+
+TRACE::2022-01-21.19:10:34::SCWMssOS::make --no-print-directory archive
+
+TRACE::2022-01-21.19:10:34::SCWMssOS::mb-ar -r  microblaze_0/lib/libxil.a microblaze_0/lib/xplatform_info.o microblaze_0/lib/xuartlite.o microblaze_0/lib/microblaze_
+TRACE::2022-01-21.19:10:34::SCWMssOS::disable_exceptions.o microblaze_0/lib/print.o microblaze_0/lib/xemaclite_intr.o microblaze_0/lib/xtmrctr_options.o microblaze_0
+TRACE::2022-01-21.19:10:34::SCWMssOS::/lib/_exit.o microblaze_0/lib/xil_testio.o microblaze_0/lib/microblaze_disable_dcache.o microblaze_0/lib/microblaze_flush_dcach
+TRACE::2022-01-21.19:10:34::SCWMssOS::e_range.o microblaze_0/lib/xuartlite_sinit.o microblaze_0/lib/microblaze_flush_cache_ext.o microblaze_0/lib/xil_misc_psreset_ap
+TRACE::2022-01-21.19:10:34::SCWMssOS::i.o microblaze_0/lib/xtmrctr.o microblaze_0/lib/xil_cache.o microblaze_0/lib/inbyte.o microblaze_0/lib/xbram_g.o microblaze_0/l
+TRACE::2022-01-21.19:10:34::SCWMssOS::ib/xuartlite_stats.o microblaze_0/lib/microblaze_exception_handler.o microblaze_0/lib/xbram_sinit.o microblaze_0/lib/microblaze
+TRACE::2022-01-21.19:10:34::SCWMssOS::_scrub.o microblaze_0/lib/microblaze_invalidate_dcache.o microblaze_0/lib/microblaze_disable_interrupts.o microblaze_0/lib/xbra
+TRACE::2022-01-21.19:10:34::SCWMssOS::m_selftest.o microblaze_0/lib/microblaze_interrupt_handler.o microblaze_0/lib/microblaze_disable_icache.o microblaze_0/lib/xil_
+TRACE::2022-01-21.19:10:34::SCWMssOS::mem.o microblaze_0/lib/xemaclite.o microblaze_0/lib/xuartlite_intr.o microblaze_0/lib/microblaze_flush_cache_ext_range.o microb
+TRACE::2022-01-21.19:10:34::SCWMssOS::laze_0/lib/xbram_intr.o microblaze_0/lib/xil_sleepcommon.o microblaze_0/lib/xil_printf.o microblaze_0/lib/xintc_g.o microblaze_
+TRACE::2022-01-21.19:10:34::SCWMssOS::0/lib/xuartlite_g.o microblaze_0/lib/xemaclite_g.o microblaze_0/lib/xintc_selftest.o microblaze_0/lib/xintc_l.o microblaze_0/li
+TRACE::2022-01-21.19:10:34::SCWMssOS::b/outbyte.o microblaze_0/lib/xtmrctr_intr.o microblaze_0/lib/microblaze_invalidate_dcache_range.o microblaze_0/lib/microblaze_i
+TRACE::2022-01-21.19:10:34::SCWMssOS::nvalidate_cache_ext.o microblaze_0/lib/microblaze_update_icache.o microblaze_0/lib/microblaze_sleep.o microblaze_0/lib/hw_excep
+TRACE::2022-01-21.19:10:34::SCWMssOS::tion_handler.o microblaze_0/lib/xuartlite_selftest.o microblaze_0/lib/microblaze_update_dcache.o microblaze_0/lib/xil_testcache
+TRACE::2022-01-21.19:10:34::SCWMssOS::.o microblaze_0/lib/microblaze_selftest.o microblaze_0/lib/microblaze_interrupts_g.o microblaze_0/lib/microblaze_enable_excepti
+TRACE::2022-01-21.19:10:34::SCWMssOS::ons.o microblaze_0/lib/xio.o microblaze_0/lib/xtmrctr_g.o microblaze_0/lib/microblaze_enable_dcache.o microblaze_0/lib/xbram.o 
+TRACE::2022-01-21.19:10:34::SCWMssOS::microblaze_0/lib/microblaze_invalidate_icache_range.o microblaze_0/lib/xtmrctr_selftest.o microblaze_0/lib/microblaze_init_dcac
+TRACE::2022-01-21.19:10:34::SCWMssOS::he_range.o microblaze_0/lib/microblaze_invalidate_icache.o microblaze_0/lib/errno.o microblaze_0/lib/xuartlite_l.o microblaze_0
+TRACE::2022-01-21.19:10:34::SCWMssOS::/lib/xil_util.o microblaze_0/lib/xintc_options.o microblaze_0/lib/microblaze_invalidate_cache_ext_range.o microblaze_0/lib/xint
+TRACE::2022-01-21.19:10:34::SCWMssOS::c_intr.o microblaze_0/lib/xil_exception.o microblaze_0/lib/pvr.o microblaze_0/lib/xtmrctr_l.o microblaze_0/lib/xil_testmem.o mi
+TRACE::2022-01-21.19:10:34::SCWMssOS::croblaze_0/lib/xemaclite_l.o microblaze_0/lib/microblaze_flush_dcache.o microblaze_0/lib/xil_clocking.o microblaze_0/lib/xil_as
+TRACE::2022-01-21.19:10:34::SCWMssOS::sert.o microblaze_0/lib/microblaze_enable_interrupts.o microblaze_0/lib/xemaclite_sinit.o microblaze_0/lib/microblaze_enable_ic
+TRACE::2022-01-21.19:10:34::SCWMssOS::ache.o microblaze_0/lib/xintc.o microblaze_0/lib/xemaclite_selftest.o microblaze_0/lib/xtmrctr_stats.o microblaze_0/lib/xtmrctr
+TRACE::2022-01-21.19:10:34::SCWMssOS::_sinit.o microblaze_0/lib/fcntl.o microblaze_0/lib/microblaze_init_icache_range.o
+
+TRACE::2022-01-21.19:10:34::SCWMssOS::'Finished building libraries'
+
+TRACE::2022-01-21.19:10:34::SCWMssOS::Copying to export directory.
+TRACE::2022-01-21.19:10:35::SCWMssOS:: Checking if to create the Supporting Applications
+TRACE::2022-01-21.19:10:35::SCWMssOS:: No Linux domain exists, trying to generate FSBL 
+LOG::2022-01-21.19:10:35::SCWSystem::Completed Processing the domain standalone_domain
+LOG::2022-01-21.19:10:35::SCWSystem::Completed Processing the sysconfig reflow_process_platform
+LOG::2022-01-21.19:10:35::SCWPlatform::Completed generating the artifacts for system configuration reflow_process_platform
+TRACE::2022-01-21.19:10:35::SCWPlatform::Started preparing the platform 
+TRACE::2022-01-21.19:10:35::SCWSystem::Writing the bif file for system config reflow_process_platform
+TRACE::2022-01-21.19:10:35::SCWSystem::dir created 
+TRACE::2022-01-21.19:10:35::SCWSystem::Writing the bif 
+TRACE::2022-01-21.19:10:35::SCWPlatform::Started writing the spfm file 
+TRACE::2022-01-21.19:10:35::SCWPlatform::Started writing the xpfm file 
+TRACE::2022-01-21.19:10:35::SCWPlatform::Completed generating the platform
+TRACE::2022-01-21.19:10:35::SCWMssOS::Saving the mss changes C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_platform/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-01-21.19:10:35::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2022-01-21.19:10:35::SCWMssOS::Completed writemss as part of save.
+TRACE::2022-01-21.19:10:35::SCWMssOS::Commit changes completed.
+TRACE::2022-01-21.19:10:35::SCWPlatform::Trying to open the hw design at C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_platform/hw/arty_basic.xsa
+TRACE::2022-01-21.19:10:35::SCWPlatform::DSA given C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_platform/hw/arty_basic.xsa
+TRACE::2022-01-21.19:10:35::SCWPlatform::DSA absoulate path C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_platform/hw/arty_basic.xsa
+TRACE::2022-01-21.19:10:35::SCWPlatform::DSA directory C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_platform/hw
+TRACE::2022-01-21.19:10:35::SCWPlatform:: Platform Path C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_platform/hw/arty_basic.xsa
+TRACE::2022-01-21.19:10:35::SCWPlatform:: Unique name xilinx:arty-a7-35::0.0
+TRACE::2022-01-21.19:10:35::SCWPlatform::Trying to set the existing hwdb with name basic_design_wrapper_1
+TRACE::2022-01-21.19:10:35::SCWPlatform::Opened existing hwdb basic_design_wrapper_1
+TRACE::2022-01-21.19:10:35::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-01-21.19:10:35::SCWMssOS::Checking the sw design at  C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_platform/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-01-21.19:10:35::SCWMssOS::DEBUG:  swdes dump  C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_platform/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2022-01-21.19:10:35::SCWMssOS::Sw design exists and opened at  C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_platform/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-01-21.19:10:35::SCWWriter::formatted JSON is {
+	"platformName":	"reflow_process_platform",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"reflow_process_platform",
+	"platHandOff":	"C:/Users/ifstu/Vitis/Projects/reflow/hardware_export/digilent/artya7/arty_basic.xsa",
+	"platIntHandOff":	"<platformDir>/hw/arty_basic.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"reflow_process_platform",
+	"systems":	[{
+			"systemName":	"reflow_process_platform",
+			"systemDesc":	"reflow_process_platform",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"reflow_process_platform",
+			"sysActiveDom":	"standalone_domain",
+			"sysDefaultDom":	"standalone_domain",
+			"domains":	[{
+					"domainName":	"standalone_domain",
+					"domainDispName":	"standalone on microblaze_0",
+					"domainDesc":	"standalone_domain",
+					"processors":	"microblaze_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.3",
+					"mssFile":	"",
+					"md5Digest":	"0540edc0380e511909353a22354a5913",
+					"compatibleApp":	"",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+KEYINFO::2022-01-21.19:10:35::SCWPlatform::updated the xpfm file.
+TRACE::2022-01-21.19:10:35::SCWPlatform::Trying to open the hw design at C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_platform/hw/arty_basic.xsa
+TRACE::2022-01-21.19:10:35::SCWPlatform::DSA given C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_platform/hw/arty_basic.xsa
+TRACE::2022-01-21.19:10:35::SCWPlatform::DSA absoulate path C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_platform/hw/arty_basic.xsa
+TRACE::2022-01-21.19:10:35::SCWPlatform::DSA directory C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_platform/hw
+TRACE::2022-01-21.19:10:35::SCWPlatform:: Platform Path C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_platform/hw/arty_basic.xsa
+TRACE::2022-01-21.19:10:35::SCWPlatform:: Unique name xilinx:arty-a7-35::0.0
+TRACE::2022-01-21.19:10:35::SCWPlatform::Trying to set the existing hwdb with name basic_design_wrapper_1
+TRACE::2022-01-21.19:10:35::SCWPlatform::Opened existing hwdb basic_design_wrapper_1
+TRACE::2022-01-21.19:10:35::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-01-21.19:10:35::SCWMssOS::Checking the sw design at  C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_platform/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-01-21.19:10:35::SCWMssOS::DEBUG:  swdes dump  C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_platform/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2022-01-21.19:10:35::SCWMssOS::Sw design exists and opened at  C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/process/reflow_process_platform/microblaze_0/standalone_domain/bsp/system.mss

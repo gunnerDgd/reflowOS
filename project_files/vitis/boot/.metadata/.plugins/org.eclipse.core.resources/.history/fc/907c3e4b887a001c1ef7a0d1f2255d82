@@ -1,0 +1,13 @@
+#include <cstdint>
+#include <cstddef>
+
+namespace reflowOS {
+namespace boot 	   {
+
+	struct init_memory_section
+	{
+		typedef void* pointer_type;
+	};
+
+}
+}

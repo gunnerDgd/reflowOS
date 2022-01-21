@@ -1,0 +1,26 @@
+#include <xparameters.h>
+#include <xil_printf.h>
+
+struct pcb
+{
+	int registers[13];
+	int ret_pointer  ;
+	int stack_pointer;
+};
+
+void test()
+{
+	asm volatile("br r15");
+	xil_printf  ("Hello Test #1");
+}
+
+int main()
+{
+	int a = 0;
+	asm volatile ("addi R21, R0, 3 \r\n"
+				  "add  R22, R0, %0\r\n"
+				  "sw   R21, R0, R22" :: "r"(&a));
+
+	xil_printf("Hello World\r\n");
+	xil_printf("%d\r\n", a);
+}

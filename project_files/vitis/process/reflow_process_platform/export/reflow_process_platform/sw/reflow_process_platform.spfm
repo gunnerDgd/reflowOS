@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sdx:platform sdx:vendor="xilinx.com"
+              sdx:library="sdx"
+              sdx:name="reflow_process_platform"
+              sdx:version="1.0"
+              sdx:schemaVersion="1.0"
+              xmlns:sdx="http://www.xilinx.com/sdx">
+    <sdx:description>
+reflow_process_platform
+    </sdx:description>
+    <sdx:systemConfigurations sdx:defaultConfiguration="reflow_process_platform">
+        <sdx:configuration sdx:name="reflow_process_platform"
+                           sdx:displayName="reflow_process_platform"
+                           sdx:defaultProcessorGroup="standalone_domain"
+                           sdx:runtimes="cpp">
+            <sdx:description>reflow_process_platform</sdx:description>
+            <sdx:bootImages sdx:default="standard">
+                <sdx:image sdx:name="standard"
+                            sdx:bif="reflow_process_platform/boot/reflow_process_platform.bif"
+                            sdx:readme="reflow_process_platform/boot/generic.readme"
+                            />
+            </sdx:bootImages>
+            <sdx:processorGroup sdx:name="standalone_domain"
+                                sdx:displayName="standalone on microblaze_0"
+                                sdx:cpuType="microblaze_0"
+                                sdx:cpuInstance="microblaze_0">
+                <sdx:os sdx:name="standalone"
+                        sdx:displayName="standalone"
+                        sdx:bspLibraryPaths="reflow_process_platform/standalone_domain/bsplib/lib"
+                        sdx:bspIncludePaths="reflow_process_platform/standalone_domain/bspinclude/include"
+                        sdx:bspConfig="reflow_process_platform/standalone_domain/system.mss"
+                />
+            </sdx:processorGroup>
+        </sdx:configuration>
+    </sdx:systemConfigurations>
+</sdx:platform>

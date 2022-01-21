@@ -1,0 +1,39 @@
+#include <reflowOS/boot/boot_memory.hpp>
+
+#define MODULE_STATIC(type) constexpr static type
+
+namespace reflowOS {
+namespace boot 	   {
+
+	struct module
+	{
+		typedef char  name_type[255];
+		typedef void* pointer_type;
+
+		MODULE_STATIC(pointer_type) base_pointer  = XPAR_MIG_7SERIES_0_BASEADDR;
+		MODULE_STATIC(pointer_type) table_size    = 4096;
+		MODULE_STATIC(pointer_type) module_size   = 4096 * 2;
+
+		name_type    module_name;
+		pointer_type module_pointer;
+	};
+
+	module* module_initialize();
+	void	module_shutdown  ();
+
+	template <typename ModuleType>
+	ModuleType* load_module  (const char*, ModuleType&&);
+	void		unload_module(const char*);
+
+}
+}
+
+template <typename ModuleType>
+ModuleType* reflowOS::boot::load_module  (const char*, ModuleType&& module)
+{
+}
+
+template <typename ModuleType>
+ModuleType* reflowOS::boot::unload_module(const char* module_name)
+{
+}

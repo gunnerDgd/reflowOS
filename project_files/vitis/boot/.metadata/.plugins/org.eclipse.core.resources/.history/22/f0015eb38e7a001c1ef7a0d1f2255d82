@@ -1,0 +1,46 @@
+#include <reflowOS/boot/boot_memory.hpp>
+#include <cstring>
+
+#define MODULE_STATIC(type) constexpr static type
+
+namespace reflowOS {
+namespace boot 	   {
+
+	struct module_entry
+	{
+		typedef char  	      name_type[112]; // 112 Byte
+		typedef std::uint64_t pointer_type  ; // 8 Byte
+		typedef std::uint64_t size_type     ; // 8 Byte		==> Total 128 Byte. 8192 / 128 = 64. 64 Module can be added in Boot Progress.
+
+		MODULE_STATIC(pointer_type) base_pointer = XPAR_MIG_7SERIES_0_BASEADDR;
+		MODULE_STATIC(pointer_type) table_size   = 4096;
+		MODULE_STATIC(pointer_type) module_size  = 4096 * 2;
+
+		name_type    module_name;
+		pointer_type module_pointer;
+		size_type    module_size;
+
+	};
+
+	typedef module_entry module_table[64];
+	MODULE_STATIC(std::uint64_t) module_table_section  = XPAR_MIG_7SERIES_0_BASEADDR;
+	MODULE_STATIC(std::uint64_t) module_entity_section =  module_table_section + 4096;
+
+	template <typename ModuleType>
+	ModuleType* module_load  (const char*);
+	template <typename ModuleType>
+	void 		module_unload(const char*);
+
+	void*		module_find  	 (const char*);
+	void*		module_find_empty();
+}
+}
+
+template <typename ModuleType>
+ModuleType* reflowOS::boot::load_module  (const char* name)
+{
+	ModuleType* reinterpret_cast<ModuleType*>()
+}
+
+template <typename ModuleType>
+ModuleType* reflowOS::boot::unload_module(const char* module_name);

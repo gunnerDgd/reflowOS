@@ -1,0 +1,13 @@
+#include <cstdint>
+#include <cstddef>
+
+#define MEMORY_STATIC()
+
+namespace reflowOS {
+namespace memory   {
+
+	typedef uint8_t
+
+
+}
+}
