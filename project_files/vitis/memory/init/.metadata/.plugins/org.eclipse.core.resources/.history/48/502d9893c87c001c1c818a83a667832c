@@ -1,0 +1,28 @@
+#include <reflowOS/base/memory/hardware/microblaze/mb_memory_traits.hpp>
+
+using namespace reflowOS::hardware_specific::microblaze;
+
+void								    microblaze_memory_traits::initialize()
+{
+
+}
+
+void								    microblaze_memory_traits::initialize()
+{
+
+}
+
+microblaze_memory_traits::alloc_pointer microblaze_memory_traits::allocate  (size_type alloc_count)
+{
+
+}
+
+microblaze_memory_traits::alloc_pointer microblaze_memory_traits::allocate  (size_type, alloc_pointer)
+{
+
+}
+
+void		  							microblaze_memory_traits::deallocate(size_type, alloc_pointer)
+{
+
+}

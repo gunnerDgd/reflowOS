@@ -1,0 +1,19 @@
+#include <reflowOS/base/process/asm/microblaze/context.hpp>
+
+void reflowOS::hardware_specific::microblaze::store_and_switch(reflowOS::hardware_specific::microblaze::context* prev,
+															   reflowOS::hardware_specific::microblaze::context* next)
+{
+	asm volatile("addi r1, r1, 8\r\n"
+				 "swi  %0, r1, 0\r\n" // Stores Current Stack Pointer to the "prev" struct.
+				 "lwi  r1, %1, 0\r\n" // Loads Next Stack Pointer from "next" struct.
+
+				 "addi ");
+}
+
+void reflowOS::hardware_specific::microblaze::store_and_execute(reflowOS::hardware_specific::microblaze::context* 				 prev,
+																reflowOS::hardware_specific::microblaze::context* 				 next,
+																reflowOS::hardware_specific::microblaze::context::execute_type   exec,
+																reflowOS::hardware_specific::microblaze::context::parameter_type exec_param)
+{
+
+}

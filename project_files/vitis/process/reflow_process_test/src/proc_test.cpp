@@ -1,26 +1,34 @@
 #include <xparameters.h>
 #include <xil_printf.h>
 
-struct pcb
+struct test_pcb
 {
-	int registers[13];
-	int ret_pointer  ;
-	int stack_pointer;
+	int stack_pointer,
+		instruction_pointer;
 };
 
-void test()
+extern "C"
 {
-	xil_printf  ("Hello Test #0\r\n");
-	asm volatile("lwi  r21, r1, 0 \r\n"
-				 "addi r21, r21, 8\r\n"
-				 "bra  r21");
-	xil_printf  ("Hello Test #1\r\n");
+	void store_and_switch (test_pcb*, test_pcb*);
+	void store_and_execute(test_pcb*, test_pcb*, void(*)(void*), void*);
+}
 
+test_pcb main_stk, test_stk;
+
+void test(void* unused)
+{
+	xil_printf("Hello Test #0\r\n");
+	store_and_switch(&test_stk, &main_stk);
+	xil_printf("Hello Test #1\r\n");
+	store_and_switch(&test_stk, &main_stk);
 }
 
 int main()
 {
-	xil_printf("Hello World\r\n");
-	test();
-	xil_printf("Hello Coroutine\r\n");
+	test_stk.stack_pointer = XPAR_MIG_7SERIES_0_BASEADDR + 1024*1024*132;
+	xil_printf		 ("\r\n\r\nHello Main #0\r\n");
+	store_and_execute(&main_stk, &test_stk, &test, NULL);
+	xil_printf		 ("Hello Main #1\r\n");
+	store_and_switch (&main_stk, &test_stk);
+	xil_printf		 ("Hello Main #2\r\n");
 }

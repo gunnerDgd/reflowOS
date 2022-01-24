@@ -25,4 +25,16 @@
 		<nature>org.eclipse.cdt.core.ccnature</nature>
 		<nature>org.eclipse.cdt.managedbuilder.core.ScannerConfigNature</nature>
 	</natures>
+	<linkedResources>
+		<link>
+			<name>process</name>
+			<type>2</type>
+			<location>C:/Users/ifstu/Vitis/Projects/reflowOS/include/reflowOS/base/process</location>
+		</link>
+		<link>
+			<name>src_process</name>
+			<type>2</type>
+			<location>C:/Users/ifstu/Vitis/Projects/reflowOS/source/base/process</location>
+		</link>
+	</linkedResources>
 </projectDescription>

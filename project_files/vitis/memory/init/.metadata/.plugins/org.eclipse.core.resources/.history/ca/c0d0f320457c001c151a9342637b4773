@@ -1,0 +1,15 @@
+#include <reflowOS/base/memory/init/init.hpp>
+
+#include <cstddef>
+#include <cstdint>
+
+namespace reflowOS {
+namespace memory   {
+
+	template <typename MemoryBackend, MemoryManager>
+	class basic_memory_manager
+	{
+
+	}
+}
+}

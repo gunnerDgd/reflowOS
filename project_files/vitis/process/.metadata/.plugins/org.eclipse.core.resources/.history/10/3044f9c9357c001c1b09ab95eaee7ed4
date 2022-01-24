@@ -1,0 +1,32 @@
+#include <xparameters.h>
+#include <xil_printf.h>
+
+extern "C"
+{
+	void store_and_switch (int*, int*);
+	void store_and_execute(int*, int*, void(*)(void*), void*);
+}
+
+
+struct test_pcb
+{
+	int stack_pointer,
+		instruction_pointer;
+};
+
+int main_stk = 0,
+	test_stk = XPAR_MIG_7SERIES_0_BASEADDR + 1024*1024*128;
+
+void test(void* unused)
+{
+	xil_printf("Hello Test #0\r\n");
+	store_and_switch(&test_stk, &main_stk);
+	xil_printf("Hello Test #1\r\n");
+}
+
+int main()
+{
+	xil_printf		 ("\r\n\r\nHello Main #0\r\n");
+	store_and_execute(&main_stk, &test_stk, &test, NULL);
+	xil_printf		 ("Hello Main #1\r\n");
+}

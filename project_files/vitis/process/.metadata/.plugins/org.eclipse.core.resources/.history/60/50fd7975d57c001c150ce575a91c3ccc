@@ -1,0 +1,25 @@
+#define CONTEXT_STD(type) constexpr static type
+
+namespace reflowOS {
+	template <typename ContextTraits>
+	class basic_context
+	{
+	public:
+		typedef 		 ContextTraits 				 traits_type;
+		typedef typename ContextTraits::context_type context_type;
+
+	public:
+		template <typename PrevContext, typename NextContext>
+		void switch_to (PrevContext&& prev, NextContext&& next) { traits_type::switch_to(prev, next); }
+
+		template <typename PrevContext, typename NextContext>
+		void execute_at(PrevContext&& prev, NextContext&& next) { traits_type::switch_to(prev, next); }
+
+	};
+
+	template <typename AnyContext>
+	struct is_context 							  { CONTEXT_STD(bool) value = false; };
+
+	template <typename AnyContext>
+	struct is_context<basic_context<ContextType>> { CONTEXT_STD(bool) value = false; };
+}

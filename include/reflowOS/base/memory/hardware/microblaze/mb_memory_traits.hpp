@@ -1,35 +1,24 @@
-#include <reflowOS/base/memory/basic_memory_manager.hpp>
+#include <reflowOS/base/memory/hardware/microblaze/mb_memory_type.hpp>
 #include <xparameters.h>
 
-namespace reflowOS 			{
-namespace hardware_specific {
-	class microblaze_memory_traits
+namespace reflowOS::hardware_specific::microblaze {
+	class memory_traits
 	{
 	public:
-		typedef AllocType   alloc_type;
-		typedef AllocType*  alloc_pointer;
+		typedef size_type		 alloc_size;
+		typedef std::uint8_t*    alloc_type;
 
-		typedef void*		alloc_raw_pointer;
-		typedef std::size_t alloc_size;
+		typedef std::uint32_t	 alloc_process;
+		typedef block_context*   alloc_pointer;
 
-	public:
-		microblaze_memory_traits (alloc_raw_pointer, alloc_size);
-		~microblaze_memory_traits();
+		MEMORY_STATIC(size_type) alloc_unit = block_size;
 
 	public:
-		alloc_pointer allocate  (alloc_size);
-		alloc_pointer allocate  (alloc_size, alloc_pointer);
-		void		  deallocate(alloc_size, alloc_pointer);
+		static void			 initialize();
+		static void			 shutdown  ();
 
-	private:
-
-
-	private:
-		alloc_raw_pointer __M_memtraits_base_pointer;
-		alloc_size		  __M_memtraits_base_size;
-
-	private:
-
+	public:
+		static block_tag*    allocate  (alloc_process alloc_proc = 1, alloc_pointer alloc_hint = nullptr);
+		static void		     deallocate(alloc_process, block_tag&);
 	};
-}
 }

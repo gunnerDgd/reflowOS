@@ -1,0 +1,11 @@
+#include <cstdint>
+#include <cstddef>
+
+namespace reflowOS {
+	template <typename ProcessContext, typename ProcessController>
+	class basic_process
+	{
+	public:
+		typedef
+	};
+}

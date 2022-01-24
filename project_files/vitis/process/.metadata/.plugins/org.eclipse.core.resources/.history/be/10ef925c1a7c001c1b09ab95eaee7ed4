@@ -1,0 +1,8 @@
+#include <cstdint>
+#include <cstddef>
+
+#define MICROBLAZE_INST_2(inst, op1) inst ## " " ## op1
+#define MICROBLAZE_INST_3(inst, op1, op2) inst ## " " ## op1 ## " " ## op2
+
+#define MICROBLAZE_STORE(reg, )
+#define MICROBLAZE_STORE_OFFSET()

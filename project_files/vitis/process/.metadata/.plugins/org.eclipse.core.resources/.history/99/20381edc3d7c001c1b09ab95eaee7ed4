@@ -1,0 +1,11 @@
+#include <reflowOS/base/process/basic_context.hpp>
+#include <reflowOS/base/process/asm/microblaze/context.hpp>
+
+namespace reflowOS {
+	template <>
+	class basic_context<hardware_specific::microblaze::context>
+	{
+	public:
+
+	};
+}

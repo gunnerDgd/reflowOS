@@ -1,0 +1,36 @@
+#include <cstdint>
+#include <cstddef>
+
+#include <xparameters.h>
+
+#define MEMORY_STATIC(type) constexpr static type
+
+namespace reflowOS::memory {
+
+	typedef std::uint32_t size_type;
+	typedef void* 		  pointer_type;
+
+	MEMORY_STATIC(size_type)    megabyte = 1024 * 1024;
+	MEMORY_STATIC(size_type)    kilobyte = 1024;
+
+	MEMORY_STATIC(size_type) 	memory_size = 128 * megabyte; // Size of the Entire Memory.
+	MEMORY_STATIC(size_type) 	memory_page = 4   * kilobyte; // Size of the Memory Page.
+
+	MEMORY_STATIC(size_type)    block_size 		 	   = memory_page * 32;
+	MEMORY_STATIC(size_type)    block_manage_count	   = 32;
+	MEMORY_STATIC(size_type)    block_entire_count	   = (memory_size / memory_page) - mman_manage_count;
+
+	MEMORY_STATIC(pointer_type) block_memory_base      = XPAR_MIG_7SERIES_0_BASEADDR + 128 * megabyte;
+	MEMORY_STATIC(pointer_type) block_manage_base      = block_memory_base;
+	MEMORY_STATIC(pointer_type) block_base_addres 	   = block_memory_base + mman_size;
+
+
+	typedef std::uint8_t block_context[];
+	struct 				 block_tag
+	{
+		typedef std::uint32_t mman_process_id;
+		typedef pointer_type  mman_pointer;
+	};
+
+	typedef uint8_t page[memory_page];
+}

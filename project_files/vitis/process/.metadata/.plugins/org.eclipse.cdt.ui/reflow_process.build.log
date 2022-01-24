@@ -1,0 +1,13 @@
+18:30:07 **** Build of configuration Debug for project reflow_process ****
+make all 
+'Building file: C:/Users/ifstu/Vitis/Projects/reflowOS/source/base/process/asm/microblaze/mb_context.cpp'
+'Invoking: MicroBlaze g++ compiler'
+mb-g++ -Wall -O0 -g3 -I"C:\Users\ifstu\Vitis\Projects\reflowOS\project_files\vitis\process\reflow_process_platform\microblaze_0\standalone_domain\bsp\microblaze_0\include" -I"C:\Users\ifstu\Vitis\Projects\reflowOS\include" -c -fmessage-length=0 -MT"src_process/asm/microblaze/mb_context.o" -mxl-soft-mul -MMD -MP -MF"src_process/asm/microblaze/mb_context.d" -MT"src_process/asm/microblaze/mb_context.o" -o "src_process/asm/microblaze/mb_context.o" "C:/Users/ifstu/Vitis/Projects/reflowOS/source/base/process/asm/microblaze/mb_context.cpp"
+C:\Users\ifstu\AppData\Local\Temp\ccfjGrEI.s: Assembler messages:
+C:\Users\ifstu\AppData\Local\Temp\ccfjGrEI.s:23: Error: register expected, but saw '%0,r1,'
+C:\Users\ifstu\AppData\Local\Temp\ccfjGrEI.s:23: Error: register expected, but saw '0,r1,0'
+C:\Users\ifstu\AppData\Local\Temp\ccfjGrEI.s:23: Fatal error: missing operand
+make: *** [src_process/asm/microblaze/subdir.mk:20: src_process/asm/microblaze/mb_context.o] Error 1
+
+18:30:07 Build Finished (took 299ms)
+

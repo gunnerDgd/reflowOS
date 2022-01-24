@@ -1,0 +1,20 @@
+#include <reflowOS/base/process/basic_context.hpp>
+#include <reflowOS/base/process/asm/microblaze/context.hpp>
+
+#include <type_traits>
+
+namespace reflowOS {
+	template <>
+	class basic_context<hardware_specific::microblaze::context>
+	{
+	public:
+		typedef hardware_specific::microblaze::context context_type;
+
+	public:
+		template <typename >
+		void switch_to();
+
+	private:
+		context_type __M_context_entity;
+	};
+}

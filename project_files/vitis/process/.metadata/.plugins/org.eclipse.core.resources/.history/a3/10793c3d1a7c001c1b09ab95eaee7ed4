@@ -1,0 +1,8 @@
+#include <cstdint>
+#include <cstddef>
+
+#include <
+
+
+#define MICROBLAZE_STORE(reg, )
+#define MICROBLAZE_STORE_OFFSET()

@@ -1,0 +1,21 @@
+#include <xparameters.h>
+#include <xil_printf.h>
+
+extern "C"
+{
+	#include "test.S"
+}
+
+
+int main_stk, test_stk;
+
+void test(void* unused)
+{
+	xil_printf();
+	store_and_switch(test_stk, main_stk);
+}
+
+int main()
+{
+	store_and_execute(main_stk, test_stk, test, NULL);
+}

@@ -16,3 +16,5 @@ platform write
 platform generate -domains 
 platform active {reflow_process_platform}
 platform generate
+platform active {reflow_process_platform}
+platform generate -domains 

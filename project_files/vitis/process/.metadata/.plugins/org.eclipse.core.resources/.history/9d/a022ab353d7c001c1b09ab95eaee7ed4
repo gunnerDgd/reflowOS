@@ -1,0 +1,5 @@
+
+namespace reflowOS {
+	template <typename ContextType>
+	class basic_context;
+}

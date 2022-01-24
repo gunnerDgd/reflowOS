@@ -1,0 +1,13 @@
+#include <cstdint>
+#include <cstddef>
+
+namespace reflowOS 			{
+namespace hardware_specific {
+
+	struct microblaze_context
+	{
+		typedef std::uint32_t register_type;
+	};
+
+}
+}

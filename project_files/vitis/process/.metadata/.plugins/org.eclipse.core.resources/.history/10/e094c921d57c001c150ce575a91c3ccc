@@ -1,0 +1,12 @@
+#define CONTEXT_STD(type) constexpr static type
+
+namespace reflowOS {
+	template <typename ContextType>
+	class basic_context;
+
+	template <typename AnyContext>
+	struct is_context 							  { CONTEXT_STD(bool) value = false; };
+
+	template <typename AnyContext>
+	struct is_context<basic_context<ContextType>> { CONTEXT_STD(bool) value = false; };
+}

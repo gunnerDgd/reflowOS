@@ -1,15 +1,16 @@
 #include <reflowOS/base/memory/init/init.hpp>
-
-#define MMAN_ITERATE_START(it_name) for (std::uint32_t it_name = 0 ; it_name < mman_manage_page_count ; it_name++) {
-#define MMAN_ITERATE_END }
+#include <reflowOS/base/memory/init/init_type.hpp>
 
 void reflowOS::memory::mman_init	()
 {
-	page_entity* init_entry = reinterpret_cast<page_entity*>(mman_base);
+	mman_page* init_list = reinterpret_cast<mman_page*>(mman_manage_base);
+	uint8_t  * init_page = reinterpret_cast<uint8_t*>  (mman_base);
 
-	MMAN_ITEREATE_START(it_page)
-		init_entry[it_page].block_id = it_page;
-	MMAN_ITERATE_END
+	for(size_type init_it = 0 ; init_it < mman_entire_count ; init_it++)
+	{
+		init_list[init_it].mman_pointer = init_page;
+		std::memset(init_page, mman_);
+	}
 }
 
 void reflowOS::memory::mman_shutdown()
