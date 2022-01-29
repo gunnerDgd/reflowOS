@@ -2,18 +2,18 @@
 #include <cstddef>
 
 namespace reflowOS {
-	template <typename ProcessContext, typename ProcessController>
+	template <typename ProcessContext>
 	class basic_process
 	{
 	public:
-		typedef ProcessContext    								 context_type   ;
-		typedef ProcessController 								 controller_type;
-		typedef basic_process<ProcessContext, ProcessController> this_type	    ;
+		typedef ProcessContext    			  context_type;
+		typedef basic_process<ProcessContext> this_type	  ;
 
 	public:
+		c
 
 	private:
-		context_type    __M_process_context;
-		controller_type __M_process_controller;
+		context_type    *__M_process_context;
+
 	};
 }

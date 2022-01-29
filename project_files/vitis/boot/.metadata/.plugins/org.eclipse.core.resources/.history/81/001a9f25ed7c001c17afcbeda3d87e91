@@ -1,0 +1,9 @@
+#include <reflowOS/base/boot/boot_data.hpp>
+
+
+namespace reflowOS::boot {
+	void boot_main()
+	{
+		reflowOS::hardware_specific::microblaze::memory_traits::initialize();
+	}
+}

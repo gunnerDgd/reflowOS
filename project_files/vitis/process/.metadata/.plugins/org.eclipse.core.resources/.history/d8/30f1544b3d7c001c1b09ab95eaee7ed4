@@ -1,9 +1,0 @@
-#define CONTEXT_STD(type)
-
-namespace reflowOS {
-	template <typename ContextType>
-	class basic_context;
-
-	template <typename AnyContext>
-	struct is_context {};
-}

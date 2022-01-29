@@ -1,0 +1,11 @@
+#include <reflowOS/base/boot/hardware_specific/microblaze/boot_data.hpp>
+#include <reflowOS/base/memory/basic_memory_manager.hpp>
+
+static reflowOS::memory::basic_memory_manager<reflowOS::hardware_specific::microblaze::memory_traits>
+
+namespace reflowOS::hardware_specific::microblaze {
+	void start_boot()
+	{
+		memory_traits::initialize(); // Initializes Memory System.
+	}
+}

@@ -10,3 +10,19 @@ timestamp=[2022-01-23 14:24:24], mode=WORKBENCH_UI_INIT, duration=0:00:00.950, d
 timestamp=[2022-01-24 12:12:13], mode=WORKBENCH_START, duration=0:00:12.622, duration_ms=12622, data={}
 timestamp=[2022-01-24 12:12:14], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.084, duration_ms=84, data={}
 timestamp=[2022-01-24 12:12:14], mode=WORKBENCH_UI_INIT, duration=0:00:00.903, duration_ms=903, data={editors_count=6, platform_editors_count=2, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=RemoteSystemsTempFiles,reflow_memory,reflow_memory_platform,reflow_memory_system}
+timestamp=[2022-01-25 17:31:53], mode=WORKBENCH_START, duration=0:00:09.744, duration_ms=9744, data={}
+timestamp=[2022-01-25 17:31:54], mode=WORKBENCH_UI_INIT, duration=0:00:00.685, duration_ms=685, data={editors_count=2, platform_editors_count=0, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=RemoteSystemsTempFiles,reflow_memory,reflow_memory_platform,reflow_memory_system}
+timestamp=[2022-01-25 17:31:54], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.062, duration_ms=62, data={}
+timestamp=[2022-01-28 17:49:15], mode=WORKBENCH_START, duration=0:00:10.148, duration_ms=10148, data={}
+timestamp=[2022-01-28 17:49:15], mode=WORKBENCH_UI_INIT, duration=0:00:00.814, duration_ms=814, data={editors_count=4, platform_editors_count=0, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=RemoteSystemsTempFiles,reflow_memory,reflow_memory_platform,reflow_memory_system}
+timestamp=[2022-01-28 17:49:16], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.142, duration_ms=142, data={}
+timestamp=[2022-01-28 19:43:36], mode=PLATFORM_GENERATION, duration=0:00:08.260, duration_ms=8260, data={name=reflow_memory_platform}
+timestamp=[2022-01-28 19:43:37], mode=BUILD, duration=0:00:00.519, duration_ms=519, data={name=reflow_memory, configuration=Debug, clean_build=false}
+timestamp=[2022-01-28 19:43:37], mode=BUILD, duration=0:00:00.179, duration_ms=179, data={name=reflow_memory_system, configuration=Debug, clean_build=false}
+timestamp=[2022-01-28 19:45:28], mode=BUILD, duration=0:00:00.323, duration_ms=323, data={name=reflow_memory, configuration=Debug, clean_build=false}
+timestamp=[2022-01-28 19:45:39], mode=BUILD, duration=0:00:00.437, duration_ms=437, data={name=reflow_memory, configuration=Debug, clean_build=false}
+timestamp=[2022-01-28 19:49:45], mode=BUILD, duration=0:00:00.220, duration_ms=220, data={name=reflow_memory, configuration=Debug, clean_build=true}
+timestamp=[2022-01-28 19:49:45], mode=BUILD, duration=0:00:00.304, duration_ms=304, data={name=reflow_memory, configuration=Debug, clean_build=false}
+timestamp=[2022-01-28 19:51:34], mode=BUILD, duration=0:00:00.364, duration_ms=364, data={name=reflow_memory, configuration=Debug, clean_build=false}
+timestamp=[2022-01-28 19:51:50], mode=BUILD, duration=0:00:00.304, duration_ms=304, data={name=reflow_memory, configuration=Debug, clean_build=false}
+timestamp=[2022-01-28 19:53:01], mode=BUILD, duration=0:00:00.374, duration_ms=374, data={name=reflow_memory, configuration=Debug, clean_build=false}

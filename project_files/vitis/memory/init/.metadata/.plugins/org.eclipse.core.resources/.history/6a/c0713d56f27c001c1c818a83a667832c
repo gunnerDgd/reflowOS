@@ -1,0 +1,63 @@
+#include <cstddef>
+#include <cstdint>
+
+#include <type_traits>
+
+namespace reflowOS::memory {
+
+	template <typename MemoryBackend>
+	class basic_memory_manager
+	{
+	public:
+		typedef basic_memory_manager<MemoryBackend>   this_type;
+
+		typedef MemoryBackend						  alloc_backend;
+		typedef typename MemoryBackend::alloc_process alloc_process;
+		typedef typename MemoryBackend::alloc_type    alloc_type   ;
+		typedef typename MemoryBackend::alloc_pointer alloc_pointer;
+		typedef typename MemoryBackend::alloc_size    alloc_size   ;
+
+	public:
+		static this_type* initialize();
+		static void		  shutdown  ();
+
+	public:
+		alloc_pointer* 	  allocate  (alloc_process, alloc_size);
+		void	  		  deallocate();
+
+	private:
+
+	};
+}
+
+using namespace reflowOS::memory;
+
+template <typename MemoryBackend>
+typename basic_memory_manager<MemoryBackend>::this_type* basic_memory_manager<MemoryBackend>::initialize()
+{
+	return reinterpret_cast<this_type*>(alloc_backend::allocate(1, 1)); // Allocate One Page for Memory Manager.
+}
+
+template <typename MemoryBackend>
+void 	 basic_memory_manager<MemoryBackend>::shutdown()
+{
+	alloc_backend::shutdown();
+}
+
+template <typename MemoryBackend>
+void 	 basic_memory_manager<MemoryBackend>::allocate(alloc_process, alloc_size)
+{
+
+}
+
+template <typename MemoryBackend>
+void 	 basic_memory_manager<MemoryBackend>::allocate_aligned()
+{
+
+}
+
+template <typename MemoryBackend>
+void 	 basic_memory_manager<MemoryBackend>::deallocate	 ()
+{
+
+}

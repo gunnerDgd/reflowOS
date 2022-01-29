@@ -1,0 +1,10 @@
+#include <reflowOS/base/boot/hardware_specific/microblaze/boot_data.hpp>
+
+
+namespace reflowOS::hardware_specific::microblaze {
+	void start_boot()
+	{
+
+		memory_traits::initialize();
+	}
+}

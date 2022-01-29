@@ -2227,3 +2227,27 @@ con
 
 20:38:46 INFO  : Launch script is exported to file 'C:\Users\ifstu\Vitis\Projects\reflowOS\project_files\vitis\process\reflow_process_test_system\_ide\scripts\debugger_reflow_process_test-default.tcl'
 22:01:34 INFO  : Disconnected from the channel tcfchan#27.
+13:09:32 INFO  : Launching XSCT server: xsct.bat -n  -interactive C:\Users\ifstu\Vitis\Projects\reflowOS\project_files\vitis\process\temp_xsdb_launch_script.tcl
+13:09:34 INFO  : XSCT server has started successfully.
+13:09:34 INFO  : plnx-install-location is set to ''
+13:09:34 INFO  : Successfully done setting XSCT server connection channel  
+13:09:34 INFO  : Successfully done setting workspace for the tool. 
+13:09:38 INFO  : Platform repository initialization has completed.
+13:09:38 INFO  : Successfully done query RDI_DATADIR 
+13:09:39 INFO  : Registering command handlers for Vitis TCF services
+17:31:18 INFO  : Launching XSCT server: xsct.bat -n  -interactive C:\Users\ifstu\Vitis\Projects\reflowOS\project_files\vitis\process\temp_xsdb_launch_script.tcl
+17:31:20 INFO  : XSCT server has started successfully.
+17:31:20 INFO  : Successfully done setting XSCT server connection channel  
+17:31:20 INFO  : plnx-install-location is set to ''
+17:31:20 INFO  : Successfully done setting workspace for the tool. 
+17:31:24 INFO  : Platform repository initialization has completed.
+17:31:24 INFO  : Successfully done query RDI_DATADIR 
+17:31:24 INFO  : Registering command handlers for Vitis TCF services
+17:48:41 INFO  : Launching XSCT server: xsct.bat -n  -interactive C:\Users\ifstu\Vitis\Projects\reflowOS\project_files\vitis\process\temp_xsdb_launch_script.tcl
+17:48:43 INFO  : XSCT server has started successfully.
+17:48:44 INFO  : plnx-install-location is set to ''
+17:48:44 INFO  : Successfully done setting XSCT server connection channel  
+17:48:44 INFO  : Successfully done setting workspace for the tool. 
+17:48:48 INFO  : Platform repository initialization has completed.
+17:48:48 INFO  : Successfully done query RDI_DATADIR 
+17:48:49 INFO  : Registering command handlers for Vitis TCF services

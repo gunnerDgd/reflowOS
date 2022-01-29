@@ -1,7 +1,0 @@
-#include <reflowOS/boot/boot_module.hpp>
-
-reflowOS::boot::module* reflowOS::boot::module_initialize()
-{
-
-}
-void				    reflowOS::boot::module_shutdown  ();

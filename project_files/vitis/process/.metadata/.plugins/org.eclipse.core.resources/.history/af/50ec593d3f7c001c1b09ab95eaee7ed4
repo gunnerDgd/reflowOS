@@ -1,9 +1,0 @@
-#include <reflowOS/base/process/asm/microblaze/context.hpp>
-
-#include <tuple>
-#include <utility>
-
-namespace reflowOS::hardware_specific::microblaze {
-	void switch_to (context&, context&);
-	void execute_to();
-}

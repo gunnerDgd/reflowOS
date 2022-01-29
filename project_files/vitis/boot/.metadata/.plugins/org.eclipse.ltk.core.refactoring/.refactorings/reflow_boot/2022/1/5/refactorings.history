@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Rename resource &apos;reflow_boot/boot/microblaze&apos; to &apos;hardware_specifig&apos;" description="Rename resource &apos;microblaze&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="boot/microblaze" name="hardware_specifig" stamp="1643011977211" updateReferences="true"/>&#x0A;<refactoring comment="Rename resource &apos;reflow_boot/boot/hardware_specifig&apos; to &apos;hardware_specific&apos;" description="Rename resource &apos;hardware_specifig&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="boot/hardware_specifig" name="hardware_specific" stamp="1643011980774" updateReferences="true"/>
+</session>

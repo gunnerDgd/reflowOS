@@ -1,34 +1,28 @@
-15:57:30 INFO  : Registering command handlers for Vitis TCF services
-15:57:30 INFO  : Launching XSCT server: xsct.bat -n  -interactive C:\Users\ifstu\Vitis\Projects\reflowOS\project_files\vitis\boot\temp_xsdb_launch_script.tcl
-15:57:32 INFO  : XSCT server has started successfully.
-15:57:32 INFO  : Successfully done setting XSCT server connection channel  
-15:57:32 INFO  : plnx-install-location is set to ''
-15:57:32 INFO  : Successfully done query RDI_DATADIR 
-15:57:32 INFO  : Successfully done setting workspace for the tool. 
-15:57:33 INFO  : Platform repository initialization has completed.
-15:57:58 INFO  : Result from executing command 'getProjects': reflow_boot_platform
-15:57:58 INFO  : Result from executing command 'getPlatforms': 
-15:58:16 INFO  : Result from executing command 'getProjects': reflow_boot_platform
-15:58:16 INFO  : Result from executing command 'getPlatforms': reflow_boot_platform|C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/boot/reflow_boot_platform/export/reflow_boot_platform/reflow_boot_platform.xpfm
-15:58:43 INFO  : Launching XSCT server: xsct.bat -n  -interactive C:\Users\ifstu\Vitis\Projects\reflowOS\project_files\vitis\boot\temp_xsdb_launch_script.tcl
-15:58:45 INFO  : Registering command handlers for Vitis TCF services
-15:58:46 INFO  : XSCT server has started successfully.
-15:58:46 INFO  : plnx-install-location is set to ''
-15:58:46 INFO  : Successfully done setting XSCT server connection channel  
-15:58:46 INFO  : Successfully done query RDI_DATADIR 
-15:58:46 INFO  : Successfully done setting workspace for the tool. 
-15:58:48 INFO  : Platform repository initialization has completed.
-17:22:50 INFO  : Result from executing command 'getProjects': reflow_boot_platform
-17:22:50 INFO  : Result from executing command 'getPlatforms': reflow_boot_platform|C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/boot/reflow_boot_platform/export/reflow_boot_platform/reflow_boot_platform.xpfm
-17:22:51 INFO  : Checking for BSP changes to sync application flags for project 'reflow_boot'...
-17:23:15 INFO  : Checking for BSP changes to sync application flags for project 'reflow_boot'...
-17:23:51 INFO  : Checking for BSP changes to sync application flags for project 'reflow_boot'...
-17:25:27 INFO  : Checking for BSP changes to sync application flags for project 'reflow_boot'...
-17:26:04 INFO  : Checking for BSP changes to sync application flags for project 'reflow_boot'...
-17:26:34 INFO  : Checking for BSP changes to sync application flags for project 'reflow_boot'...
-17:26:43 INFO  : Checking for BSP changes to sync application flags for project 'reflow_boot'...
-17:27:41 INFO  : Checking for BSP changes to sync application flags for project 'reflow_boot'...
-17:27:50 INFO  : Checking for BSP changes to sync application flags for project 'reflow_boot'...
-17:39:34 INFO  : Checking for BSP changes to sync application flags for project 'reflow_boot'...
-17:39:51 INFO  : Checking for BSP changes to sync application flags for project 'reflow_boot'...
-17:48:19 INFO  : Checking for BSP changes to sync application flags for project 'reflow_boot'...
+17:03:46 INFO  : Registering command handlers for Vitis TCF services
+17:03:46 INFO  : Launching XSCT server: xsct.bat -n  -interactive C:\Users\ifstu\Vitis\Projects\reflowOS\project_files\vitis\boot\temp_xsdb_launch_script.tcl
+17:03:48 INFO  : XSCT server has started successfully.
+17:03:48 INFO  : Successfully done setting XSCT server connection channel  
+17:03:48 INFO  : plnx-install-location is set to ''
+17:03:48 INFO  : Successfully done query RDI_DATADIR 
+17:03:48 INFO  : Successfully done setting workspace for the tool. 
+17:03:49 INFO  : Platform repository initialization has completed.
+17:04:26 INFO  : Result from executing command 'getProjects': reflow_boot_platform
+17:04:26 INFO  : Result from executing command 'getPlatforms': 
+17:04:39 INFO  : Result from executing command 'getProjects': reflow_boot_platform
+17:04:39 INFO  : Result from executing command 'getPlatforms': reflow_boot_platform|C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/boot/reflow_boot_platform/export/reflow_boot_platform/reflow_boot_platform.xpfm
+17:30:34 INFO  : Launching XSCT server: xsct.bat -n  -interactive C:\Users\ifstu\Vitis\Projects\reflowOS\project_files\vitis\boot\temp_xsdb_launch_script.tcl
+17:30:36 INFO  : XSCT server has started successfully.
+17:30:36 INFO  : Successfully done setting XSCT server connection channel  
+17:30:36 INFO  : plnx-install-location is set to ''
+17:30:36 INFO  : Successfully done setting workspace for the tool. 
+17:30:40 INFO  : Platform repository initialization has completed.
+17:30:40 INFO  : Successfully done query RDI_DATADIR 
+17:30:41 INFO  : Registering command handlers for Vitis TCF services
+17:52:13 INFO  : Launching XSCT server: xsct.bat -n  -interactive C:\Users\ifstu\Vitis\Projects\reflowOS\project_files\vitis\boot\temp_xsdb_launch_script.tcl
+17:52:15 INFO  : XSCT server has started successfully.
+17:52:15 INFO  : Successfully done setting XSCT server connection channel  
+17:52:15 INFO  : plnx-install-location is set to ''
+17:52:15 INFO  : Successfully done setting workspace for the tool. 
+17:52:19 INFO  : Platform repository initialization has completed.
+17:52:19 INFO  : Successfully done query RDI_DATADIR 
+17:52:19 INFO  : Registering command handlers for Vitis TCF services

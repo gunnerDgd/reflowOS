@@ -2,5 +2,8 @@
 
 namespace reflowOS {
 	template <typename SchedPolicy, typename SchedWatermark>
-	class
+	class basic_memory_scheduler
+	{
+
+	};
 }

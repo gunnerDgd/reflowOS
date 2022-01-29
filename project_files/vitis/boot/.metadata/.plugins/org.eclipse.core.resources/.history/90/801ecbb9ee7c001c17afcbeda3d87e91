@@ -1,0 +1,14 @@
+#include <reflowOS/base/boot/hardware_specific/microblaze/boot_data.hpp>
+
+
+namespace reflowOS::system {
+	static  mman_type* memory_manager;
+}
+
+namespace reflowOS::hardware_specific::microblaze {
+	void start_boot()
+	{
+		reflowOS::system::mman_backend::initialize(); // Initializes Memory System.
+		reflowOS::system::memory_manager = reflowOS::system::mman_type::initialize(); // Initialize Memory Manager.
+	}
+}

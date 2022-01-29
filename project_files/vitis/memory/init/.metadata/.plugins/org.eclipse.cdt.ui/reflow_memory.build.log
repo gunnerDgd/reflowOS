@@ -1,0 +1,34 @@
+19:53:00 **** Incremental Build of configuration Debug for project reflow_memory ****
+make all 
+'Building file: C:/Users/ifstu/Vitis/Projects/reflowOS/source/base/memory/hardware/microblaze/mb_memory_traits.cpp'
+'Invoking: MicroBlaze g++ compiler'
+mb-g++ -Wall -O0 -g3 -I"C:\Users\ifstu\Vitis\Projects\reflowOS\include" -I"C:\Users\ifstu\Vitis\Projects\reflowOS\project_files\vitis\memory\init\reflow_memory_platform\microblaze_0\standalone_domain\bsp\microblaze_0\include" -c -fmessage-length=0 -MT"src_memory/hardware/microblaze/mb_memory_traits.o" -mxl-soft-mul -MMD -MP -MF"src_memory/hardware/microblaze/mb_memory_traits.d" -MT"src_memory/hardware/microblaze/mb_memory_traits.o" -o "src_memory/hardware/microblaze/mb_memory_traits.o" "C:/Users/ifstu/Vitis/Projects/reflowOS/source/base/memory/hardware/microblaze/mb_memory_traits.cpp"
+In file included from C:\Users\ifstu\Vitis\Projects\reflowOS\include/reflowOS/base/memory/hardware/microblaze/mb_memory_traits.hpp:1,
+                 from C:/Users/ifstu/Vitis/Projects/reflowOS/source/base/memory/hardware/microblaze/mb_memory_traits.cpp:1:
+C:\Users\ifstu\Vitis\Projects\reflowOS\include/reflowOS/base/memory/hardware/microblaze/mb_memory_type.hpp:42:53: error: 'reinterpret_cast<reflowOS::hardware_specific::microblaze::pointer_type {aka unsigned char*}>(2281701376)' is not a constant expression
+   42 |  MEMORY_STATIC(pointer_type) block_memory_base    = (pointer_type)(XPAR_MIG_7SERIES_0_BASEADDR + 128 * megabyte);     // Base Pointer of Entire Blocks.
+      |                                                     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\ifstu\Vitis\Projects\reflowOS\include/reflowOS/base/memory/hardware/microblaze/mb_memory_type.hpp:43:53: error: a reinterpret_cast is not a constant expression
+   43 |  MEMORY_STATIC(block_tag*)   block_manage_address = (block_tag*)   block_memory_base;         // Base Pointer of Block Management Tag.
+      |                                                     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from C:/Users/ifstu/Vitis/Projects/reflowOS/source/base/memory/hardware/microblaze/mb_memory_traits.cpp:1:
+C:\Users\ifstu\Vitis\Projects\reflowOS\include/reflowOS/base/memory/hardware/microblaze/mb_memory_traits.hpp:25:106: error: default argument missing for parameter 3 of 'static reflowOS::hardware_specific::microblaze::memory_traits::alloc_block* reflowOS::hardware_specific::microblaze::memory_traits::allocate_ranged(reflowOS::hardware_specific::microblaze::memory_traits::alloc_process, reflowOS::hardware_specific::microblaze::memory_traits::alloc_pointer, reflowOS::hardware_specific::microblaze::memory_traits::alloc_size)'
+   25 |   static alloc_block*  allocate_ranged(alloc_process alloc_proc = 1, alloc_pointer alloc_hint = nullptr, alloc_size);
+      |                                                                                                          ^~~~~~~~~~
+C:\Users\ifstu\Vitis\Projects\reflowOS\include/reflowOS/base/memory/hardware/microblaze/mb_memory_traits.hpp:25:54: note: ...following parameter 1 which has a default argument
+   25 |   static alloc_block*  allocate_ranged(alloc_process alloc_proc = 1, alloc_pointer alloc_hint = nullptr, alloc_size);
+      |                                        ~~~~~~~~~~~~~~^~~~~~~~~~~~~~
+C:\Users\ifstu\Vitis\Projects\reflowOS\include/reflowOS/base/memory/hardware/microblaze/mb_memory_traits.hpp:26:64: error: default argument missing for parameter 2 of 'static void reflowOS::hardware_specific::microblaze::memory_traits::deallocate(reflowOS::hardware_specific::microblaze::memory_traits::alloc_process, reflowOS::hardware_specific::microblaze::memory_traits::alloc_pointer)'
+   26 |   static void       deallocate  (alloc_process alloc_proc = 1, alloc_pointer);
+      |                                                                ^~~~~~~~~~~~~
+C:\Users\ifstu\Vitis\Projects\reflowOS\include/reflowOS/base/memory/hardware/microblaze/mb_memory_traits.hpp:26:48: note: ...following parameter 1 which has a default argument
+   26 |   static void       deallocate  (alloc_process alloc_proc = 1, alloc_pointer);
+      |                                  ~~~~~~~~~~~~~~^~~~~~~~~~~~~~
+C:/Users/ifstu/Vitis/Projects/reflowOS/source/base/memory/hardware/microblaze/mb_memory_traits.cpp: In static member function 'static reflowOS::hardware_specific::microblaze::block_tag* reflowOS::hardware_specific::microblaze::memory_traits::allocate_ranged(reflowOS::hardware_specific::microblaze::memory_traits::alloc_process, reflowOS::hardware_specific::microblaze::memory_traits::alloc_pointer, reflowOS::hardware_specific::microblaze::memory_traits::alloc_size)':
+C:/Users/ifstu/Vitis/Projects/reflowOS/source/base/memory/hardware/microblaze/mb_memory_traits.cpp:51:10: warning: unused variable 'aligned_flag' [-Wunused-variable]
+   51 |  bool    aligned_flag  = false;
+      |          ^~~~~~~~~~~~
+make: *** [src_memory/hardware/microblaze/subdir.mk:20: src_memory/hardware/microblaze/mb_memory_traits.o] Error 1
+
+19:53:01 Build Finished (took 364ms)
+

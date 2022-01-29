@@ -838,3 +838,553 @@ C Model Exception: C Model Status [Element basic_memory_manager.hpp does not exi
 	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:210)
 !SUBENTRY 1 org.eclipse.cdt.core 4 969 2022-01-24 14:14:45.880
 !MESSAGE Element basic_memory_manager.hpp does not exist.
+!SESSION 2022-01-25 17:31:30.285 -----------------------------------------------
+eclipse.buildId=2020.2
+java.version=11.0.2
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY org.eclipse.ui 4 4 2022-01-25 17:31:46.780
+!MESSAGE Plug-in 'org.eclipse.ui.editors' contributed an invalid Menu Extension (Path: 'navigate' is invalid): org.eclipse.ui.edit.text.gotoLastEditPosition
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-25 17:31:50.737
+!MESSAGE XSCT Command: [plnx-install-path  ; ::scw::scw_mode gui], Thread: Thread-10
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-25 17:31:50.737
+!MESSAGE XSCT Command: [set sdk::sdk_chan tcfchan#0], Thread: Thread-18
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-25 17:31:50.770
+!MESSAGE XSCT command with result: [plnx-install-path  ; ::scw::scw_mode gui], Result: [null, ]. Thread: Thread-10
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-25 17:31:50.771
+!MESSAGE XSCT command with result: [set sdk::sdk_chan tcfchan#0], Result: [null, tcfchan#0]. Thread: Thread-18
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-25 17:31:50.772
+!MESSAGE XSCT Command: [setws C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/memory/init], Thread: Thread-18
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-25 17:31:50.774
+!MESSAGE XSCT command with result: [setws C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/memory/init], Result: [null, ]. Thread: Thread-18
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-25 17:31:54.241
+!MESSAGE XSCT Command: [::hsi::utils::init_repo], Thread: Worker-3: Initializing s/w repositories
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-25 17:31:54.529
+!MESSAGE XSCT command with result: [::hsi::utils::init_repo], Result: [null, ]. Thread: Worker-3: Initializing s/w repositories
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-25 17:31:54.530
+!MESSAGE XSCT Command: [set query_var1 $::env(RDI_DATADIR)], Thread: Worker-3: Initializing s/w repositories
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-25 17:31:54.531
+!MESSAGE XSCT command with result: [set query_var1 $::env(RDI_DATADIR)], Result: [null, C:/Xilinx/Vitis/2020.2/data]. Thread: Worker-3: Initializing s/w repositories
+
+!ENTRY org.eclipse.launchbar.core 2 0 2022-01-25 17:34:54.182
+!MESSAGE Enablement expression is missing for descriptor type org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2022-01-25 17:34:54.198
+!MESSAGE Enablement expression is missing for config provider for org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2022-01-25 17:34:54.198
+!MESSAGE Enablement expression is missing for config provider for org.eclipse.cdt.debug.core.coreBuildDescriptorType
+!SESSION 2022-01-28 17:48:56.165 -----------------------------------------------
+eclipse.buildId=2020.2
+java.version=11.0.2
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY org.eclipse.ui 4 4 2022-01-28 17:49:08.210
+!MESSAGE Plug-in 'org.eclipse.ui.editors' contributed an invalid Menu Extension (Path: 'navigate' is invalid): org.eclipse.ui.edit.text.gotoLastEditPosition
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-28 17:49:12.125
+!MESSAGE XSCT Command: [set sdk::sdk_chan tcfchan#0], Thread: Thread-18
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-28 17:49:12.126
+!MESSAGE XSCT Command: [plnx-install-path  ; ::scw::scw_mode gui], Thread: Thread-10
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-28 17:49:12.141
+!MESSAGE XSCT command with result: [set sdk::sdk_chan tcfchan#0], Result: [null, tcfchan#0]. Thread: Thread-18
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-28 17:49:12.154
+!MESSAGE XSCT command with result: [plnx-install-path  ; ::scw::scw_mode gui], Result: [null, ]. Thread: Thread-10
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-28 17:49:12.155
+!MESSAGE XSCT Command: [setws C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/memory/init], Thread: Thread-18
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-28 17:49:12.158
+!MESSAGE XSCT command with result: [setws C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/memory/init], Result: [null, ]. Thread: Thread-18
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-28 17:49:15.946
+!MESSAGE XSCT Command: [::hsi::utils::init_repo], Thread: Worker-5: Initializing s/w repositories
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-28 17:49:16.256
+!MESSAGE XSCT command with result: [::hsi::utils::init_repo], Result: [null, ]. Thread: Worker-5: Initializing s/w repositories
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-28 17:49:16.257
+!MESSAGE XSCT Command: [set query_var1 $::env(RDI_DATADIR)], Thread: Worker-5: Initializing s/w repositories
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-28 17:49:16.258
+!MESSAGE XSCT command with result: [set query_var1 $::env(RDI_DATADIR)], Result: [null, C:/Xilinx/Vitis/2020.2/data]. Thread: Worker-5: Initializing s/w repositories
+
+!ENTRY org.eclipse.launchbar.core 2 0 2022-01-28 17:50:50.217
+!MESSAGE Enablement expression is missing for descriptor type org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2022-01-28 17:50:50.218
+!MESSAGE Enablement expression is missing for config provider for org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2022-01-28 17:50:50.219
+!MESSAGE Enablement expression is missing for config provider for org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-28 19:43:36.489
+!MESSAGE XSCT Command: [::hsi::utils::openhw C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/memory/init/reflow_memory_platform/export/reflow_memory_platform/hw/arty_basic.xsa], Thread: Worker-35: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-28 19:43:36.663
+!MESSAGE XSCT command with result: [::hsi::utils::openhw C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/memory/init/reflow_memory_platform/export/reflow_memory_platform/hw/arty_basic.xsa], Result: [null, ]. Thread: Worker-35: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-28 19:43:36.669
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/memory/init/reflow_memory_platform/export/reflow_memory_platform/hw/arty_basic.xsa C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/memory/init/reflow_memory_platform/export/reflow_memory_platform/sw/reflow_memory_platform/standalone_domain/system.mss ], Thread: Worker-35: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-28 19:43:36.674
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/memory/init/reflow_memory_platform/export/reflow_memory_platform/hw/arty_basic.xsa C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/memory/init/reflow_memory_platform/export/reflow_memory_platform/sw/reflow_memory_platform/standalone_domain/system.mss ], Result: [null, ]. Thread: Worker-35: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-28 19:43:36.675
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/memory/init/reflow_memory_platform/export/reflow_memory_platform/hw/arty_basic.xsa C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/memory/init/reflow_memory_platform/export/reflow_memory_platform/sw/reflow_memory_platform/standalone_domain/system.mss], Thread: Worker-35: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-28 19:43:36.694
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/memory/init/reflow_memory_platform/export/reflow_memory_platform/hw/arty_basic.xsa C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/memory/init/reflow_memory_platform/export/reflow_memory_platform/sw/reflow_memory_platform/standalone_domain/system.mss], Result: [null, {"procname": "microblaze_0",
+"osname": "standalone",
+"osver": "7.3",
+}]. Thread: Worker-35: Build Project
+
+!ENTRY com.xilinx.sdk.utils 1 0 2022-01-28 19:43:36.695
+!MESSAGE Generating MD5 hash for file: C:\Users\ifstu\Vitis\Projects\reflowOS\project_files\vitis\memory\init\reflow_memory_platform\export\reflow_memory_platform\sw\reflow_memory_platform\standalone_domain\system.mss ...
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-28 19:43:36.700
+!MESSAGE XSCT Command: [::hsi::utils::closesw C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/memory/init/reflow_memory_platform/export/reflow_memory_platform/sw/reflow_memory_platform/standalone_domain/system.mss], Thread: Worker-35: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-28 19:43:36.702
+!MESSAGE XSCT command with result: [::hsi::utils::closesw C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/memory/init/reflow_memory_platform/export/reflow_memory_platform/sw/reflow_memory_platform/standalone_domain/system.mss], Result: [null, ]. Thread: Worker-35: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-28 19:43:37.721
+!MESSAGE XSCT Command: [::hsi::utils::get_all_periphs -json C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/memory/init/reflow_memory_platform/export/reflow_memory_platform/hw/arty_basic.xsa], Thread: Worker-35: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-28 19:43:37.728
+!MESSAGE XSCT command with result: [::hsi::utils::get_all_periphs -json C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/memory/init/reflow_memory_platform/export/reflow_memory_platform/hw/arty_basic.xsa], Result: [null, {"axi_ethernetlite_0": {"hier_name": "axi_ethernetlite_0",
+"type": "axi_ethernetlite",
+"version": "3.0",
+"ip_type": "PERIPHERAL",
+},
+"axi_intc_0": {"hier_name": "axi_intc_0",
+"type": "axi_intc",
+"version": "4.1",
+"ip_type": "INTERRUPT_CNTLR",
+},
+"axi_interconnect_0": {"hier_name": "axi_interconnect_0",
+"type": "axi_interconnect",
+"version": "2.1",
+"ip_type": "BUS",
+},
+"axi_smc": {"hier_name": "axi_smc",
+"type": "smartconnect",
+"version": "1.0",
+"ip_type": "BUS",
+},
+"axi_timer_0": {"hier_name": "axi_timer_0",
+"type": "axi_timer",
+"version": "2.0",
+"ip_type": "PERIPHERAL",
+},
+"axi_uartlite_0": {"hier_name": "axi_uartlite_0",
+"type": "axi_uartlite",
+"version": "2.0",
+"ip_type": "PERIPHERAL",
+},
+"clk_wiz_0": {"hier_name": "clk_wiz_0",
+"type": "clk_wiz",
+"version": "6.0",
+"ip_type": "PERIPHERAL",
+},
+"mdm_1": {"hier_name": "mdm_1",
+"type": "mdm",
+"version": "3.2",
+"ip_type": "DEBUG",
+},
+"microblaze_0": {"hier_name": "microblaze_0",
+"type": "microblaze",
+"version": "11.0",
+"ip_type": "PROCESSOR",
+},
+"microblaze_0_local_memory_dlmb_bram_if_cntlr": {"hier_name": "microblaze_0_local_memory_dlmb_bram_if_cntlr",
+"type": "lmb_bram_if_cntlr",
+"version": "4.0",
+"ip_type": "MEMORY_CNTLR",
+},
+"microblaze_0_local_memory_dlmb_v10": {"hier_name": "microblaze_0_local_memory_dlmb_v10",
+"type": "lmb_v10",
+"version": "3.0",
+"ip_type": "BUS",
+},
+"microblaze_0_local_memory_ilmb_bram_if_cntlr": {"hier_name": "microblaze_0_local_memory_ilmb_bram_if_cntlr",
+"type": "lmb_bram_if_cntlr",
+"version": "4.0",
+"ip_type": "MEMORY_CNTLR",
+},
+"microblaze_0_local_memory_ilmb_v10": {"hier_name": "microblaze_0_local_memory_ilmb_v10",
+"type": "lmb_v10",
+"version": "3.0",
+"ip_type": "BUS",
+},
+"microblaze_0_local_memory_lmb_bram": {"hier_name": "microblaze_0_local_memory_lmb_bram",
+"type": "blk_mem_gen",
+"version": "8.4",
+"ip_type": "MEMORY",
+},
+"mig_7series_0": {"hier_name": "mig_7series_0",
+"type": "mig_7series",
+"version": "4.2",
+"ip_type": "MEMORY_CNTLR",
+},
+"rst_clk_wiz_0_100M": {"hier_name": "rst_clk_wiz_0_100M",
+"type": "proc_sys_reset",
+"version": "5.0",
+"ip_type": "PERIPHERAL",
+},
+"rst_mig_7series_0_81M": {"hier_name": "rst_mig_7series_0_81M",
+"type": "proc_sys_reset",
+"version": "5.0",
+"ip_type": "PERIPHERAL",
+},
+"xlconcat_0": {"hier_name": "xlconcat_0",
+"type": "xlconcat",
+"version": "2.1",
+"ip_type": "PERIPHERAL",
+},
+}]. Thread: Worker-35: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-28 19:45:28.587
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/memory/init/reflow_memory_platform/export/reflow_memory_platform/hw/arty_basic.xsa C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/memory/init/reflow_memory_platform/export/reflow_memory_platform/sw/reflow_memory_platform/standalone_domain/system.mss ], Thread: Worker-30: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-28 19:45:28.591
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/memory/init/reflow_memory_platform/export/reflow_memory_platform/hw/arty_basic.xsa C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/memory/init/reflow_memory_platform/export/reflow_memory_platform/sw/reflow_memory_platform/standalone_domain/system.mss ], Result: [null, ]. Thread: Worker-30: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-28 19:45:28.592
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/memory/init/reflow_memory_platform/export/reflow_memory_platform/hw/arty_basic.xsa C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/memory/init/reflow_memory_platform/export/reflow_memory_platform/sw/reflow_memory_platform/standalone_domain/system.mss], Thread: Worker-30: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-28 19:45:28.596
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/memory/init/reflow_memory_platform/export/reflow_memory_platform/hw/arty_basic.xsa C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/memory/init/reflow_memory_platform/export/reflow_memory_platform/sw/reflow_memory_platform/standalone_domain/system.mss], Result: [null, {"procname": "microblaze_0",
+"osname": "standalone",
+"osver": "7.3",
+}]. Thread: Worker-30: Build Project
+
+!ENTRY com.xilinx.sdk.utils 1 0 2022-01-28 19:45:28.597
+!MESSAGE Generating MD5 hash for file: C:\Users\ifstu\Vitis\Projects\reflowOS\project_files\vitis\memory\init\reflow_memory_platform\export\reflow_memory_platform\sw\reflow_memory_platform\standalone_domain\system.mss ...
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-28 19:45:28.599
+!MESSAGE XSCT Command: [::hsi::utils::closesw C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/memory/init/reflow_memory_platform/export/reflow_memory_platform/sw/reflow_memory_platform/standalone_domain/system.mss], Thread: Worker-30: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-28 19:45:28.601
+!MESSAGE XSCT command with result: [::hsi::utils::closesw C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/memory/init/reflow_memory_platform/export/reflow_memory_platform/sw/reflow_memory_platform/standalone_domain/system.mss], Result: [null, ]. Thread: Worker-30: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-28 19:45:38.554
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/memory/init/reflow_memory_platform/export/reflow_memory_platform/hw/arty_basic.xsa C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/memory/init/reflow_memory_platform/export/reflow_memory_platform/sw/reflow_memory_platform/standalone_domain/system.mss ], Thread: Worker-39: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-28 19:45:38.558
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/memory/init/reflow_memory_platform/export/reflow_memory_platform/hw/arty_basic.xsa C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/memory/init/reflow_memory_platform/export/reflow_memory_platform/sw/reflow_memory_platform/standalone_domain/system.mss ], Result: [null, ]. Thread: Worker-39: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-28 19:45:38.559
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/memory/init/reflow_memory_platform/export/reflow_memory_platform/hw/arty_basic.xsa C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/memory/init/reflow_memory_platform/export/reflow_memory_platform/sw/reflow_memory_platform/standalone_domain/system.mss], Thread: Worker-39: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-28 19:45:38.563
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/memory/init/reflow_memory_platform/export/reflow_memory_platform/hw/arty_basic.xsa C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/memory/init/reflow_memory_platform/export/reflow_memory_platform/sw/reflow_memory_platform/standalone_domain/system.mss], Result: [null, {"procname": "microblaze_0",
+"osname": "standalone",
+"osver": "7.3",
+}]. Thread: Worker-39: Build Project
+
+!ENTRY com.xilinx.sdk.utils 1 0 2022-01-28 19:45:38.564
+!MESSAGE Generating MD5 hash for file: C:\Users\ifstu\Vitis\Projects\reflowOS\project_files\vitis\memory\init\reflow_memory_platform\export\reflow_memory_platform\sw\reflow_memory_platform\standalone_domain\system.mss ...
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-28 19:45:38.565
+!MESSAGE XSCT Command: [::hsi::utils::closesw C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/memory/init/reflow_memory_platform/export/reflow_memory_platform/sw/reflow_memory_platform/standalone_domain/system.mss], Thread: Worker-39: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-28 19:45:38.567
+!MESSAGE XSCT command with result: [::hsi::utils::closesw C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/memory/init/reflow_memory_platform/export/reflow_memory_platform/sw/reflow_memory_platform/standalone_domain/system.mss], Result: [null, ]. Thread: Worker-39: Build Project
+
+!ENTRY org.eclipse.core.resources 4 2 2022-01-28 19:45:39.024
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.core.resources".
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException(/reflow_memory/Debug/src_memory/init)[368]: java.lang.Exception: Resource '/reflow_memory/Debug/src_memory/init' does not exist.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:330)
+	at org.eclipse.core.internal.resources.Resource.checkAccessible(Resource.java:204)
+	at org.eclipse.core.internal.resources.Container.members(Container.java:244)
+	at org.eclipse.core.internal.resources.Container.members(Container.java:231)
+	at org.eclipse.cdt.managedbuilder.makegen.gnu.GnuMakefileGenerator.generateDependencies(GnuMakefileGenerator.java:598)
+	at com.xilinx.sdk.managedbuilder.XilinxGnuMakefileGenerator.generateDependencies(XilinxGnuMakefileGenerator.java:35)
+	at org.eclipse.cdt.managedbuilder.internal.core.CommonBuilder.performPostbuildGeneration(CommonBuilder.java:856)
+	at org.eclipse.cdt.managedbuilder.internal.core.CommonBuilder.build(CommonBuilder.java:767)
+	at org.eclipse.cdt.managedbuilder.internal.core.CommonBuilder.build(CommonBuilder.java:510)
+	at org.eclipse.cdt.managedbuilder.internal.core.CommonBuilder.build(CommonBuilder.java:459)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:832)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:220)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:263)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:316)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:319)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:371)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:392)
+	at org.eclipse.core.internal.resources.Workspace.buildInternal(Workspace.java:515)
+	at org.eclipse.core.internal.resources.Workspace.build(Workspace.java:412)
+	at org.eclipse.ui.actions.BuildAction$1.runInWorkspace(BuildAction.java:291)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:42)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2022-01-28 19:45:39.025
+!MESSAGE Resource '/reflow_memory/Debug/src_memory/init' does not exist.
+!STACK 0
+java.lang.Exception: Resource '/reflow_memory/Debug/src_memory/init' does not exist.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:330)
+	at org.eclipse.core.internal.resources.Resource.checkAccessible(Resource.java:204)
+	at org.eclipse.core.internal.resources.Container.members(Container.java:244)
+	at org.eclipse.core.internal.resources.Container.members(Container.java:231)
+	at org.eclipse.cdt.managedbuilder.makegen.gnu.GnuMakefileGenerator.generateDependencies(GnuMakefileGenerator.java:598)
+	at com.xilinx.sdk.managedbuilder.XilinxGnuMakefileGenerator.generateDependencies(XilinxGnuMakefileGenerator.java:35)
+	at org.eclipse.cdt.managedbuilder.internal.core.CommonBuilder.performPostbuildGeneration(CommonBuilder.java:856)
+	at org.eclipse.cdt.managedbuilder.internal.core.CommonBuilder.build(CommonBuilder.java:767)
+	at org.eclipse.cdt.managedbuilder.internal.core.CommonBuilder.build(CommonBuilder.java:510)
+	at org.eclipse.cdt.managedbuilder.internal.core.CommonBuilder.build(CommonBuilder.java:459)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:832)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:220)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:263)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:316)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:319)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:371)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:392)
+	at org.eclipse.core.internal.resources.Workspace.buildInternal(Workspace.java:515)
+	at org.eclipse.core.internal.resources.Workspace.build(Workspace.java:412)
+	at org.eclipse.ui.actions.BuildAction$1.runInWorkspace(BuildAction.java:291)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:42)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2022-01-28 19:45:39.025
+!MESSAGE Resource '/reflow_memory/Debug/src_memory/init' does not exist.
+!STACK 0
+java.lang.Exception: Resource '/reflow_memory/Debug/src_memory/init' does not exist.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:330)
+	at org.eclipse.core.internal.resources.Resource.checkAccessible(Resource.java:204)
+	at org.eclipse.core.internal.resources.Container.members(Container.java:244)
+	at org.eclipse.core.internal.resources.Container.members(Container.java:231)
+	at org.eclipse.cdt.managedbuilder.makegen.gnu.GnuMakefileGenerator.generateDependencies(GnuMakefileGenerator.java:598)
+	at com.xilinx.sdk.managedbuilder.XilinxGnuMakefileGenerator.generateDependencies(XilinxGnuMakefileGenerator.java:35)
+	at org.eclipse.cdt.managedbuilder.internal.core.CommonBuilder.performPostbuildGeneration(CommonBuilder.java:856)
+	at org.eclipse.cdt.managedbuilder.internal.core.CommonBuilder.build(CommonBuilder.java:767)
+	at org.eclipse.cdt.managedbuilder.internal.core.CommonBuilder.build(CommonBuilder.java:510)
+	at org.eclipse.cdt.managedbuilder.internal.core.CommonBuilder.build(CommonBuilder.java:459)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:832)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:220)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:263)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:316)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:319)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:371)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:392)
+	at org.eclipse.core.internal.resources.Workspace.buildInternal(Workspace.java:515)
+	at org.eclipse.core.internal.resources.Workspace.build(Workspace.java:412)
+	at org.eclipse.ui.actions.BuildAction$1.runInWorkspace(BuildAction.java:291)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:42)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.core.resources 4 75 2022-01-28 19:45:39.424
+!MESSAGE Errors occurred during the build.
+!SUBENTRY 1 org.eclipse.cdt.managedbuilder.core 4 75 2022-01-28 19:45:39.424
+!MESSAGE Errors running builder 'CDT Builder' on project 'reflow_memory'.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException(/reflow_memory/Debug/src_memory/init)[368]: java.lang.Exception: Resource '/reflow_memory/Debug/src_memory/init' does not exist.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:330)
+	at org.eclipse.core.internal.resources.Resource.checkAccessible(Resource.java:204)
+	at org.eclipse.core.internal.resources.Container.members(Container.java:244)
+	at org.eclipse.core.internal.resources.Container.members(Container.java:231)
+	at org.eclipse.cdt.managedbuilder.makegen.gnu.GnuMakefileGenerator.generateDependencies(GnuMakefileGenerator.java:598)
+	at com.xilinx.sdk.managedbuilder.XilinxGnuMakefileGenerator.generateDependencies(XilinxGnuMakefileGenerator.java:35)
+	at org.eclipse.cdt.managedbuilder.internal.core.CommonBuilder.performPostbuildGeneration(CommonBuilder.java:856)
+	at org.eclipse.cdt.managedbuilder.internal.core.CommonBuilder.build(CommonBuilder.java:767)
+	at org.eclipse.cdt.managedbuilder.internal.core.CommonBuilder.build(CommonBuilder.java:510)
+	at org.eclipse.cdt.managedbuilder.internal.core.CommonBuilder.build(CommonBuilder.java:459)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:832)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:220)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:263)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:316)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:319)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:371)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:392)
+	at org.eclipse.core.internal.resources.Workspace.buildInternal(Workspace.java:515)
+	at org.eclipse.core.internal.resources.Workspace.build(Workspace.java:412)
+	at org.eclipse.ui.actions.BuildAction$1.runInWorkspace(BuildAction.java:291)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:42)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 2 org.eclipse.core.resources 4 368 2022-01-28 19:45:39.424
+!MESSAGE Resource '/reflow_memory/Debug/src_memory/init' does not exist.
+!STACK 0
+java.lang.Exception: Resource '/reflow_memory/Debug/src_memory/init' does not exist.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:330)
+	at org.eclipse.core.internal.resources.Resource.checkAccessible(Resource.java:204)
+	at org.eclipse.core.internal.resources.Container.members(Container.java:244)
+	at org.eclipse.core.internal.resources.Container.members(Container.java:231)
+	at org.eclipse.cdt.managedbuilder.makegen.gnu.GnuMakefileGenerator.generateDependencies(GnuMakefileGenerator.java:598)
+	at com.xilinx.sdk.managedbuilder.XilinxGnuMakefileGenerator.generateDependencies(XilinxGnuMakefileGenerator.java:35)
+	at org.eclipse.cdt.managedbuilder.internal.core.CommonBuilder.performPostbuildGeneration(CommonBuilder.java:856)
+	at org.eclipse.cdt.managedbuilder.internal.core.CommonBuilder.build(CommonBuilder.java:767)
+	at org.eclipse.cdt.managedbuilder.internal.core.CommonBuilder.build(CommonBuilder.java:510)
+	at org.eclipse.cdt.managedbuilder.internal.core.CommonBuilder.build(CommonBuilder.java:459)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:832)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:220)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:263)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:316)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:319)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:371)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:392)
+	at org.eclipse.core.internal.resources.Workspace.buildInternal(Workspace.java:515)
+	at org.eclipse.core.internal.resources.Workspace.build(Workspace.java:412)
+	at org.eclipse.ui.actions.BuildAction$1.runInWorkspace(BuildAction.java:291)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:42)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2022-01-28 19:45:39.425
+!MESSAGE Resource '/reflow_memory/Debug/src_memory/init' does not exist.
+!STACK 0
+java.lang.Exception: Resource '/reflow_memory/Debug/src_memory/init' does not exist.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:330)
+	at org.eclipse.core.internal.resources.Resource.checkAccessible(Resource.java:204)
+	at org.eclipse.core.internal.resources.Container.members(Container.java:244)
+	at org.eclipse.core.internal.resources.Container.members(Container.java:231)
+	at org.eclipse.cdt.managedbuilder.makegen.gnu.GnuMakefileGenerator.generateDependencies(GnuMakefileGenerator.java:598)
+	at com.xilinx.sdk.managedbuilder.XilinxGnuMakefileGenerator.generateDependencies(XilinxGnuMakefileGenerator.java:35)
+	at org.eclipse.cdt.managedbuilder.internal.core.CommonBuilder.performPostbuildGeneration(CommonBuilder.java:856)
+	at org.eclipse.cdt.managedbuilder.internal.core.CommonBuilder.build(CommonBuilder.java:767)
+	at org.eclipse.cdt.managedbuilder.internal.core.CommonBuilder.build(CommonBuilder.java:510)
+	at org.eclipse.cdt.managedbuilder.internal.core.CommonBuilder.build(CommonBuilder.java:459)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:832)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:220)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:263)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:316)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:319)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:371)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:392)
+	at org.eclipse.core.internal.resources.Workspace.buildInternal(Workspace.java:515)
+	at org.eclipse.core.internal.resources.Workspace.build(Workspace.java:412)
+	at org.eclipse.ui.actions.BuildAction$1.runInWorkspace(BuildAction.java:291)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:42)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-28 19:49:45.607
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/memory/init/reflow_memory_platform/export/reflow_memory_platform/hw/arty_basic.xsa C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/memory/init/reflow_memory_platform/export/reflow_memory_platform/sw/reflow_memory_platform/standalone_domain/system.mss ], Thread: Worker-37: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-28 19:49:45.629
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/memory/init/reflow_memory_platform/export/reflow_memory_platform/hw/arty_basic.xsa C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/memory/init/reflow_memory_platform/export/reflow_memory_platform/sw/reflow_memory_platform/standalone_domain/system.mss ], Result: [null, ]. Thread: Worker-37: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-28 19:49:45.630
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/memory/init/reflow_memory_platform/export/reflow_memory_platform/hw/arty_basic.xsa C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/memory/init/reflow_memory_platform/export/reflow_memory_platform/sw/reflow_memory_platform/standalone_domain/system.mss], Thread: Worker-37: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-28 19:49:45.635
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/memory/init/reflow_memory_platform/export/reflow_memory_platform/hw/arty_basic.xsa C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/memory/init/reflow_memory_platform/export/reflow_memory_platform/sw/reflow_memory_platform/standalone_domain/system.mss], Result: [null, {"procname": "microblaze_0",
+"osname": "standalone",
+"osver": "7.3",
+}]. Thread: Worker-37: Build Project
+
+!ENTRY com.xilinx.sdk.utils 1 0 2022-01-28 19:49:45.635
+!MESSAGE Generating MD5 hash for file: C:\Users\ifstu\Vitis\Projects\reflowOS\project_files\vitis\memory\init\reflow_memory_platform\export\reflow_memory_platform\sw\reflow_memory_platform\standalone_domain\system.mss ...
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-28 19:49:45.636
+!MESSAGE XSCT Command: [::hsi::utils::closesw C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/memory/init/reflow_memory_platform/export/reflow_memory_platform/sw/reflow_memory_platform/standalone_domain/system.mss], Thread: Worker-37: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-28 19:49:45.639
+!MESSAGE XSCT command with result: [::hsi::utils::closesw C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/memory/init/reflow_memory_platform/export/reflow_memory_platform/sw/reflow_memory_platform/standalone_domain/system.mss], Result: [null, ]. Thread: Worker-37: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-28 19:51:34.466
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/memory/init/reflow_memory_platform/export/reflow_memory_platform/hw/arty_basic.xsa C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/memory/init/reflow_memory_platform/export/reflow_memory_platform/sw/reflow_memory_platform/standalone_domain/system.mss ], Thread: Worker-30: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-28 19:51:34.471
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/memory/init/reflow_memory_platform/export/reflow_memory_platform/hw/arty_basic.xsa C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/memory/init/reflow_memory_platform/export/reflow_memory_platform/sw/reflow_memory_platform/standalone_domain/system.mss ], Result: [null, ]. Thread: Worker-30: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-28 19:51:34.471
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/memory/init/reflow_memory_platform/export/reflow_memory_platform/hw/arty_basic.xsa C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/memory/init/reflow_memory_platform/export/reflow_memory_platform/sw/reflow_memory_platform/standalone_domain/system.mss], Thread: Worker-30: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-28 19:51:34.475
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/memory/init/reflow_memory_platform/export/reflow_memory_platform/hw/arty_basic.xsa C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/memory/init/reflow_memory_platform/export/reflow_memory_platform/sw/reflow_memory_platform/standalone_domain/system.mss], Result: [null, {"procname": "microblaze_0",
+"osname": "standalone",
+"osver": "7.3",
+}]. Thread: Worker-30: Build Project
+
+!ENTRY com.xilinx.sdk.utils 1 0 2022-01-28 19:51:34.476
+!MESSAGE Generating MD5 hash for file: C:\Users\ifstu\Vitis\Projects\reflowOS\project_files\vitis\memory\init\reflow_memory_platform\export\reflow_memory_platform\sw\reflow_memory_platform\standalone_domain\system.mss ...
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-28 19:51:34.477
+!MESSAGE XSCT Command: [::hsi::utils::closesw C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/memory/init/reflow_memory_platform/export/reflow_memory_platform/sw/reflow_memory_platform/standalone_domain/system.mss], Thread: Worker-30: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-28 19:51:34.479
+!MESSAGE XSCT command with result: [::hsi::utils::closesw C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/memory/init/reflow_memory_platform/export/reflow_memory_platform/sw/reflow_memory_platform/standalone_domain/system.mss], Result: [null, ]. Thread: Worker-30: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-28 19:51:50.640
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/memory/init/reflow_memory_platform/export/reflow_memory_platform/hw/arty_basic.xsa C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/memory/init/reflow_memory_platform/export/reflow_memory_platform/sw/reflow_memory_platform/standalone_domain/system.mss ], Thread: Worker-40: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-28 19:51:50.644
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/memory/init/reflow_memory_platform/export/reflow_memory_platform/hw/arty_basic.xsa C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/memory/init/reflow_memory_platform/export/reflow_memory_platform/sw/reflow_memory_platform/standalone_domain/system.mss ], Result: [null, ]. Thread: Worker-40: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-28 19:51:50.645
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/memory/init/reflow_memory_platform/export/reflow_memory_platform/hw/arty_basic.xsa C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/memory/init/reflow_memory_platform/export/reflow_memory_platform/sw/reflow_memory_platform/standalone_domain/system.mss], Thread: Worker-40: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-28 19:51:50.649
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/memory/init/reflow_memory_platform/export/reflow_memory_platform/hw/arty_basic.xsa C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/memory/init/reflow_memory_platform/export/reflow_memory_platform/sw/reflow_memory_platform/standalone_domain/system.mss], Result: [null, {"procname": "microblaze_0",
+"osname": "standalone",
+"osver": "7.3",
+}]. Thread: Worker-40: Build Project
+
+!ENTRY com.xilinx.sdk.utils 1 0 2022-01-28 19:51:50.650
+!MESSAGE Generating MD5 hash for file: C:\Users\ifstu\Vitis\Projects\reflowOS\project_files\vitis\memory\init\reflow_memory_platform\export\reflow_memory_platform\sw\reflow_memory_platform\standalone_domain\system.mss ...
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-28 19:51:50.651
+!MESSAGE XSCT Command: [::hsi::utils::closesw C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/memory/init/reflow_memory_platform/export/reflow_memory_platform/sw/reflow_memory_platform/standalone_domain/system.mss], Thread: Worker-40: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-28 19:51:50.653
+!MESSAGE XSCT command with result: [::hsi::utils::closesw C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/memory/init/reflow_memory_platform/export/reflow_memory_platform/sw/reflow_memory_platform/standalone_domain/system.mss], Result: [null, ]. Thread: Worker-40: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-28 19:53:00.613
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/memory/init/reflow_memory_platform/export/reflow_memory_platform/hw/arty_basic.xsa C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/memory/init/reflow_memory_platform/export/reflow_memory_platform/sw/reflow_memory_platform/standalone_domain/system.mss ], Thread: Worker-41: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-28 19:53:00.617
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/memory/init/reflow_memory_platform/export/reflow_memory_platform/hw/arty_basic.xsa C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/memory/init/reflow_memory_platform/export/reflow_memory_platform/sw/reflow_memory_platform/standalone_domain/system.mss ], Result: [null, ]. Thread: Worker-41: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-28 19:53:00.618
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/memory/init/reflow_memory_platform/export/reflow_memory_platform/hw/arty_basic.xsa C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/memory/init/reflow_memory_platform/export/reflow_memory_platform/sw/reflow_memory_platform/standalone_domain/system.mss], Thread: Worker-41: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-28 19:53:00.622
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/memory/init/reflow_memory_platform/export/reflow_memory_platform/hw/arty_basic.xsa C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/memory/init/reflow_memory_platform/export/reflow_memory_platform/sw/reflow_memory_platform/standalone_domain/system.mss], Result: [null, {"procname": "microblaze_0",
+"osname": "standalone",
+"osver": "7.3",
+}]. Thread: Worker-41: Build Project
+
+!ENTRY com.xilinx.sdk.utils 1 0 2022-01-28 19:53:00.622
+!MESSAGE Generating MD5 hash for file: C:\Users\ifstu\Vitis\Projects\reflowOS\project_files\vitis\memory\init\reflow_memory_platform\export\reflow_memory_platform\sw\reflow_memory_platform\standalone_domain\system.mss ...
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-28 19:53:00.623
+!MESSAGE XSCT Command: [::hsi::utils::closesw C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/memory/init/reflow_memory_platform/export/reflow_memory_platform/sw/reflow_memory_platform/standalone_domain/system.mss], Thread: Worker-41: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-01-28 19:53:00.625
+!MESSAGE XSCT command with result: [::hsi::utils::closesw C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/memory/init/reflow_memory_platform/export/reflow_memory_platform/sw/reflow_memory_platform/standalone_domain/system.mss], Result: [null, ]. Thread: Worker-41: Build Project

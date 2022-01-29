@@ -16,3 +16,4 @@ platform write
 platform generate -domains 
 platform active {reflow_memory_platform}
 platform generate
+platform generate
