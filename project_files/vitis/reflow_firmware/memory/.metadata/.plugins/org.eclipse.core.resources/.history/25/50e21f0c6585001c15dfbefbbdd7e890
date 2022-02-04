@@ -1,0 +1,5 @@
+#include <reflow_firmware/memory/memory.hpp>
+
+namespace reflow_firmware::static_object {
+	REFLOW_STATIC_VARIABLE();
+}

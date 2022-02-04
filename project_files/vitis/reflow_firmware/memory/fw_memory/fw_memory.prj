@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="ASCII"?>
+<sdkproject:SdkProject xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:sdkproject="http://www.xilinx.com/sdkproject" name="fw_memory" location="C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/reflow_firmware/memory/fw_memory" platform="C:/Users/ifstu/Vitis/Projects/reflowOS/project_files/vitis/reflow_firmware/memory/fw_memory_platform/export/fw_memory_platform/fw_memory_platform.xpfm" platformUID="xilinx:arty-a7-35::0.0(custom)" systemProject="fw_memory_system" sysConfig="fw_memory_platform" runtime="C/C++" cpu="standalone_domain" cpuInstance="microblaze_0" os="standalone" language="CPP" isStaticLib="true" mssSignature="a7016e1fd791f1d163026b8738914ebe">
+  <configuration name="Debug" id="xilinx.gnu.mb.staticlib.debug.2132478181">
+    <configBuildOptions xsi:type="sdkproject:SdkOptions"/>
+  </configuration>
+  <configuration name="Release" id="xilinx.gnu.mb.staticlib.release.536523280">
+    <configBuildOptions xsi:type="sdkproject:SdkOptions"/>
+  </configuration>
+  <template appTemplateName="empty_application"/>
+</sdkproject:SdkProject>

@@ -1,0 +1,6 @@
+#include <reflowOS/base/memory/types/memory_types.hpp>
+
+namespace reflowOS::memory::size_types {
+	template <memory::types::size_type total_size>
+	struct block_count { STATIC_MEMORY_TYPE(size_type) value = total_size / memory::types::block_size; }
+}

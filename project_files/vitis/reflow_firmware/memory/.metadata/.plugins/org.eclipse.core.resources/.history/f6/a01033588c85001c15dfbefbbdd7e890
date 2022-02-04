@@ -1,0 +1,4 @@
+#include <reflow_firmware/memory/memory_manager.hpp>
+
+void reflow_firmware::memory::allocate  (size_type);
+void deallocate(size_type);

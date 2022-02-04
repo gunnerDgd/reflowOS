@@ -1,0 +1,6 @@
+#include <reflow_firmware/memory/memory_manager.hpp>
+
+namespace reflow_firmware::static_object {
+	REFLOW_STATIC_VARIABLE(memory::block_map, memory_block_map)
+	REFLOW_STATIC_VARIABLE(memory::block_map, memory_block_map)
+}

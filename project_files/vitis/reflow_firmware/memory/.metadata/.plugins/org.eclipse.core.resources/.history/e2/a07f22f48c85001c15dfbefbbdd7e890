@@ -1,0 +1,11 @@
+#include <reflow_firmware/memory/memory_types.hpp>
+
+namespace reflow_firmware::memory {
+	struct watermark_section { size_type start, end };
+	template <size_type wm_count>
+	struct watermark
+	{
+
+
+	};
+}

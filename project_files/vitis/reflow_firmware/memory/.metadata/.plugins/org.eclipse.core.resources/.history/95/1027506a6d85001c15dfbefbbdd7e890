@@ -1,0 +1,4 @@
+#include <reflow_firmware/memory/memory_manager.hpp>
+
+reflow_firmware::memory::mman_pointer allocate  (mman_size, mman_pointer);
+void 		 deallocate(mman_size, mman_pointer);

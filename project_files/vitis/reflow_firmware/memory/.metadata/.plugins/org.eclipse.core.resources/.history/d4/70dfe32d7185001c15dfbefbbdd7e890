@@ -1,0 +1,19 @@
+#include <reflow_firmware/memory/memory_manager.hpp>
+
+reflow_firmware::memory::memory_manager::mman_pointer reflow_firmware::memory::memory_manager::allocate  (mman_pointer alloc_hint)
+{
+	mman_size alloc_it = (alloc_hint - memory::pointer_allocatable) / memory::block_size + 1;
+	if(alloc_hint <= memory::pointer_allocatable)
+
+	for   ( ; alloc_it < memory::block_count ; alloc_it++)
+	{
+		if(static_object::memory_block_tag.tag[alloc_it] == memory::block_state::unallocated)
+			return (alloc_it * memory::block_size)
+
+	}
+}
+
+void 		 										  reflow_firmware::memory::memory_manager::deallocate(mman_pointer dealloc_pointer)
+{
+
+}

@@ -1,0 +1,18 @@
+#include <reflowOS/base/memory/types/memory_types.hpp>
+#include <reflowOS/base/memory/types/size_type.hpp>
+
+#include <xparameters.h>
+#include <type_traits>
+
+namespace reflowOS::hardware_specific::microblaze {
+
+	MEMORY_STATIC(size_type)    block_manage_count   = 32;											   // Entire Count of Blocks that used for Management.
+	MEMORY_STATIC(size_type)    block_entire_count   = (total_size / block_size) - block_manage_count; // Entire Count of Usable Blocks.
+
+	MEMORY_STATIC(pointer_type) block_memory_base    = (pointer_type)(XPAR_MIG_7SERIES_0_BASEADDR + 128 * megabyte);   		// Base Pointer of Entire Blocks.
+	MEMORY_STATIC(block_tag*)   block_manage_address = (block_tag*)   block_memory_base;									// Base Pointer of Block Management Tag.
+	MEMORY_STATIC(pointer_type) block_base_address   = (pointer_type)(block_memory_base + block_manage_count * block_size); // Base Pointer of Usable Blocks.
+}
+
+#define MB_MEMORY_ITERATE_TAG_BEGIN(it_name, it_init) for(std::uint32_t it_name = it_init; it_name < block_entire_count ; it_name++) {
+#define MB_MEMORY_ITERATE_TAG_END }

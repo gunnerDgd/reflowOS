@@ -1,0 +1,13 @@
+#pragma once
+#include <reflow_firmware/memory/memory_types.hpp>
+
+namespace reflow_firmware::static_object {
+	extern reflow_firmware::memory::block_tag  memory_block_tag ;
+	extern reflow_firmware::memory::block_stat memory_block_stat;
+}
+
+namespace reflow_firmware::memory {
+	template <typename Executable>
+	void for_each(Executable&& exec, block);
+
+}

@@ -1,0 +1,18 @@
+#include <cstdint>
+#include <cstddef>
+
+#define STATIC_MEMORY_TYPE(type) 			static constexpr type
+#define DEFINE_MEMORY_TYPE(type, redefined) typedef type redefined;
+
+namespace reflowOS::memory::types {
+
+	DEFINE_MEMORY_TYPE(std::size_t, size_type)
+
+	STATIC_MEMORY_TYPE(size_type) kilobyte = 1024;
+	STATIC_MEMORY_TYPE(size_type) megabyte = kilobyte * 1024;
+	STATIC_MEMORY_TYPE(size_type) gigabyte = megabyte * 1024;
+
+	STATIC_MEMORY_TYPE(size_type) block_size = 4 * kilobyte; // Standard x86-64 Page Size.
+
+	struct block { std::uint8_t context[block_size]; };
+}

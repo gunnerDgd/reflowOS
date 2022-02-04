@@ -1,0 +1,20 @@
+#include <xparameters.h>
+
+#include <cstddef>
+#include <cstdint>
+
+#define REFLOW_STATIC_VARIABLE(type, name, value) static constexpr type name = value;
+#define REFLOW_DEFINE_TYPE(type, redefine)		  typedef type redefine;
+
+namespace reflow_firmware::memory {
+	typedef std::size_t   size_type;
+	typedef std::uint8_t* pointer_type;
+
+	static constexpr size_type
+
+	template <size_type memory_size>
+	struct block { std::uint8_t context[memory_size]; };
+
+	template <size_type memory_size>
+	struct block_flag {};
+}

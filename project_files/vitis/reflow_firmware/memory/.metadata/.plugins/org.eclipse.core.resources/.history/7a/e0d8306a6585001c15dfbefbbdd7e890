@@ -1,0 +1,3 @@
+#include <reflow_firmware/memory/memory.hpp>
+
+extern reflow_firmware::memory::block_map reflow_firmware::static_object::memory_block_map;

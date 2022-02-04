@@ -1,0 +1,12 @@
+#include <xparameters.h>
+
+#include <cstddef>
+#include <cstdint>
+
+namespace reflow_firmware::memory {
+	typedef std::size_t   size_type;
+	typedef std::uint8_t* pointer_type;
+
+	template <size_type memory_size>
+	struct block { std::uint8_t context[memory_size]; };
+}

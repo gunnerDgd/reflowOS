@@ -1,5 +1,0 @@
-#include <cstdint>
-#include <cstddef>
-
-#define MICROBLAZE_STORE()
-#define MICROBLAZE_STORE_OFFSET()

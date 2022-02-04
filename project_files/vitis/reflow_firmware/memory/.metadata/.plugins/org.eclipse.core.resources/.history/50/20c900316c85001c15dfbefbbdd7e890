@@ -1,0 +1,5 @@
+#pragma once
+#include <reflow_firmware/memory/memory_manager.hpp>
+
+extern reflow_firmware::memory::block_map reflow_firmware::static_object::memory_block_map;
+extern reflow_firmware::memory::block_tag reflow_firmware::static_object::memory_block_tag;

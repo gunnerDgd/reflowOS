@@ -1,0 +1,19 @@
+#include <reflowOS/base/memory/types/memory_types.hpp>
+#include <reflowOS/base/memory/types/size_type.hpp>
+
+namespace reflowOS::memory::topology {
+	struct linear_block
+	{
+
+	};
+
+	template <memory::types::size_type total_size>
+	struct linear_block_tag
+	{
+		STATIC_MEMORY_TYPE(memory::types::size_type) count = memory::size_types::block_count_v<total_size>;
+		memory::types::block_tag tag[count];
+	};
+
+	template <typename BlockTag>
+
+}

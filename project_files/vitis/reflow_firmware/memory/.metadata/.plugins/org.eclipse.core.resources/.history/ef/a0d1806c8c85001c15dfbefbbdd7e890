@@ -1,0 +1,9 @@
+#pragma once
+#include <reflow_firmware/memory/memory_types.hpp>
+#include <reflow_firmware/memory/memory_object.hpp>
+
+namespace reflow_firmware::memory {
+
+	void allocate  (size_type);
+	void deallocate(size_type);
+}

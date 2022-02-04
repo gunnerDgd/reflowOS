@@ -1,0 +1,21 @@
+#pragma once
+#include <reflow_firmware/memory/memory_types.hpp>
+#include <reflow_firmware/memory/memory_object.hpp>
+
+namespace reflow_firmware::memory {
+	class memory_manager
+	{
+	public:
+		typedef pointer_type mman_pointer;
+		typedef size_type    mman_size   ;
+	public:
+		memory_manager();
+		~memory_manager();
+
+		mman_pointer allocate  (mman_size, mman_pointer);
+		void 		 deallocate(mman_size, mman_pointer);
+
+	private:
+		mman_pointer __M_mman_alloc_base;
+	};
+}

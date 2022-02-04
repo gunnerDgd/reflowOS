@@ -2251,3 +2251,11 @@ con
 17:48:48 INFO  : Platform repository initialization has completed.
 17:48:48 INFO  : Successfully done query RDI_DATADIR 
 17:48:49 INFO  : Registering command handlers for Vitis TCF services
+18:32:32 INFO  : Launching XSCT server: xsct.bat -n  -interactive C:\Users\ifstu\Vitis\Projects\reflowOS\project_files\vitis\process\temp_xsdb_launch_script.tcl
+18:32:34 INFO  : XSCT server has started successfully.
+18:32:34 INFO  : Successfully done setting XSCT server connection channel  
+18:32:34 INFO  : plnx-install-location is set to ''
+18:32:34 INFO  : Successfully done setting workspace for the tool. 
+18:32:37 INFO  : Platform repository initialization has completed.
+18:32:38 INFO  : Successfully done query RDI_DATADIR 
+18:32:38 INFO  : Registering command handlers for Vitis TCF services

@@ -1,0 +1,33 @@
+#include <xparameters.h>
+
+#include <cstddef>
+#include <cstdint>
+
+#define REFLOW_STATIC_VARIABLE(type, name)		 static type name;
+#define REFLOW_CONST_VARIABLE(type, name, value) static constexpr type name = value;
+#define REFLOW_DEFINE_TYPE(type, redefine)		 typedef type redefine;
+
+namespace reflow_firmware::memory {
+	REFLOW_DEFINE_TYPE(std::size_t  , size_type)
+	REFLOW_DEFINE_TYPE(std::uint8_t*, pointer_type)
+
+	REFLOW_CONST_VARIABLE(size_type, pointer_base	    , XPAR_MIG_7SERIES_0_BASEADDR)
+	REFLOW_CONST_VARIABLE(size_type, pointer_dedicated  , XPAR_MIG_7SERIES_0_BASEADDR);
+	REFLOW_CONST_VARIABLE(size_type, pointer_allocatable, pointer_base + 128 * 1024 * 1024)
+
+	REFLOW_CONST_VARIABLE(size_type, block_size , 4096)
+	REFLOW_CONST_VARIABLE(size_type, memory_size, 256 * 1024 * 1024)
+	REFLOW_CONST_VARIABLE(size_type, block_count, memory_size / block_size)
+
+	enum class block_state : std::uint8_t
+	{
+		allocated,
+		unallocated,
+		reserved,
+		locked
+	};
+
+	struct block	 { std::uint8_t context[block_size] ; };
+	struct block_map { block		context[block_count]; };
+	struct block_tag { block_state  tag	   [block_count]; };
+}

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;fw_memory/include_memory/memory.hpp&apos; to &apos;memory_manager.hpp&apos;" description="Rename resource &apos;memory.hpp&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="include_memory/memory.hpp" name="memory_manager.hpp" stamp="1643943116185" updateReferences="true"/>
+</session>

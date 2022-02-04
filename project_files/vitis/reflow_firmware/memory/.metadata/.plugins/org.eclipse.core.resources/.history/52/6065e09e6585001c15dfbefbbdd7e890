@@ -1,0 +1,10 @@
+#include <reflow_firmware/memory/memory_types.hpp>
+
+namespace reflow_firmware::memory {
+	class memory_manager
+	{
+	public:
+		void allocate  (size_type);
+		void deallocate(size_type);
+	};
+}

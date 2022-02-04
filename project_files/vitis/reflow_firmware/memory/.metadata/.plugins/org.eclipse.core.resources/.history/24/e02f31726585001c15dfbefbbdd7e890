@@ -1,0 +1,9 @@
+#include <reflow_firmware/memory/memory_types.hpp>
+
+namespace reflow_firmware {
+	class memory_manager
+	{
+	public:
+
+	};
+}

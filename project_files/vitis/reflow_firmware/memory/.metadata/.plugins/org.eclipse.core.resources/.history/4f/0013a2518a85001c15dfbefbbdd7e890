@@ -1,0 +1,11 @@
+#include <reflow_firmware/memory/memory_manager.hpp>
+
+reflow_firmware::memory::memory_manager::memory_manager ()
+{
+	for(mman_size it = 0 ; it < )
+}
+
+reflow_firmware::memory::memory_manager::~memory_manager()
+{
+
+}

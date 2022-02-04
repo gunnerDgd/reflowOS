@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?fileVersion 4.0.0?><cproject storage_type_id="org.eclipse.cdt.core.XmlProjectDescriptionStorage">
+    	
+    <storageModule moduleId="org.eclipse.cdt.core.settings">
+        		
+        <cconfiguration id="xilinx.gnu.mb.staticlib.debug.2132478181">
+            			
+            <storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="xilinx.gnu.mb.staticlib.debug.2132478181" moduleId="org.eclipse.cdt.core.settings" name="Debug">
+                				
+                <externalSettings>
+                    					
+                    <externalSetting>
+                        						
+                        <entry flags="VALUE_WORKSPACE_PATH" kind="includePath" name="/fw_memory"/>
+                        						
+                        <entry flags="VALUE_WORKSPACE_PATH" kind="libraryPath" name="/fw_memory/Debug"/>
+                        						
+                        <entry flags="RESOLVED" kind="libraryFile" name="fw_memory" srcPrefixMapping="" srcRootPath=""/>
+                        					
+                    </externalSetting>
+                    				
+                </externalSettings>
+                				
+                <extensions>
+                    					
+                    <extension id="com.xilinx.sdk.managedbuilder.XELF.mb" point="org.eclipse.cdt.core.BinaryParser"/>
+                    					
+                    <extension id="org.eclipse.cdt.core.GASErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+                    					
+                    <extension id="org.eclipse.cdt.core.GmakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+                    					
+                    <extension id="org.eclipse.cdt.core.CWDLocator" point="org.eclipse.cdt.core.ErrorParser"/>
+                    					
+                    <extension id="org.eclipse.cdt.core.GCCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+                    				
+                </extensions>
+                			
+            </storageModule>
+            			
+            <storageModule moduleId="cdtBuildSystem" version="4.0.0">
+                				
+                <configuration artifactExtension="a" artifactName="${ProjName}" buildArtefactType="org.eclipse.cdt.build.core.buildArtefactType.staticLib" buildProperties="org.eclipse.cdt.build.core.buildArtefactType=org.eclipse.cdt.build.core.buildArtefactType.staticLib,org.eclipse.cdt.build.core.buildType=org.eclipse.cdt.build.core.buildType.debug" cleanCommand="rm -rf" description="" id="xilinx.gnu.mb.staticlib.debug.2132478181" name="Debug" parent="xilinx.gnu.mb.staticlib.debug">
+                    					
+                    <folderInfo id="xilinx.gnu.mb.staticlib.debug.2132478181." name="/" resourcePath="">
+                        						
+                        <toolChain id="xilinx.gnu.mb.static.debug.toolchain.1433059634" name="Xilinx MicroBlaze GNU Toolchain" superClass="xilinx.gnu.mb.static.debug.toolchain">
+                            							
+                            <targetPlatform binaryParser="com.xilinx.sdk.managedbuilder.XELF.mb" id="xilinx.mb.lib.target.gnu.base.debug.1374373217" isAbstract="false" name="Debug Platform" superClass="xilinx.mb.lib.target.gnu.base.debug"/>
+                            							
+                            <builder buildPath="${workspace_loc:/fw_memory}/Debug" enableAutoBuild="true" id="xilinx.gnu.mb.toolchain.builder.staticlib.debug.129519733" keepEnvironmentInBuildfile="false" managedBuildOn="true" name="GNU make" superClass="xilinx.gnu.mb.toolchain.builder.staticlib.debug"/>
+                            							
+                            <tool id="xilinx.gnu.mb.c.toolchain.assembler.staticlib.debug.1713741104" name="MicroBlaze gcc assembler" superClass="xilinx.gnu.mb.c.toolchain.assembler.staticlib.debug">
+                                								
+                                <inputType id="xilinx.gnu.assembler.input.269491386" superClass="xilinx.gnu.assembler.input"/>
+                                							
+                            </tool>
+                            							
+                            <tool id="xilinx.gnu.mb.c.toolchain.compiler.staticlib.debug.926568943" name="MicroBlaze gcc compiler" superClass="xilinx.gnu.mb.c.toolchain.compiler.staticlib.debug">
+                                								
+                                <option defaultValue="gnu.c.optimization.level.none" id="xilinx.gnu.compiler.option.optimization.level.1745282521" name="Optimization Level" superClass="xilinx.gnu.compiler.option.optimization.level" valueType="enumerated"/>
+                                								
+                                <option id="xilinx.gnu.compiler.option.debugging.level.541100298" name="Debug Level" superClass="xilinx.gnu.compiler.option.debugging.level" useByScannerDiscovery="false" value="gnu.c.debugging.level.max" valueType="enumerated"/>
+                                							
+                            </tool>
+                            							
+                            <tool command="mb-g++ -std=c++17" id="xilinx.gnu.mb.cxx.toolchain.compiler.staticlib.debug.512172518" name="MicroBlaze g++ compiler" superClass="xilinx.gnu.mb.cxx.toolchain.compiler.staticlib.debug">
+                                								
+                                <option defaultValue="gnu.c.optimization.level.none" id="xilinx.gnu.compiler.option.optimization.level.410164220" name="Optimization Level" superClass="xilinx.gnu.compiler.option.optimization.level" valueType="enumerated"/>
+                                								
+                                <option id="xilinx.gnu.compiler.option.debugging.level.1315264122" name="Debug Level" superClass="xilinx.gnu.compiler.option.debugging.level" useByScannerDiscovery="false" value="gnu.c.debugging.level.max" valueType="enumerated"/>
+                                								
+                                <option id="xilinx.gnu.compiler.misc.other.483051101" name="Other flags" superClass="xilinx.gnu.compiler.misc.other" value="-c -fmessage-length=0 -MT&quot;$@&quot; " valueType="string"/>
+                                								
+                                <option id="xilinx.gnu.compiler.dircategory.includes.1320469118" name="Include Paths" superClass="xilinx.gnu.compiler.dircategory.includes" valueType="includePath">
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;C:\Users\ifstu\Vitis\Projects\reflowOS\project_files\vitis\reflow_firmware\memory\fw_memory_platform\microblaze_0\standalone_domain\bsp\microblaze_0\include&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;C:\Users\ifstu\Vitis\Projects\reflowOS\include&quot;"/>
+                                    								
+                                </option>
+                                								
+                                <inputType id="xilinx.gnu.mb.cxx.compiler.input.2007113534" name="C++ source files" superClass="xilinx.gnu.mb.cxx.compiler.input"/>
+                                							
+                            </tool>
+                            							
+                            <tool id="xilinx.gnu.mb.toolchain.archiver.staticlib.debug.784915359" name="MicroBlaze archiver" superClass="xilinx.gnu.mb.toolchain.archiver.staticlib.debug"/>
+                            							
+                            <tool id="xilinx.gnu.mb.c.toolchain.linker.1827866050" name="MicroBlaze gcc linker" superClass="xilinx.gnu.mb.c.toolchain.linker"/>
+                            							
+                            <tool id="xilinx.gnu.mb.cxx.toolchain.linker.1318568294" name="MicroBlaze g++ linker" superClass="xilinx.gnu.mb.cxx.toolchain.linker"/>
+                            						
+                        </toolChain>
+                        					
+                    </folderInfo>
+                    					
+                    <sourceEntries>
+                        						
+                        <entry excluding="include_memory|memory" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
+                        						
+                        <entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="include_memory"/>
+                        						
+                        <entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="memory"/>
+                        					
+                    </sourceEntries>
+                    				
+                </configuration>
+                			
+            </storageModule>
+            			
+            <storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
+            		
+        </cconfiguration>
+        		
+        <cconfiguration id="xilinx.gnu.mb.staticlib.release.536523280">
+            			
+            <storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="xilinx.gnu.mb.staticlib.release.536523280" moduleId="org.eclipse.cdt.core.settings" name="Release">
+                				
+                <externalSettings/>
+                				
+                <extensions>
+                    					
+                    <extension id="com.xilinx.sdk.managedbuilder.XELF.mb" point="org.eclipse.cdt.core.BinaryParser"/>
+                    					
+                    <extension id="org.eclipse.cdt.core.GASErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+                    					
+                    <extension id="org.eclipse.cdt.core.GmakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+                    					
+                    <extension id="org.eclipse.cdt.core.CWDLocator" point="org.eclipse.cdt.core.ErrorParser"/>
+                    					
+                    <extension id="org.eclipse.cdt.core.GCCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+                    				
+                </extensions>
+                			
+            </storageModule>
+            			
+            <storageModule moduleId="cdtBuildSystem" version="4.0.0">
+                				
+                <configuration artifactExtension="a" artifactName="${ProjName}" buildArtefactType="org.eclipse.cdt.build.core.buildArtefactType.staticLib" buildProperties="org.eclipse.cdt.build.core.buildArtefactType=org.eclipse.cdt.build.core.buildArtefactType.staticLib,org.eclipse.cdt.build.core.buildType=org.eclipse.cdt.build.core.buildType.release" cleanCommand="rm -rf" description="" id="xilinx.gnu.mb.staticlib.release.536523280" name="Release" parent="xilinx.gnu.mb.staticlib.release">
+                    					
+                    <folderInfo id="xilinx.gnu.mb.staticlib.release.536523280." name="/" resourcePath="">
+                        						
+                        <toolChain id="xilinx.gnu.mb.staticlib.release.toolchain.1222711688" name="Xilinx MicroBlaze GNU Toolchain" superClass="xilinx.gnu.mb.staticlib.release.toolchain">
+                            							
+                            <targetPlatform binaryParser="com.xilinx.sdk.managedbuilder.XELF.mb" id="xilinx.mb.lib.target.gnu.base.release.741210165" isAbstract="false" name="Release Platform" superClass="xilinx.mb.lib.target.gnu.base.release"/>
+                            							
+                            <builder buildPath="${workspace_loc:/fw_memory}/Release" enableAutoBuild="true" id="xilinx.gnu.mb.toolchain.builder.staticlib.release.456244673" keepEnvironmentInBuildfile="false" managedBuildOn="true" name="GNU make" superClass="xilinx.gnu.mb.toolchain.builder.staticlib.release"/>
+                            							
+                            <tool id="xilinx.gnu.mb.c.toolchain.assembler.staticlib.release.892652486" name="MicroBlaze gcc assembler" superClass="xilinx.gnu.mb.c.toolchain.assembler.staticlib.release">
+                                								
+                                <inputType id="xilinx.gnu.assembler.input.704681963" superClass="xilinx.gnu.assembler.input"/>
+                                							
+                            </tool>
+                            							
+                            <tool id="xilinx.gnu.mb.c.toolchain.compiler.staticlib.release.1817989974" name="MicroBlaze gcc compiler" superClass="xilinx.gnu.mb.c.toolchain.compiler.staticlib.release">
+                                								
+                                <option defaultValue="gnu.c.optimization.level.more" id="xilinx.gnu.compiler.option.optimization.level.785743680" name="Optimization Level" superClass="xilinx.gnu.compiler.option.optimization.level" valueType="enumerated"/>
+                                								
+                                <option id="xilinx.gnu.compiler.option.debugging.level.1363532432" name="Debug Level" superClass="xilinx.gnu.compiler.option.debugging.level" useByScannerDiscovery="false" value="gnu.c.debugging.level.none" valueType="enumerated"/>
+                                							
+                            </tool>
+                            							
+                            <tool id="xilinx.gnu.mb.cxx.toolchain.compiler.staticlib.release.552041768" name="MicroBlaze g++ compiler" superClass="xilinx.gnu.mb.cxx.toolchain.compiler.staticlib.release">
+                                								
+                                <option defaultValue="gnu.c.optimization.level.more" id="xilinx.gnu.compiler.option.optimization.level.760176886" name="Optimization Level" superClass="xilinx.gnu.compiler.option.optimization.level" valueType="enumerated"/>
+                                								
+                                <option id="xilinx.gnu.compiler.option.debugging.level.994937338" name="Debug Level" superClass="xilinx.gnu.compiler.option.debugging.level" useByScannerDiscovery="false" value="gnu.c.debugging.level.none" valueType="enumerated"/>
+                                								
+                                <option id="xilinx.gnu.compiler.misc.other.955139541" name="Other flags" superClass="xilinx.gnu.compiler.misc.other" value="-c -fmessage-length=0 -MT&quot;$@&quot; " valueType="string"/>
+                                								
+                                <inputType id="xilinx.gnu.mb.cxx.compiler.input.2009087022" name="C++ source files" superClass="xilinx.gnu.mb.cxx.compiler.input"/>
+                                							
+                            </tool>
+                            							
+                            <tool id="xilinx.gnu.mb.toolchain.archiver.statclib.release.145724415" name="MicroBlaze archiver" superClass="xilinx.gnu.mb.toolchain.archiver.statclib.release"/>
+                            							
+                            <tool id="xilinx.gnu.mb.c.toolchain.linker.2143717381" name="MicroBlaze gcc linker" superClass="xilinx.gnu.mb.c.toolchain.linker"/>
+                            							
+                            <tool id="xilinx.gnu.mb.cxx.toolchain.linker.1267524208" name="MicroBlaze g++ linker" superClass="xilinx.gnu.mb.cxx.toolchain.linker"/>
+                            						
+                        </toolChain>
+                        					
+                    </folderInfo>
+                    				
+                </configuration>
+                			
+            </storageModule>
+            			
+            <storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
+            		
+        </cconfiguration>
+        	
+    </storageModule>
+    	
+    <storageModule moduleId="org.eclipse.cdt.core.LanguageSettingsProviders"/>
+    	
+    <storageModule moduleId="cdtBuildSystem" version="4.0.0">
+        		
+        <project id="fw_memory.xilinx.gnu.mb.staticlib.307180629" name="Xilinx MicroBlaze Static Library" projectType="xilinx.gnu.mb.staticlib"/>
+        	
+    </storageModule>
+    	
+    <storageModule moduleId="scannerConfiguration">
+        		
+        <autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+        		
+        <scannerConfigBuildInfo instanceId="xilinx.gnu.mb.staticlib.debug.2132478181;xilinx.gnu.mb.staticlib.debug.2132478181.;xilinx.gnu.mb.cxx.toolchain.compiler.staticlib.debug.512172518;xilinx.gnu.mb.cxx.compiler.input.2007113534">
+            			
+            <autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId="com.xilinx.managedbuilder.ui.MBGCCManagedMakePerProjectProfileC"/>
+            		
+        </scannerConfigBuildInfo>
+        		
+        <scannerConfigBuildInfo instanceId="xilinx.gnu.mb.staticlib.release.536523280;xilinx.gnu.mb.staticlib.release.536523280.;xilinx.gnu.mb.cxx.toolchain.compiler.staticlib.release.552041768;xilinx.gnu.mb.cxx.compiler.input.2009087022">
+            			
+            <autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId="com.xilinx.managedbuilder.ui.MBGCCManagedMakePerProjectProfileC"/>
+            		
+        </scannerConfigBuildInfo>
+        		
+        <scannerConfigBuildInfo instanceId="xilinx.gnu.mb.staticlib.release.536523280;xilinx.gnu.mb.staticlib.release.536523280.">
+            			
+            <autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId="com.xilinx.managedbuilder.ui.MBGCCManagedMakePerProjectProfileC"/>
+            		
+        </scannerConfigBuildInfo>
+        		
+        <scannerConfigBuildInfo instanceId="xilinx.gnu.mb.staticlib.debug.2132478181;xilinx.gnu.mb.staticlib.debug.2132478181.">
+            			
+            <autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId="com.xilinx.managedbuilder.ui.MBGCCManagedMakePerProjectProfileC"/>
+            		
+        </scannerConfigBuildInfo>
+        	
+    </storageModule>
+    	
+    <storageModule moduleId="refreshScope" versionNumber="2">
+        		
+        <configuration configurationName="Debug">
+            			
+            <resource resourceType="PROJECT" workspacePath="/fw_memory"/>
+            		
+        </configuration>
+        		
+        <configuration configurationName="Release">
+            			
+            <resource resourceType="PROJECT" workspacePath="/fw_memory"/>
+            		
+        </configuration>
+        	
+    </storageModule>
+    	
+    <storageModule moduleId="org.eclipse.cdt.internal.ui.text.commentOwnerProjectMappings"/>
+    
+</cproject>

@@ -1,9 +1,0 @@
-#include <reflowOS/base/process/asm/microblaze/context.hpp>
-
-void reflowOS::hardware_specific::microblaze::store_and_switch(reflowOS::hardware_specific::microblaze::context&,
-		reflowOS::hardware_specific::microblaze::context&)
-{
-
-}
-
-void store_and_execute(context&, context&, context::execute_type, context::parameter_type);
