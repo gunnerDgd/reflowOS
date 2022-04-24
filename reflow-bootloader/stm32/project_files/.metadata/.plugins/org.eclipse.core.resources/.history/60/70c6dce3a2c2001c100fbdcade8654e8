@@ -1,0 +1,7 @@
+#include <reflow_bootloader/clock/system_clock.hpp>
+
+typename reflow_bootloader::clocking::system_clock::raw_clock_type
+		 reflow_bootloader::clocking::system_clock::current_clock()
+{
+	return LL_RCC_GetSystemClocksFreq();
+}

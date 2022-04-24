@@ -1,0 +1,13 @@
+#pragma once
+#include <reflow_bootloader/clock/prescaler.hpp>
+
+namespace reflow_bootloader {
+namespace hardware_specific {
+namespace clocking 			{
+
+	using source_index = std::uint8_t;
+	inline constexpr source_index
+
+}
+}
+}

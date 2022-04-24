@@ -1,0 +1,19 @@
+#include <reflow_bootloader/hardware_specific/stm32/clocking/f401_clock.hpp>
+#include <cstdint>
+
+namespace reflow_bootloader {
+namespace clocking 		    {
+
+	using hardware_specific::clocking::native_clock_source;
+
+	template <native_clock_source ClockSourceHandle>
+	struct clock_source
+	{
+		using 					native_handle_type = hardware_specific::clocking::native_clock_source;
+		static inline constexpr native_handle_type native_handle = ClockSourceHandle;
+	};
+
+
+
+}
+}

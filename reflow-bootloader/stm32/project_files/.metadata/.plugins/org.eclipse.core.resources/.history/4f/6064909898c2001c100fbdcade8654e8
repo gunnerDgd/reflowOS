@@ -1,0 +1,12 @@
+#include <reflow_bootloader/comm/serial_port.hpp>
+
+namespace reflow_bootloader {
+namespace communication 	{
+
+	class serial_port::enumerator
+	{
+	public:
+
+	};
+}
+}

@@ -1,0 +1,25 @@
+#include <reflow_bootloader/comm/serial_port.hpp>
+
+reflow_bootloader::communication::serial_port::configuration::configuration
+					 (baud_rate   brate   ,
+					  stop_bit    stopbits,
+					  data_length dlen 	  ,
+					  parity      pbit    ) : __M_conf_baudrate(brate)	 ,
+											  __M_conf_stopbit (stopbits),
+											  __M_conf_datalen (dlen)	 ,
+											  __M_conf_parity  (pbit)    {  }
+
+reflow_bootloader::communication::serial_port::serial_port (index_type idx, configuration conf)
+	: __M_serial_handle(hardware_specific::serial_device[idx])
+{
+	LL_USART_SetParity	 	  (__M_serial_handle, conf.__M_conf_parity) ;
+	LL_USART_SetDataWidth	  (__M_serial_handle, conf.__M_conf_datalen);
+	LL_USART_SetStopBitsLength(__M_serial_handle, );
+
+	LL_USART_Enable(__M_serial_handle);
+}
+
+reflow_bootloader::communication::serial_port::~serial_port()
+{
+	LL_USART_Disable(__M_serial_handle);
+}

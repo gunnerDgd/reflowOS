@@ -1,0 +1,20 @@
+#include "stm32f4xx_ll_rcc.h"
+
+namespace reflow_bootloader {
+namespace hardware_specific {
+namespace clocking 			{
+
+	struct system_clock_source
+	{
+		using native_handle_type = std::uint32_t;
+		inline constexpr native_handle_type internal_clock_handle  = LL_RCC_SYS_CLKSOURCE_HSI;
+		inline constexpr native_handle_type external_clock_handle  = LL_RCC_SYS_CLKSOURCE_HSE;
+		inline constexpr native_handle_type prescaled_clock_handle = LL_RCC_SYS_CLKSOURCE_PLL;
+	};
+
+	using			 frequency_type		 = std::uint32_t;
+	using 			 native_clock_source = std::uint32_t;
+
+}
+}
+}

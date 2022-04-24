@@ -1,0 +1,16 @@
+#pragma oncee
+
+namespace reflow_bootloader {
+namespace communication     {
+namespace configuration	    {
+namespace serial_port 		{
+
+	struct baud_rate {  };
+	struct stop_bit  {  };
+	struct parity    {  };
+	struct data_length {  };
+
+}
+}
+}
+}

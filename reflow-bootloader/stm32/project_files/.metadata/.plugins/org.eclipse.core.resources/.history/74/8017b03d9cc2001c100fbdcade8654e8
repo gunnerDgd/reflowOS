@@ -1,0 +1,18 @@
+#pragma once
+
+#include "stm32f411xe.h"
+#include "stm32f4xx_ll_usart.h"
+
+#include <cstdint>
+
+namespace reflow_bootloader {
+namespace hardware_specific {
+namespace types 			{
+	using serial_index_t  = std::uint8_t;
+	using serial_handle_t = USART_TypeDef*;
+	using serial_conf_t   = LL_USART_InitTypeDef*;
+
+	using clock_source    =
+}
+}
+}

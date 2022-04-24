@@ -1,0 +1,33 @@
+#include <reflow_bootloader/hardware_specific/stm32/clocking/f401_clock.hpp>
+
+namespace reflow_bootloader {
+namespace hardware_specific {
+namespace clocking 			{
+
+	struct peripheral_lane 	    {};
+	struct high_performance_bus {}; // AHB
+	template <std::uint8_t LandId>struct generic_peripheral   {}; // APB1, APB2
+}
+}
+}
+
+namespace reflow_bootloader {
+namespace clocking 		    {
+
+	class peripheral_clock
+	{
+	public:
+		using  native_handle_type = hardware_specific::types::clock_source;
+		using  frequency_type     = std::uint32_t;
+		struct configuration;
+
+	public:
+		peripheral_clock();
+		peripheral_clock(configuration);
+
+	public:
+		frequency_type current_frequency();
+	};
+
+}
+}

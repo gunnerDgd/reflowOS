@@ -1,0 +1,30 @@
+#pragma once
+#include <type_traits>
+
+namespace reflow_bootloader {
+namespace clocking 		    {
+
+	template <std::uint32_t PrescaleValue>
+	struct prescaler
+	{
+		using 			 prescaler_t = std::uint32_t;
+		static constexpr prescaler_t value = PrescaleValue;
+	};
+
+	template <prescaler::prescaler_t Multiplier> struct multiplier : public prescaler<Multiplier>
+	{
+		using prescaler::prescaler_t;
+		static constexpr prescaler_t value = Multiplier;
+	};
+
+	template <prescaler::prescaler_t Divider>    struct divider    : public prescaler<1 / Divider>
+	{
+		using prescaler::prescaler_t;
+		static constexpr prescaler_t value = Divider   ;
+	};
+
+	template <typename PrescalerType>
+	std::enable_if<std::is_base_of_v<prescaler, PrescalerType>, prescaler::prescaler_t>::type
+		scaled_clock(PrescalerType, prescaler::prescaler_t time) { return time / PrescalerType::value; }
+}
+}

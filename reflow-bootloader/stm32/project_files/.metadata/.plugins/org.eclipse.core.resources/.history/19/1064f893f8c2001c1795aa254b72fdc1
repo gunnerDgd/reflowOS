@@ -1,0 +1,16 @@
+#pragma once
+#include <reflow_bootloader/clock/prescaler.hpp>
+#include <reflow_bootloader/hardware_specific/stm32/clocking/f401_clock.hpp>
+
+namespace reflow_bootloader {
+namespace hardware_specific {
+namespace clocking 			{
+
+	using 			 source_index = std::uint8_t;
+	inline constexpr source_index internal_clock  = 0;
+	inline constexpr source_index external_clock  = 1;
+	inline constexpr source_index prescaled_clock = 2;
+
+}
+}
+}

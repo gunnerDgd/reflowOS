@@ -1,0 +1,3 @@
+#include <reflow_bootloader/clock/system_clock.hpp>
+
+typename raw_clock_type current_clock();

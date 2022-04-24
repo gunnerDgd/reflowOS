@@ -1,0 +1,8 @@
+#include <reflow_bootloader/hardware_specific/stm32/clocking/f401_prescaler.hpp>
+
+reflow_bootloader::hardware_specific::clocking::prescaler::prescaler ()
+{
+	if(!LL_RCC_PLL_IsReady())
+
+}
+~prescaler();

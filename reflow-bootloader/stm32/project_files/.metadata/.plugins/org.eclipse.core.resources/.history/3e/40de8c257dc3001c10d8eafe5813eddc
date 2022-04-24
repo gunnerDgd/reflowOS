@@ -1,0 +1,33 @@
+#include "stm32f4xx_ll_rcc.h"
+
+namespace reflow_bootloader {
+namespace hardware_specific {
+namespace clocking			{
+
+	class internal_clock_prescaler
+	{
+	public:
+		using coefficient_type = std::uint8_t;
+	public:
+		internal_clock_prescaler ();
+		~internal_clock_prescaler();
+
+	public:
+		void scale_to(coefficient_type);
+	};
+
+	class external_clock_prescaler
+	{
+	public:
+		using coefficient_type = std::uint8_t;
+	public:
+		external_clock_prescaler ();
+		~external_clock_prescaler();
+
+	public:
+		void scale_to(coefficient_type);
+	};
+
+}
+}
+}

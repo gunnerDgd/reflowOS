@@ -1,0 +1,14 @@
+#pragma once
+#include <reflow_bootloader/hardware_specific/stm32/clocking/peripheral/f401_peripheral_lane.hpp>
+
+namespace reflow_bootloader {
+namespace hardware_specific {
+namespace clocking 			{
+
+	template <typename LaneType> class peripheral_clock_traits;
+
+	using ahb =
+
+}
+}
+}

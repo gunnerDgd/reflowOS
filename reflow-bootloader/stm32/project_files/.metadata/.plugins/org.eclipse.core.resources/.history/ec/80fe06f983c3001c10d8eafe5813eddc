@@ -1,0 +1,10 @@
+#include <reflow_bootloader/hardware_specific/stm32/clocking/f401_system_clock.hpp>
+
+reflow_bootloader::clocking::system_clock::configuration::configuration(sources src, prescale_type pres)
+	 : __M_clksrc_handle   ((native_handle_type)src)
+{
+	if(__M_clksrc_handle == sources::prescaled)
+		hardware_specific::registered_device::prescaler.scale_to(pres);
+
+
+}

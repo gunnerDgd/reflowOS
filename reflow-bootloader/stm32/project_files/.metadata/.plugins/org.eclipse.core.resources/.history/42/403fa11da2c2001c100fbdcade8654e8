@@ -1,0 +1,14 @@
+#include "stm32f4xx_ll_rcc.h"
+#include <reflow_bootloader/hardware_specific/stm32/f401_clock.hpp>
+
+namespace reflow_bootloader {
+namespace clocking 			{
+
+	class system_clock
+	{
+	public:
+		using native_handle_type =
+	};
+
+}
+}

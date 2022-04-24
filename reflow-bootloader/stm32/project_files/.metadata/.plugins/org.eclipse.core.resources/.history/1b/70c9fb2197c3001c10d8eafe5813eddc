@@ -1,0 +1,11 @@
+#include "stm32f4xx_ll_rcc.h"
+
+namespace reflow_bootloader {
+namespace hardware_specific {
+namespace clocking 			{
+
+	template <typename LaneType> class peripheral_clock_traits;
+
+}
+}
+}

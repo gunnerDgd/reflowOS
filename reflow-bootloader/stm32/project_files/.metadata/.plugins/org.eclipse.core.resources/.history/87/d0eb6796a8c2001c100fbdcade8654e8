@@ -1,0 +1,7 @@
+#include <reflow_bootloader/hardware_specific/stm32/f401_clock.hpp>
+
+namespace reflow_bootloader {
+namespace clocking 		    {
+
+}
+}

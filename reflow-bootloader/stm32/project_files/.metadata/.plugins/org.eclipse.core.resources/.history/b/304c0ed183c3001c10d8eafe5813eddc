@@ -1,0 +1,7 @@
+#include <reflow_bootloader/hardware_specific/stm32/clockingf401_system_clock.hpp>
+
+reflow_bootloader::clocking::system_clock::system_clock(source clk_src)
+	: __M_sysclock_source(clk_src.__M_clksrc_handle)
+{
+	if()
+}

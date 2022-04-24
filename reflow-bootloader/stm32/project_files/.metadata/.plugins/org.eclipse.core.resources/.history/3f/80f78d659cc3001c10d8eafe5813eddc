@@ -1,0 +1,21 @@
+#include <reflow_bootloader/hardware_specific/stm32/clocking/peripheral/f401_peripheral_traits.hpp>
+
+using namespace reflow_bootloader::hardware_specific::clocking;
+
+typename peripheral_clock_traits<high_performance_bus>::frequency_type
+		 peripheral_clock_traits<high_performance_bus>::current_frequency()
+{
+	LL_RCC_ClocksTypeDef 		freq_query ;
+	LL_RCC_GetSystemClocksFreq(&freq_query); return freq_query.HCLK_Frequency;
+}
+
+typename peripheral_clock_traits<high_performance_bus>::prescale_type
+		 peripheral_clock_traits<high_performance_bus>::current_scale    ()
+{
+	return LL_RCC_GetAHBPrescaler();
+}
+
+void peripheral_clock_traits<high_performance_bus>::scale_to(prescale_type coff)
+{
+	LL_RCC_SetAHBPrescaler(coff);
+}

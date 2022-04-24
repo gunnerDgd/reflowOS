@@ -1,0 +1,29 @@
+#include <reflow_bootloader/hardware_specific/stm32/clocking/f401_clock_source.hpp>
+
+using namespace reflow_bootloader::hardware_specific;
+
+typename clocking::clock_source<clocking::prescaled_clock>::native_handle_type
+		 clocking::clock_source<clocking::prescaled_clock>::native_handle	()
+{
+	return __M_clksrc_handle;
+}
+
+typename clocking::clock_source<clocking::prescaled_clock>::frequency_type
+		 clocking::clock_source<clocking::prescaled_clock>::current_frequency()
+{
+ 	LL_RCC_ClocksTypeDef 		clk_freq_query ;
+ 	LL_RCC_GetSystemClocksFreq(&clk_freq_query);
+
+ 	return
+}
+
+void clocking::clock_source<clocking::prescaled_clock>::scale_to(reflow_bootloader::clocking::divider)
+{
+
+}
+
+native_handle_type native_handle	();
+frequency_type 	   current_frequency();
+
+native_handle_type native_handle	();
+frequency_type 	   current_frequency();

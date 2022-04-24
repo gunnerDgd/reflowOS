@@ -1,0 +1,28 @@
+#include <reflow_bootloader/hardware_specific/stm32/clocking/f401_clock.hpp>
+
+
+namespace reflow_bootloader {
+namespace clocking 		    {
+
+	template <typename PeripheralLane, typename ClockTraits>
+	class peripheral_clock
+	{
+	public:
+		using  lane_type 		  = PeripheralLane;
+		using  traits_type 		  = ClockTraits   ;
+
+		using  native_handle_type = hardware_specific::types::clock_source;
+		using  frequency_type     = std::uint32_t;
+
+		using  configuration      = typename
+
+	public:
+		peripheral_clock();
+		peripheral_clock(configuration);
+
+	public:
+		frequency_type current_frequency();
+	};
+
+}
+}

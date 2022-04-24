@@ -1,0 +1,49 @@
+#include "stm32f4xx_ll_rcc.h"
+
+namespace reflow_bootloader {
+namespace hardware_specific {
+namespace clocking 			{
+
+	using 			 native_clock_source 					   = std::uint32_t;
+	inline constexpr native_clock_source internal_clock_source = LL_RCC_SYS_CLKSOURCE_HSI;
+	inline constexpr native_clock_source external_clock_source = LL_RCC_SYS_CLKSOURCE_HSE;
+
+
+	template <types::clock_source ClockSourceHandle>
+	struct clock_source { static inline constexpr types::clock_source_type native_handle = ClockSourceHandle; };
+
+
+
+	/*
+	 * If your device has internal / external clock source which is connected at correct GPIO,
+	 * 'using' declaration is necessary so Reflow Bootloader can use sources for system clocking.
+	 *
+	 * internal (using alias) --> Internal Clock Oscillator Source.
+	 * external (using alias) --> External Clock Oscillator Source.
+	 */
+	using internal = clock_source<internal_clock_handle>;
+	using external = clock_source<external_clock_handle>;
+
+	/*
+	 * Lane of the Clock.
+	 */
+
+	template <type::clock_lane_type ClockLane>
+	struct 						  clock_lane { static inline constexpr type::clock_lane_type lane = ClockLane; };
+	inline constexpr std::uint8_t lane_count = 3;
+
+	/*
+	 * Device - Specific Clock Lane.
+	 *
+	 */
+
+	inline constexpr std::uint32_t high_performance_bus = 0;
+	inline constexpr std::uint32_t peripheral_bus_1   	= 1;
+	inline constexpr std::uint32_t peripheral_bus_2		= 2;
+
+	using high_performance_lane = clock_lane<high_performance_bus>;
+	using
+
+}
+}
+}

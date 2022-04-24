@@ -1,0 +1,19 @@
+#include "stm32f4xx_ll_usart.h"
+#include "stm32f411xe.h"
+
+namespace reflow_bootloader {
+namespace communication 	{
+namespace serial 			{
+
+	class serial_handle
+	{
+	public:
+		serial_handle()
+		{
+			LL_USART_Enable();
+		}
+	};
+
+}
+}
+}

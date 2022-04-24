@@ -1,0 +1,54 @@
+#pragma once
+#include <reflow_bootloader/clock/prescaler.hpp>
+#include <reflow_bootloader/hardware_specific/stm32/clocking/f401_clock.hpp>
+
+namespace reflow_bootloader {
+namespace hardware_specific {
+namespace clocking 			{
+
+	using 			 source_index 				  = std::uint8_t;
+	inline constexpr source_index internal_clock  = 0;
+	inline constexpr source_index external_clock  = 1;
+	inline constexpr source_index prescaled_clock = 2;
+
+	template <source_index ClockSource>
+	class clock_source;
+
+	template <>
+	class clock_source<internal_clock>
+	{
+	public:
+		static inline constexpr bool supports_prescaling = false;
+		using native_handle_type = native_clock_source;
+		using frequency_type     = frequency_type;
+	public:
+		clock_source();
+
+	public:
+		native_handle_type native_handle	();
+		frequency_type 	   current_frequency();
+
+	private:
+		native_handle_type __M_clksrc_handle;
+	};
+
+	template <>
+	class clock_source<external_clock>
+	{
+	public:
+		using native_handle_type = native_clock_source;
+		using frequency_type     = frequency_type;
+	public:
+		clock_source();
+
+	public:
+		native_handle_type native_handle	();
+		frequency_type 	   current_frequency();
+
+	private:
+		native_handle_type __M_clksrc_handle;
+	};
+
+}
+}
+}

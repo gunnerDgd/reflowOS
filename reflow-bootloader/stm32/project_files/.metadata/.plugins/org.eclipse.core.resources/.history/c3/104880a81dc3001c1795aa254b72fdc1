@@ -1,0 +1,24 @@
+#include <reflow_bootloader/hardware_specific/stm32/clocking/f401_clock.hpp>
+#include <reflow_bootloader/clock/system_clock.hpp>
+
+namespace reflow_bootloader {
+namespace clocking 			{
+
+	struct system_clock::configuration
+	{
+		friend class system_clock;
+		enum class sources : std::uint32_t
+		{
+			internal_oscillator = LL_RCC_SYS_CLKSOURCE_HSI,
+			external_oscillator = LL_RCC_SYS_CLKSOURCE_HSE,
+			prescaled 			= LL_RCC_SYS_CLKSOURCE_PLL
+		};
+
+	private:
+		native_handle_type __M_clksrc_handle   ;
+		prescacle_type     __M_clksrc_prescaler;
+
+	};
+
+}
+}

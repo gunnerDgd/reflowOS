@@ -1,0 +1,7 @@
+1650619716106	Rename resource 'f401.hpp'
+1650676171379	Rename resource 'system_source.hpp'
+1650695737536	Rename resource 'clock'
+1650695740358	Move 'f401_clock.hpp' to 'clocking'
+1650695783920	Move 'f401_serial.hpp' to 'serial'
+1650696695158	Rename resource 'types.hpp'
+1650713134869	Rename resource 'f401_clock_prescale.hpp'

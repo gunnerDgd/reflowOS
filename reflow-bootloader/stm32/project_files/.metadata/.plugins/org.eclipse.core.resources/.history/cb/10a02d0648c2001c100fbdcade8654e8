@@ -1,0 +1,10 @@
+#include "stm32f411xe.h"
+
+namespace reflow_bootloader {
+namespace hardware_specific {
+namespace types 			{
+	using serial_handle_t = USART_TypeDef*;
+	using serial_conf_t   =
+}
+}
+}

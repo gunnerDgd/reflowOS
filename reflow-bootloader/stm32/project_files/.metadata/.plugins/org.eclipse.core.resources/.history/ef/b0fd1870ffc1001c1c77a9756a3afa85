@@ -1,0 +1,15 @@
+#include "stm32f4xx_ll_usart.h"
+
+namespace reflow_bootloader {
+namespace communication 	{
+namespace serial 			{
+
+	class serial_handle
+	{
+	public:
+
+	};
+
+}
+}
+}

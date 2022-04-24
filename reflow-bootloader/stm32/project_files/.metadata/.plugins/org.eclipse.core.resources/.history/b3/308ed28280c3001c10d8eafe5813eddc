@@ -1,0 +1,35 @@
+#include <reflow_bootloader/hardware_specific/stm32/clocking/f401_prescaler.hpp>
+
+reflow_bootloader::hardware_specific::clocking::prescaler::prescale_coefficient::prescale_coefficient
+	(coefficient_type m,
+	 coefficient_type n,
+	 coefficient_type q) : __M_prescale_coff_m(m << (RCC_PLLCFGR_PLLM_0)),
+	 	 	 	 	 	   __M_prescale_coff_n(n)						 ,
+						   __M_prescale_coff_q(q << (RCC_PLLCFGR_PLLQ_0)) {  }
+
+reflow_bootloader::hardware_specific::clocking::external_clock_prescaler::prescale_coefficient::prescale_coefficient
+	(coefficient_type m,
+	 coefficient_type n,
+	 coefficient_type q)
+{
+
+}
+
+reflow_bootloader::hardware_specific::clocking::internal_clock_prescaler::internal_clock_prescaler ()
+{
+	if(!LL_RCC_PLL_IsReady())
+	{
+			   LL_RCC_PLL_Enable () ;
+		while(!LL_RCC_PLL_IsReady());
+	}
+}
+
+reflow_bootloader::hardware_specific::clocking::internal_clock_prescaler::~internal_clock_prescaler()
+{
+	LL_RCC_PLL_Disable();
+}
+
+void reflow_bootloader::hardware_specific::clocking::internal_clock_prescaler::scale_to(coefficient_type pres)
+{
+
+}

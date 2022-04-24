@@ -1,0 +1,50 @@
+#include "stm32f4xx_ll_rcc.h"
+
+namespace reflow_bootloader {
+namespace hardware_specific {
+namespace clocking			{
+
+	class internal_clock_prescaler
+	{
+	public:
+		using  coefficient_type = std::uint8_t;
+		struct prescale_coefficient;
+	public:
+		constexpr internal_clock_prescaler();
+				 ~internal_clock_prescaler();
+
+	public:
+		void toggle  (); 				// Toggle Presccaler
+		bool ready   (); 				// Check if Prescaler is ready for use.
+		void scale_to(coefficient_type);
+	};
+
+	class external_clock_prescaler
+	{
+	public:
+		using  coefficient_type = std::uint8_t;
+		struct prescale_coefficient;
+	public:
+		constexpr external_clock_prescaler();
+				 ~external_clock_prescaler();
+
+	public:
+		void toggle  (); // Toggle Presccaler
+		bool ready   (); // Check if Prescaler is ready for use.
+		void scale_to(coefficient_type);
+	};
+
+	struct internal_clock_prescaler::prescale_coefficient
+	{
+		using coefficient_type = std::uint32_t;
+		prescale_coefficient(coefficient_type m = 2  ,
+							 coefficient_type n = 200,
+							 coefficient_type q = 2) ;
+
+	private:
+		coefficient_type __M_prescale_coff;
+	};
+
+}
+}
+}

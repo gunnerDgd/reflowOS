@@ -1,0 +1,29 @@
+#pragma once
+
+#include <reflow_bootloader/hardware_specific/stm32/clocking/f401_clock.hpp>
+#include <type_traits>
+
+namespace reflow_bootloader {
+namespace clocking 			{
+
+	class system_clock
+	{
+	public:
+		using  native_handle_type = hardware_specific::clocking::system_clock_source::native_handle_type;
+		using  raw_clock_type     = std::uint32_t;
+
+		struct source;
+
+	public:
+		system_clock(source);
+
+	public:
+		native_handle_type native_handle    ();
+		raw_clock_type 	   current_frequency();
+
+	private:
+		native_handle_type __M_sysclock_source;
+	};
+
+}
+}

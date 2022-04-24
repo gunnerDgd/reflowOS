@@ -1,0 +1,18 @@
+#include <reflow_bootloader/hardware_specific/stm32/clocking/f401_clock.hpp>
+
+namespace reflow_bootloader {
+namespace clocking 		    {
+
+	class peripheral_clock
+	{
+	public:
+		using native_handle_type = hardware_specific::types::clock_source;
+		using raw_clock_type     = std::uint32_t;
+		struct
+
+	public:
+		peripheral_clock();
+	};
+
+}
+}

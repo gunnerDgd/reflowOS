@@ -1,0 +1,12 @@
+#pragma once
+#include <reflow_bootloader/clock/prescaler.hpp>
+
+namespace reflow_bootloader {
+namespace hardware_specific {
+namespace clocking 			{
+
+	using divide_2 =
+
+}
+}
+}

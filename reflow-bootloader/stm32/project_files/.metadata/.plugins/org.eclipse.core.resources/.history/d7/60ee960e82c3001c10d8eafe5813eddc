@@ -1,0 +1,12 @@
+#pragma once
+
+#include <reflow_bootloader/hardware_specific>
+
+namespace reflow_bootloader {
+namespace hardware_specific {
+namespace registered_device {
+
+
+}
+}
+}

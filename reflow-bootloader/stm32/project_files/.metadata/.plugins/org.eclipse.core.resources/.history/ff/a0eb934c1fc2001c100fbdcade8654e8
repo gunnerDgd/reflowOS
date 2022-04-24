@@ -1,0 +1,12 @@
+#include <reflow_bootloader/hardware_specific/stm32/f401_types.hpp>
+
+namespace reflow_bootloader {
+namespace hardware_specific {
+
+/*
+ * If your device supports serial communication,
+ */
+	static inline constexpr serial_handle_t serial_device[] = { USART1, USART6 };
+
+}
+}

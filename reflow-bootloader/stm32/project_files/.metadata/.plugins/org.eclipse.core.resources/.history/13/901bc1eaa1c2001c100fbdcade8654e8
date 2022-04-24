@@ -1,0 +1,22 @@
+#include "stm32f4xx_ll_rcc.h"
+#include <reflow_bootloader/hardware_specific/stm32/f401_clock.hpp>
+
+namespace reflow_bootloader {
+namespace clocking 			{
+
+	template <typename ClockSource, typename Coefficient>
+	struct system_source;
+
+	template <typename ClockSource, std::uint32_t Multiplier>
+	struct system_source<hardware_specific::multiplier<Multiplier>>
+	{
+	public:
+		using native_handle_type = hardware_specific::types::clock_source;
+		using clock_source 		 = ClockSource;
+		using coefficient		 = hardware_specific::multiplier<Multiplier>;
+
+	public:
+	};
+
+}
+}

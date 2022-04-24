@@ -1,0 +1,22 @@
+#include <reflow_bootloader/hardware_specific/stm32/clocking/f401_clock.hpp>
+#include <reflow_bootloader/clock/system_clock.hpp>
+
+namespace reflow_bootloader {
+namespace clocking 			{
+
+	struct system_clock::sources
+	{
+		friend class system_clock;
+		using native_handle_type = hardware_specific::clocking::native_clock_source;
+		using prescale_type 	 = std::uint32_t;
+
+		sources(native_handle_type, prescale_type);
+
+	private:
+		native_handle_type __M_clksrc_handle   ;
+		prescacle_type     __M_clksrc_prescaler;
+
+	};
+
+}
+}

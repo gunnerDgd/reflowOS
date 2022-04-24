@@ -1,0 +1,5 @@
+#include <reflow_bootloader/hardware_specific/stm32/clocking/peripheral/f401_peripheral_traits.hpp>
+
+frequency_type reflow_bootloader::hardware_specific::clocking::current_frequency();
+prescale_type  current_scale    ();
+void 		   scale_to		    (prescale_type);

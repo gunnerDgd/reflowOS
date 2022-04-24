@@ -1,0 +1,13 @@
+#pragma once
+#include <reflow_bootloader/clock/prescaler.hpp>
+#include <tuple>
+
+namespace reflow_bootloader {
+namespace hardware_specific {
+namespace clocking 			{
+
+	using
+
+}
+}
+}

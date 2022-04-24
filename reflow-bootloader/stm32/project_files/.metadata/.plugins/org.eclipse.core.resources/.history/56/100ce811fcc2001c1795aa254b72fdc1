@@ -1,0 +1,26 @@
+#include <reflow_bootloader/hardware_specific/stm32/clocking/f401_clock_source.hpp>
+
+using namespace reflow_bootloader::hardware_specific;
+
+clocking::clock_source<clocking::prescaled_clock>::clock_source() { LL_RCC_PLL_Enable(); }
+clocking::clock_source<clocking::prescaled_clock>::clock_source() { LL_RCC_PLL_Enable(); }
+
+typename clocking::clock_source<clocking::prescaled_clock>::native_handle_type
+		 clocking::clock_source<clocking::prescaled_clock>::native_handle	()
+{
+	return __M_clksrc_handle;
+}
+
+void clocking::clock_source<clocking::prescaled_clock>::scale_to(reflow_bootloader::clocking::divider)
+{
+
+}
+
+typename clocking::clock_source<clocking::internal_clock>::native_handle_type
+		 clocking::clock_source<clocking::internal_clock>::native_handle	()
+{
+	return __M_clksrc_handle;
+}
+
+
+native_handle_type native_handle	();

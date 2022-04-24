@@ -1,0 +1,21 @@
+#pragma once
+
+namespace reflow_bootloader {
+namespace clocking 		    {
+
+	struct prescaler { using prescaler_t = std::uint32_t; };
+	template <prescaler::prescaler_t Multiplier> struct multiplier : public prescaler
+	{
+		static constexpr std::uint32_t value = Multiplier;
+	};
+
+	template <prescaler::prescaler_t Divider>    struct divider    : public prescaler
+	{
+		using
+		static constexpr std::uint32_t value = Divider   ;
+	};
+
+
+
+}
+}
